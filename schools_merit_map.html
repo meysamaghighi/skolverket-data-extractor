@@ -1,0 +1,3348 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6e7983467237187b241f5acf0dab73cf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6e7983467237187b241f5acf0dab73cf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6e7983467237187b241f5acf0dab73cf = L.map(
+                "map_6e7983467237187b241f5acf0dab73cf",
+                {
+                    center: [62.0, 15.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dc740ee113ca4df79078ff868c7670cc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_dc740ee113ca4df79078ff868c7670cc.addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+            var circle_marker_404f91a0572d9876d8ca398557c3c36b = L.circleMarker(
+                [59.3380493, 18.0827216],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_f28dc63c910f57d0c81ad27c0d387092 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c544779c80243b90af059132fa06fb22 = $(`<div id="html_c544779c80243b90af059132fa06fb22" style="width: 100.0%; height: 100.0%;">Carlssons skola<br>Merit: 302.0<br>Kommendörsgatan 31</div>`)[0];
+                popup_f28dc63c910f57d0c81ad27c0d387092.setContent(html_c544779c80243b90af059132fa06fb22);
+            
+        
+
+        circle_marker_404f91a0572d9876d8ca398557c3c36b.bindPopup(popup_f28dc63c910f57d0c81ad27c0d387092)
+        ;
+
+        
+    
+    
+            var circle_marker_b338f7580866ec5b5f185e55cd414776 = L.circleMarker(
+                [59.3611676, 17.9623714],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_959b5c2a8874797a8b542b6dd9e56d42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0491a690b944525c8cba989c530201a0 = $(`<div id="html_0491a690b944525c8cba989c530201a0" style="width: 100.0%; height: 100.0%;">Viktor Rydbergs skola Sundbyberg<br>Merit: 278.0<br>Landsvägen 66</div>`)[0];
+                popup_959b5c2a8874797a8b542b6dd9e56d42.setContent(html_0491a690b944525c8cba989c530201a0);
+            
+        
+
+        circle_marker_b338f7580866ec5b5f185e55cd414776.bindPopup(popup_959b5c2a8874797a8b542b6dd9e56d42)
+        ;
+
+        
+    
+    
+            var circle_marker_737c3a81d3df0546b016f667f79db0c4 = L.circleMarker(
+                [59.3745516, 17.9690225],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_70ced884967181957fcaabc9179fe8c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48c6486762471a9e6f5d34d26fcaf6b7 = $(`<div id="html_48c6486762471a9e6f5d34d26fcaf6b7" style="width: 100.0%; height: 100.0%;">Kulturama Grundsk. Sundbyberg<br>Merit: 277.0<br>Lötsjövägen 10-12</div>`)[0];
+                popup_70ced884967181957fcaabc9179fe8c3.setContent(html_48c6486762471a9e6f5d34d26fcaf6b7);
+            
+        
+
+        circle_marker_737c3a81d3df0546b016f667f79db0c4.bindPopup(popup_70ced884967181957fcaabc9179fe8c3)
+        ;
+
+        
+    
+    
+            var circle_marker_be35952a820a486d53efd34ee21f5bd1 = L.circleMarker(
+                [58.5716958, 16.1821213],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_00e68c6d8291e089ebda6364ff003b37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce2cb40ea3dde1f88ec87f69a136edfe = $(`<div id="html_ce2cb40ea3dde1f88ec87f69a136edfe" style="width: 100.0%; height: 100.0%;">Jönsbergska Idrottsskolan Norrköping<br>Merit: 276.0<br>Sprängstensgatan 1</div>`)[0];
+                popup_00e68c6d8291e089ebda6364ff003b37.setContent(html_ce2cb40ea3dde1f88ec87f69a136edfe);
+            
+        
+
+        circle_marker_be35952a820a486d53efd34ee21f5bd1.bindPopup(popup_00e68c6d8291e089ebda6364ff003b37)
+        ;
+
+        
+    
+    
+            var circle_marker_c7ae419dba434394e2ccff0d49108b47 = L.circleMarker(
+                [59.342118, 18.0525887],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_29b2686bcd5f697b0555fb111da470f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b77476cad3668462a01a1966b1f8d37 = $(`<div id="html_6b77476cad3668462a01a1966b1f8d37" style="width: 100.0%; height: 100.0%;">Observatorielundens skola<br>Merit: 274.0<br>Sandåsgatan 2</div>`)[0];
+                popup_29b2686bcd5f697b0555fb111da470f5.setContent(html_6b77476cad3668462a01a1966b1f8d37);
+            
+        
+
+        circle_marker_c7ae419dba434394e2ccff0d49108b47.bindPopup(popup_29b2686bcd5f697b0555fb111da470f5)
+        ;
+
+        
+    
+    
+            var circle_marker_01781c4267cc7380fe1034c24cf474f2 = L.circleMarker(
+                [59.84393, 17.6376248],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_eeb1486129c9c45ed2541ad19ee42bd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29d4054de4a5ddcea7b0c667f4680bb8 = $(`<div id="html_29d4054de4a5ddcea7b0c667f4680bb8" style="width: 100.0%; height: 100.0%;">Kunskapsskolan Uppsala<br>Merit: 273.0<br>Dag Hammarskjölds väg 31</div>`)[0];
+                popup_eeb1486129c9c45ed2541ad19ee42bd7.setContent(html_29d4054de4a5ddcea7b0c667f4680bb8);
+            
+        
+
+        circle_marker_01781c4267cc7380fe1034c24cf474f2.bindPopup(popup_eeb1486129c9c45ed2541ad19ee42bd7)
+        ;
+
+        
+    
+    
+            var circle_marker_62cfd583f155a01e14a3f22f9f078ce0 = L.circleMarker(
+                [59.4089139, 17.9771865],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_8b9744d28747f84ed2b106704e4e8122 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af2a68f409d732cb8cf3b45c39d604b5 = $(`<div id="html_af2a68f409d732cb8cf3b45c39d604b5" style="width: 100.0%; height: 100.0%;">Tegelhagens skola<br>Merit: 271.0<br>Skogstorpsvägen 370</div>`)[0];
+                popup_8b9744d28747f84ed2b106704e4e8122.setContent(html_af2a68f409d732cb8cf3b45c39d604b5);
+            
+        
+
+        circle_marker_62cfd583f155a01e14a3f22f9f078ce0.bindPopup(popup_8b9744d28747f84ed2b106704e4e8122)
+        ;
+
+        
+    
+    
+            var circle_marker_d57112de2df7ec7f21a5be03abe8490f = L.circleMarker(
+                [59.3291297, 18.0199917],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_158bb30e4682ce3f141300611617448d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_873e14a1a7c040b276bbd1c22ee4a4d2 = $(`<div id="html_873e14a1a7c040b276bbd1c22ee4a4d2" style="width: 100.0%; height: 100.0%;">Rålambshovsskolan<br>Merit: 268.0<br>Gjörwellsgatan 13</div>`)[0];
+                popup_158bb30e4682ce3f141300611617448d.setContent(html_873e14a1a7c040b276bbd1c22ee4a4d2);
+            
+        
+
+        circle_marker_d57112de2df7ec7f21a5be03abe8490f.bindPopup(popup_158bb30e4682ce3f141300611617448d)
+        ;
+
+        
+    
+    
+            var circle_marker_bdcfa1cbc1bff206835050ea3df5d58b = L.circleMarker(
+                [59.3131225, 18.0124838],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_ace99a4b9c070aa9c7f578c3460ca791 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc99139afa0114cb7af758416ac646cc = $(`<div id="html_bc99139afa0114cb7af758416ac646cc" style="width: 100.0%; height: 100.0%;">Entréskolan Stockholm<br>Merit: 266.0<br>Lövholmsvägen 61</div>`)[0];
+                popup_ace99a4b9c070aa9c7f578c3460ca791.setContent(html_bc99139afa0114cb7af758416ac646cc);
+            
+        
+
+        circle_marker_bdcfa1cbc1bff206835050ea3df5d58b.bindPopup(popup_ace99a4b9c070aa9c7f578c3460ca791)
+        ;
+
+        
+    
+    
+            var circle_marker_5077133b0cd28aa9a413d75a8550d07d = L.circleMarker(
+                [59.3862145, 17.8893118],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_36078e903a09a53ee2a32d163c99b92b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_986f9f6f7d8618ce5cab8b94fd398d30 = $(`<div id="html_986f9f6f7d8618ce5cab8b94fd398d30" style="width: 100.0%; height: 100.0%;">Kunskapsskolan Spånga<br>Merit: 266.0<br>Salagatan 42</div>`)[0];
+                popup_36078e903a09a53ee2a32d163c99b92b.setContent(html_986f9f6f7d8618ce5cab8b94fd398d30);
+            
+        
+
+        circle_marker_5077133b0cd28aa9a413d75a8550d07d.bindPopup(popup_36078e903a09a53ee2a32d163c99b92b)
+        ;
+
+        
+    
+    
+            var circle_marker_1e3feb9e4021d0bd40efd224504de8a0 = L.circleMarker(
+                [57.6529911, 11.8678773],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_492381ca8ce4bd8357274388a7f64c06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_529d8c540a035ef27a0bc5403937ae5f = $(`<div id="html_529d8c540a035ef27a0bc5403937ae5f" style="width: 100.0%; height: 100.0%;">Fiskebäcksskolan F-9<br>Merit: 264.0<br>Norra Fiskebäcksvägen 296</div>`)[0];
+                popup_492381ca8ce4bd8357274388a7f64c06.setContent(html_529d8c540a035ef27a0bc5403937ae5f);
+            
+        
+
+        circle_marker_1e3feb9e4021d0bd40efd224504de8a0.bindPopup(popup_492381ca8ce4bd8357274388a7f64c06)
+        ;
+
+        
+    
+    
+            var circle_marker_ff909db517c2246f55404d7ae88d79a3 = L.circleMarker(
+                [67.6723187, 21.6525224],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_71433949d0d96e9bd78fde19098f1c02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa67652fa001ac509f048e1c685f6064 = $(`<div id="html_fa67652fa001ac509f048e1c685f6064" style="width: 100.0%; height: 100.0%;">Vittangi skola<br>Merit: 264.0<br>Sjövägen 1</div>`)[0];
+                popup_71433949d0d96e9bd78fde19098f1c02.setContent(html_fa67652fa001ac509f048e1c685f6064);
+            
+        
+
+        circle_marker_ff909db517c2246f55404d7ae88d79a3.bindPopup(popup_71433949d0d96e9bd78fde19098f1c02)
+        ;
+
+        
+    
+    
+            var circle_marker_1c711aa260fae145d407a49a438740b2 = L.circleMarker(
+                [55.966954, 12.7729775],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_54f696a50f24cb7520decb7e2e923953 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_332a0963f8f479f277c3fc26bd1c9eb9 = $(`<div id="html_332a0963f8f479f277c3fc26bd1c9eb9" style="width: 100.0%; height: 100.0%;">Rydebäcksskolan<br>Merit: 262.0<br>Storövägen 51</div>`)[0];
+                popup_54f696a50f24cb7520decb7e2e923953.setContent(html_332a0963f8f479f277c3fc26bd1c9eb9);
+            
+        
+
+        circle_marker_1c711aa260fae145d407a49a438740b2.bindPopup(popup_54f696a50f24cb7520decb7e2e923953)
+        ;
+
+        
+    
+    
+            var circle_marker_c4855a7289f6f00bf2c4d2bb1fe598a6 = L.circleMarker(
+                [55.7089974, 13.2372137],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_d384c1d684d68280df8523b874ecc12e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d99656da5d14cf96d1bc6b1657160415 = $(`<div id="html_d99656da5d14cf96d1bc6b1657160415" style="width: 100.0%; height: 100.0%;">Östratornskolan<br>Merit: 262.0<br>Musikantvägen 1</div>`)[0];
+                popup_d384c1d684d68280df8523b874ecc12e.setContent(html_d99656da5d14cf96d1bc6b1657160415);
+            
+        
+
+        circle_marker_c4855a7289f6f00bf2c4d2bb1fe598a6.bindPopup(popup_d384c1d684d68280df8523b874ecc12e)
+        ;
+
+        
+    
+    
+            var circle_marker_e578e51b70c70d9c4f781a96ebeccbe2 = L.circleMarker(
+                [59.6184397, 16.5419254],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_be223aa8e679487ca36f579f0af82e7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7408381e768a813791f2f322aed58a89 = $(`<div id="html_7408381e768a813791f2f322aed58a89" style="width: 100.0%; height: 100.0%;">JENSEN grundskola Västerås<br>Merit: 262.0<br>Gustavsborgsgatan 9</div>`)[0];
+                popup_be223aa8e679487ca36f579f0af82e7a.setContent(html_7408381e768a813791f2f322aed58a89);
+            
+        
+
+        circle_marker_e578e51b70c70d9c4f781a96ebeccbe2.bindPopup(popup_be223aa8e679487ca36f579f0af82e7a)
+        ;
+
+        
+    
+    
+            var circle_marker_658fb7b9fc7208378a6b22b6a21215c5 = L.circleMarker(
+                [59.1863549, 17.9094251],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_586d6e4231cb2d9ab55567a74d08e1c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15fbc35bccebfa4be69bbbaac5703701 = $(`<div id="html_15fbc35bccebfa4be69bbbaac5703701" style="width: 100.0%; height: 100.0%;">Rikstens skola<br>Merit: 261.0<br>Flygarvägen 5</div>`)[0];
+                popup_586d6e4231cb2d9ab55567a74d08e1c9.setContent(html_15fbc35bccebfa4be69bbbaac5703701);
+            
+        
+
+        circle_marker_658fb7b9fc7208378a6b22b6a21215c5.bindPopup(popup_586d6e4231cb2d9ab55567a74d08e1c9)
+        ;
+
+        
+    
+    
+            var circle_marker_40ab5676dd0cddbe52ff880a2b4d2326 = L.circleMarker(
+                [55.7024691, 13.1820869],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_d14a56a528db46704c8d80a4347b433a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66eb20a98f89d6d8fcdd46c905cbd872 = $(`<div id="html_66eb20a98f89d6d8fcdd46c905cbd872" style="width: 100.0%; height: 100.0%;">Svaneskolan<br>Merit: 261.0<br>Svanevägen 17</div>`)[0];
+                popup_d14a56a528db46704c8d80a4347b433a.setContent(html_66eb20a98f89d6d8fcdd46c905cbd872);
+            
+        
+
+        circle_marker_40ab5676dd0cddbe52ff880a2b4d2326.bindPopup(popup_d14a56a528db46704c8d80a4347b433a)
+        ;
+
+        
+    
+    
+            var circle_marker_0562851c32af5701f87f5bf74374f9a2 = L.circleMarker(
+                [59.3151132, 18.0521702],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_32a6d27c07d074b074779d47e7b28ca5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_937a28429bb745d46ee32ecacde74f49 = $(`<div id="html_937a28429bb745d46ee32ecacde74f49" style="width: 100.0%; height: 100.0%;">Mariaskolan<br>Merit: 261.0<br>Ringvägen 23</div>`)[0];
+                popup_32a6d27c07d074b074779d47e7b28ca5.setContent(html_937a28429bb745d46ee32ecacde74f49);
+            
+        
+
+        circle_marker_0562851c32af5701f87f5bf74374f9a2.bindPopup(popup_32a6d27c07d074b074779d47e7b28ca5)
+        ;
+
+        
+    
+    
+            var circle_marker_7b6500049652c9ee6de54280162041c1 = L.circleMarker(
+                [57.6942576, 11.9497951],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_0dba6cbc47b099795e9d4517770cadaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c362814769f17f052ca92829f0c5a2c2 = $(`<div id="html_c362814769f17f052ca92829f0c5a2c2" style="width: 100.0%; height: 100.0%;">Nordhemsskolan 1-9<br>Merit: 260.0<br>Nordhemsgatan 51</div>`)[0];
+                popup_0dba6cbc47b099795e9d4517770cadaa.setContent(html_c362814769f17f052ca92829f0c5a2c2);
+            
+        
+
+        circle_marker_7b6500049652c9ee6de54280162041c1.bindPopup(popup_0dba6cbc47b099795e9d4517770cadaa)
+        ;
+
+        
+    
+    
+            var circle_marker_02a3c92a6354d5a48791acd99c6bf5b7 = L.circleMarker(
+                [59.2181997, 18.2025193],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_56496f76e5ed370b4daa30b2aaacc0f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ec6a60d298821ddf067b16250765aef = $(`<div id="html_6ec6a60d298821ddf067b16250765aef" style="width: 100.0%; height: 100.0%;">Fornuddens skola<br>Merit: 260.0<br>Ängsvägen 8</div>`)[0];
+                popup_56496f76e5ed370b4daa30b2aaacc0f7.setContent(html_6ec6a60d298821ddf067b16250765aef);
+            
+        
+
+        circle_marker_02a3c92a6354d5a48791acd99c6bf5b7.bindPopup(popup_56496f76e5ed370b4daa30b2aaacc0f7)
+        ;
+
+        
+    
+    
+            var circle_marker_74935e5c69862ebfd396f0a1cd2c21ea = L.circleMarker(
+                [59.274166, 17.8015395],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_3ad1c9d346dc2bf695a403e9985f3f28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d4ac8551b85e52bbcd573613d09673b = $(`<div id="html_3d4ac8551b85e52bbcd573613d09673b" style="width: 100.0%; height: 100.0%;">Träkvista skola<br>Merit: 259.0<br>Gräsåkersvägen 1</div>`)[0];
+                popup_3ad1c9d346dc2bf695a403e9985f3f28.setContent(html_3d4ac8551b85e52bbcd573613d09673b);
+            
+        
+
+        circle_marker_74935e5c69862ebfd396f0a1cd2c21ea.bindPopup(popup_3ad1c9d346dc2bf695a403e9985f3f28)
+        ;
+
+        
+    
+    
+            var circle_marker_6e6382e87cbaec67e393c58fd82b0695 = L.circleMarker(
+                [57.6490497, 11.9285678],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_0976b1e35332b01401b7b3655db06c65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5d8a77f569816fa7df8e9a9a0871476 = $(`<div id="html_c5d8a77f569816fa7df8e9a9a0871476" style="width: 100.0%; height: 100.0%;">Ebba Petterssons Privatskola<br>Merit: 259.0<br>Radiovägen 25</div>`)[0];
+                popup_0976b1e35332b01401b7b3655db06c65.setContent(html_c5d8a77f569816fa7df8e9a9a0871476);
+            
+        
+
+        circle_marker_6e6382e87cbaec67e393c58fd82b0695.bindPopup(popup_0976b1e35332b01401b7b3655db06c65)
+        ;
+
+        
+    
+    
+            var circle_marker_d82de1058160e85fe3181c6ed18fb668 = L.circleMarker(
+                [57.8036156, 12.0708651],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_4c28240fc55133b06dbeb6bef85dd16a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58c5a89da629dc0e4ab15dafbb13e312 = $(`<div id="html_58c5a89da629dc0e4ab15dafbb13e312" style="width: 100.0%; height: 100.0%;">Kristinaskolan<br>Merit: 259.0<br>Fjällblomman 1</div>`)[0];
+                popup_4c28240fc55133b06dbeb6bef85dd16a.setContent(html_58c5a89da629dc0e4ab15dafbb13e312);
+            
+        
+
+        circle_marker_d82de1058160e85fe3181c6ed18fb668.bindPopup(popup_4c28240fc55133b06dbeb6bef85dd16a)
+        ;
+
+        
+    
+    
+            var circle_marker_d58bdb131b594fb48a9b2d4db63d2c80 = L.circleMarker(
+                [59.2320439, 18.1317014],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_7f52befc3634b61ae23265eb9d434acb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f042f3437cf985e60428f66f3876f451 = $(`<div id="html_f042f3437cf985e60428f66f3876f451" style="width: 100.0%; height: 100.0%;">Trångsundsskolan<br>Merit: 259.0<br>Löparvägen 4</div>`)[0];
+                popup_7f52befc3634b61ae23265eb9d434acb.setContent(html_f042f3437cf985e60428f66f3876f451);
+            
+        
+
+        circle_marker_d58bdb131b594fb48a9b2d4db63d2c80.bindPopup(popup_7f52befc3634b61ae23265eb9d434acb)
+        ;
+
+        
+    
+    
+            var circle_marker_107c194f2615760e79b4ff44f659fc79 = L.circleMarker(
+                [65.5949814, 22.1610614],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_bca128df67fc657c4d27311b761cce4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5f51c34a58bb68da128e1376684fe7d = $(`<div id="html_b5f51c34a58bb68da128e1376684fe7d" style="width: 100.0%; height: 100.0%;">Nya Läroverket<br>Merit: 258.0<br>Björkgatan 2</div>`)[0];
+                popup_bca128df67fc657c4d27311b761cce4b.setContent(html_b5f51c34a58bb68da128e1376684fe7d);
+            
+        
+
+        circle_marker_107c194f2615760e79b4ff44f659fc79.bindPopup(popup_bca128df67fc657c4d27311b761cce4b)
+        ;
+
+        
+    
+    
+            var circle_marker_fc878979a404796eb2fddb8cff919e83 = L.circleMarker(
+                [56.1760299, 15.5957887],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_b75d99e4ee6b785fc021834b9364656d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13419a70ee26ded60a640234dc122238 = $(`<div id="html_13419a70ee26ded60a640234dc122238" style="width: 100.0%; height: 100.0%;">Musikugglan<br>Merit: 257.0<br>Blåportshöjden 5</div>`)[0];
+                popup_b75d99e4ee6b785fc021834b9364656d.setContent(html_13419a70ee26ded60a640234dc122238);
+            
+        
+
+        circle_marker_fc878979a404796eb2fddb8cff919e83.bindPopup(popup_b75d99e4ee6b785fc021834b9364656d)
+        ;
+
+        
+    
+    
+            var circle_marker_5b88b56a3b5fc2a43ef29aa0b82988cf = L.circleMarker(
+                [59.2958002, 17.9952782],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_a6f66322d155d57daca771157cf7f6ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6951488e908c80a9d4f33a0391ffe44 = $(`<div id="html_b6951488e908c80a9d4f33a0391ffe44" style="width: 100.0%; height: 100.0%;">Västbergaskolan<br>Merit: 257.0<br>Klensmedsvägen 2</div>`)[0];
+                popup_a6f66322d155d57daca771157cf7f6ec.setContent(html_b6951488e908c80a9d4f33a0391ffe44);
+            
+        
+
+        circle_marker_5b88b56a3b5fc2a43ef29aa0b82988cf.bindPopup(popup_a6f66322d155d57daca771157cf7f6ec)
+        ;
+
+        
+    
+    
+            var circle_marker_7caba6362206f51869fa6dc0000e47bd = L.circleMarker(
+                [57.6980754, 12.2067869],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_27fffc88f4587926434d47262195f887 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6bee15431ff1d7c95d0e0e081bf4a54 = $(`<div id="html_f6bee15431ff1d7c95d0e0e081bf4a54" style="width: 100.0%; height: 100.0%;">Önnerödsskolan 4-9<br>Merit: 256.0<br>Önnerödsvägen 1</div>`)[0];
+                popup_27fffc88f4587926434d47262195f887.setContent(html_f6bee15431ff1d7c95d0e0e081bf4a54);
+            
+        
+
+        circle_marker_7caba6362206f51869fa6dc0000e47bd.bindPopup(popup_27fffc88f4587926434d47262195f887)
+        ;
+
+        
+    
+    
+            var circle_marker_ff8d1f20f97c0bd6acc687c74680d22a = L.circleMarker(
+                [55.41601, 12.975805],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_18f54182fbb1714266e0dbf38a87f84d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ae5651b127730b4d427a24d4f36ea99 = $(`<div id="html_0ae5651b127730b4d427a24d4f36ea99" style="width: 100.0%; height: 100.0%;">Sandeplanskolan<br>Merit: 256.0<br>Kronodalsvägen 41</div>`)[0];
+                popup_18f54182fbb1714266e0dbf38a87f84d.setContent(html_0ae5651b127730b4d427a24d4f36ea99);
+            
+        
+
+        circle_marker_ff8d1f20f97c0bd6acc687c74680d22a.bindPopup(popup_18f54182fbb1714266e0dbf38a87f84d)
+        ;
+
+        
+    
+    
+            var circle_marker_babd88aa9af9a5370a0cbd18c0426510 = L.circleMarker(
+                [62.3770524, 17.2940523],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_7d0bbb7e55b5196401f185a66685cc62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bf468c2c8946275ab3ec838906f1453 = $(`<div id="html_6bf468c2c8946275ab3ec838906f1453" style="width: 100.0%; height: 100.0%;">Sidsjö Fristående Grundskola<br>Merit: 255.0<br>Paviljongvägen 31A</div>`)[0];
+                popup_7d0bbb7e55b5196401f185a66685cc62.setContent(html_6bf468c2c8946275ab3ec838906f1453);
+            
+        
+
+        circle_marker_babd88aa9af9a5370a0cbd18c0426510.bindPopup(popup_7d0bbb7e55b5196401f185a66685cc62)
+        ;
+
+        
+    
+    
+            var circle_marker_52d6f0b4d48cb531b113538c722f62a2 = L.circleMarker(
+                [57.696403, 11.9671838],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_108c4929add5cdc54a4722ed3c84950a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1272efbae1d4752f6817d25db6d49926 = $(`<div id="html_1272efbae1d4752f6817d25db6d49926" style="width: 100.0%; height: 100.0%;">Victoriaskolan<br>Merit: 254.0<br>Engelbrektsgatan 1</div>`)[0];
+                popup_108c4929add5cdc54a4722ed3c84950a.setContent(html_1272efbae1d4752f6817d25db6d49926);
+            
+        
+
+        circle_marker_52d6f0b4d48cb531b113538c722f62a2.bindPopup(popup_108c4929add5cdc54a4722ed3c84950a)
+        ;
+
+        
+    
+    
+            var circle_marker_1311fdebd87f05f1c9f1cb435c4c3ce2 = L.circleMarker(
+                [57.6514608, 12.1262395],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_573fe9c65ad9481f2d594770c7c52b2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6d99b14a46390624c18ab3048e9fff5 = $(`<div id="html_e6d99b14a46390624c18ab3048e9fff5" style="width: 100.0%; height: 100.0%;">Djupedalskolan 7-9<br>Merit: 254.0<br>Rullstensvägen 1</div>`)[0];
+                popup_573fe9c65ad9481f2d594770c7c52b2c.setContent(html_e6d99b14a46390624c18ab3048e9fff5);
+            
+        
+
+        circle_marker_1311fdebd87f05f1c9f1cb435c4c3ce2.bindPopup(popup_573fe9c65ad9481f2d594770c7c52b2c)
+        ;
+
+        
+    
+    
+            var circle_marker_5bbdc51d4f0967c5b342db95e72461f0 = L.circleMarker(
+                [59.3607219, 17.8349049],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_95c45276a47af8a9b2bcd7b9c8663e87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1193f0f2786560bf5378c2a479130df = $(`<div id="html_a1193f0f2786560bf5378c2a479130df" style="width: 100.0%; height: 100.0%;">Internationella Engelska skolan Hässelby<br>Merit: 254.0<br>Aprikosgatan 68-74</div>`)[0];
+                popup_95c45276a47af8a9b2bcd7b9c8663e87.setContent(html_a1193f0f2786560bf5378c2a479130df);
+            
+        
+
+        circle_marker_5bbdc51d4f0967c5b342db95e72461f0.bindPopup(popup_95c45276a47af8a9b2bcd7b9c8663e87)
+        ;
+
+        
+    
+    
+            var circle_marker_fb63df6b4b5b09e5dd546c8ea1f831bd = L.circleMarker(
+                [59.2753123, 15.1947934],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_6ed516ed98ce5d36302b9d233485516c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb79ce1eb828007efba68fe08e143842 = $(`<div id="html_cb79ce1eb828007efba68fe08e143842" style="width: 100.0%; height: 100.0%;">Hannaskolan<br>Merit: 254.0<br>Egnahemsgatan 2</div>`)[0];
+                popup_6ed516ed98ce5d36302b9d233485516c.setContent(html_cb79ce1eb828007efba68fe08e143842);
+            
+        
+
+        circle_marker_fb63df6b4b5b09e5dd546c8ea1f831bd.bindPopup(popup_6ed516ed98ce5d36302b9d233485516c)
+        ;
+
+        
+    
+    
+            var circle_marker_8b52b29b041d03ef679389dac6003ef6 = L.circleMarker(
+                [59.3855666, 17.9534867],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_ab709dfc3c151dabcbc8142267ec6701 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9527f8656e341e8f5b8beedd35f42a2a = $(`<div id="html_9527f8656e341e8f5b8beedd35f42a2a" style="width: 100.0%; height: 100.0%;">Noblaskolan Sundbyberg<br>Merit: 252.0<br>Marieborgsgatan 12</div>`)[0];
+                popup_ab709dfc3c151dabcbc8142267ec6701.setContent(html_9527f8656e341e8f5b8beedd35f42a2a);
+            
+        
+
+        circle_marker_8b52b29b041d03ef679389dac6003ef6.bindPopup(popup_ab709dfc3c151dabcbc8142267ec6701)
+        ;
+
+        
+    
+    
+            var circle_marker_a41d5718b1cc5d8a4769b86a06db15ea = L.circleMarker(
+                [59.4997416, 17.9475248],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_fb21356cec8a106e9785705f0fa48936 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_886bc5076536c068b83babf2755ae844 = $(`<div id="html_886bc5076536c068b83babf2755ae844" style="width: 100.0%; height: 100.0%;">Grimstaskolan<br>Merit: 252.0<br>Vårvägen 1</div>`)[0];
+                popup_fb21356cec8a106e9785705f0fa48936.setContent(html_886bc5076536c068b83babf2755ae844);
+            
+        
+
+        circle_marker_a41d5718b1cc5d8a4769b86a06db15ea.bindPopup(popup_fb21356cec8a106e9785705f0fa48936)
+        ;
+
+        
+    
+    
+            var circle_marker_24ca4a88f207b90c3bb3d96319cd7ed5 = L.circleMarker(
+                [55.6854344, 13.1827914],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_02fd9f140769a7f1993f3779e7b36395 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03068be190001b0f010601e8fdb5e30f = $(`<div id="html_03068be190001b0f010601e8fdb5e30f" style="width: 100.0%; height: 100.0%;">Sankt Thomas Skola<br>Merit: 251.0<br>Sankt Lars väg 1</div>`)[0];
+                popup_02fd9f140769a7f1993f3779e7b36395.setContent(html_03068be190001b0f010601e8fdb5e30f);
+            
+        
+
+        circle_marker_24ca4a88f207b90c3bb3d96319cd7ed5.bindPopup(popup_02fd9f140769a7f1993f3779e7b36395)
+        ;
+
+        
+    
+    
+            var circle_marker_411986c8bc921d4f7a23a9c46b82da6b = L.circleMarker(
+                [59.379485, 13.4588022],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_cc2d8a94ec234ace5f4f525b9e16e35e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff6783f8ea756d40c5e5490effc384bd = $(`<div id="html_ff6783f8ea756d40c5e5490effc384bd" style="width: 100.0%; height: 100.0%;">Internationella Engelska Skolan Karlstad<br>Merit: 250.0<br>Gruvgången 4</div>`)[0];
+                popup_cc2d8a94ec234ace5f4f525b9e16e35e.setContent(html_ff6783f8ea756d40c5e5490effc384bd);
+            
+        
+
+        circle_marker_411986c8bc921d4f7a23a9c46b82da6b.bindPopup(popup_cc2d8a94ec234ace5f4f525b9e16e35e)
+        ;
+
+        
+    
+    
+            var circle_marker_0a6124c3a1715cc6fbd75207f38f46ca = L.circleMarker(
+                [63.8218591, 20.2340515],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_085fde31e115f679647c3c033f63d748 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cc9e8c9a44043ee42dde5d522afcc30 = $(`<div id="html_7cc9e8c9a44043ee42dde5d522afcc30" style="width: 100.0%; height: 100.0%;">Internationella Engelska Skolan Umeå<br>Merit: 250.0<br>Bölevägen 44</div>`)[0];
+                popup_085fde31e115f679647c3c033f63d748.setContent(html_7cc9e8c9a44043ee42dde5d522afcc30);
+            
+        
+
+        circle_marker_0a6124c3a1715cc6fbd75207f38f46ca.bindPopup(popup_085fde31e115f679647c3c033f63d748)
+        ;
+
+        
+    
+    
+            var circle_marker_5e1c1fba4c6bc27fa1418817f99cab79 = L.circleMarker(
+                [59.1843993, 17.8103617],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_4633c3861d242c7f04dccabf78a17b2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb548f66006ce6f50d9dd8d5e8cbb6b0 = $(`<div id="html_bb548f66006ce6f50d9dd8d5e8cbb6b0" style="width: 100.0%; height: 100.0%;">Broängsskolan<br>Merit: 249.0<br>Kärrvägen 20</div>`)[0];
+                popup_4633c3861d242c7f04dccabf78a17b2b.setContent(html_bb548f66006ce6f50d9dd8d5e8cbb6b0);
+            
+        
+
+        circle_marker_5e1c1fba4c6bc27fa1418817f99cab79.bindPopup(popup_4633c3861d242c7f04dccabf78a17b2b)
+        ;
+
+        
+    
+    
+            var circle_marker_ffedbbb335c0f849b7f22309bf7ef441 = L.circleMarker(
+                [59.5457934, 18.1312466],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_0dab33e6eb13f9d5bc1d533c5a65946d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac5b4a9615b2d98698e0add38e26bb8a = $(`<div id="html_ac5b4a9615b2d98698e0add38e26bb8a" style="width: 100.0%; height: 100.0%;">Hagaskolan<br>Merit: 249.0<br>Lingsbergsvägen 14</div>`)[0];
+                popup_0dab33e6eb13f9d5bc1d533c5a65946d.setContent(html_ac5b4a9615b2d98698e0add38e26bb8a);
+            
+        
+
+        circle_marker_ffedbbb335c0f849b7f22309bf7ef441.bindPopup(popup_0dab33e6eb13f9d5bc1d533c5a65946d)
+        ;
+
+        
+    
+    
+            var circle_marker_595aba0c390a1503b95b6f8101b0eee5 = L.circleMarker(
+                [55.5801745, 13.1770127],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_f4a0b3d09931006b3ee41fac068f708a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e11fb76c881f1285bd5b8405995faab1 = $(`<div id="html_e11fb76c881f1285bd5b8405995faab1" style="width: 100.0%; height: 100.0%;">Spångholmsskolan 4-9<br>Merit: 248.0<br>Henriette Coyets gata</div>`)[0];
+                popup_f4a0b3d09931006b3ee41fac068f708a.setContent(html_e11fb76c881f1285bd5b8405995faab1);
+            
+        
+
+        circle_marker_595aba0c390a1503b95b6f8101b0eee5.bindPopup(popup_f4a0b3d09931006b3ee41fac068f708a)
+        ;
+
+        
+    
+    
+            var circle_marker_afd0e0bd2750759cd4f2b55c373c9bd6 = L.circleMarker(
+                [56.1798805, 12.5653658],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_93ea01d2bc8d5415726cad7e9acf69e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e7e521d6e3a52a6330f1610cbe45786 = $(`<div id="html_6e7e521d6e3a52a6330f1610cbe45786" style="width: 100.0%; height: 100.0%;">Lerbergsskolan<br>Merit: 247.0<br>Skördevägen 155</div>`)[0];
+                popup_93ea01d2bc8d5415726cad7e9acf69e3.setContent(html_6e7e521d6e3a52a6330f1610cbe45786);
+            
+        
+
+        circle_marker_afd0e0bd2750759cd4f2b55c373c9bd6.bindPopup(popup_93ea01d2bc8d5415726cad7e9acf69e3)
+        ;
+
+        
+    
+    
+            var circle_marker_46319fe546bfed4f093d67ed8c0cc362 = L.circleMarker(
+                [56.8840087, 14.7621495],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_da352a3a48bf9fba20f2bc6f30d10597 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f218c8822ec32457d4f2537b67edaf6 = $(`<div id="html_5f218c8822ec32457d4f2537b67edaf6" style="width: 100.0%; height: 100.0%;">Prolympia Växjö<br>Merit: 247.0<br>Hejaregatan 5 D</div>`)[0];
+                popup_da352a3a48bf9fba20f2bc6f30d10597.setContent(html_5f218c8822ec32457d4f2537b67edaf6);
+            
+        
+
+        circle_marker_46319fe546bfed4f093d67ed8c0cc362.bindPopup(popup_da352a3a48bf9fba20f2bc6f30d10597)
+        ;
+
+        
+    
+    
+            var circle_marker_0b97c8bbbbefc76a2e7111759da76cca = L.circleMarker(
+                [59.3729496, 17.9346697],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_ea22fe6cc7ddccb8ede60f97e33d8423 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68d385f1c31e20689df3de81a28db19b = $(`<div id="html_68d385f1c31e20689df3de81a28db19b" style="width: 100.0%; height: 100.0%;">Internationella Engelska Skolan Sundbyberg<br>Merit: 246.0<br>Rissneleden 136</div>`)[0];
+                popup_ea22fe6cc7ddccb8ede60f97e33d8423.setContent(html_68d385f1c31e20689df3de81a28db19b);
+            
+        
+
+        circle_marker_0b97c8bbbbefc76a2e7111759da76cca.bindPopup(popup_ea22fe6cc7ddccb8ede60f97e33d8423)
+        ;
+
+        
+    
+    
+            var circle_marker_2e24fb290acc300f9a6a5e078df97ea0 = L.circleMarker(
+                [59.3624178, 17.9952234],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_0954e9c59372cd5f28afe38985e9b7c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3643ed3bb4a793c8756caec65346f7d2 = $(`<div id="html_3643ed3bb4a793c8756caec65346f7d2" style="width: 100.0%; height: 100.0%;">Råsunda Centralskola<br>Merit: 244.0<br>Parkvägen 4</div>`)[0];
+                popup_0954e9c59372cd5f28afe38985e9b7c3.setContent(html_3643ed3bb4a793c8756caec65346f7d2);
+            
+        
+
+        circle_marker_2e24fb290acc300f9a6a5e078df97ea0.bindPopup(popup_0954e9c59372cd5f28afe38985e9b7c3)
+        ;
+
+        
+    
+    
+            var circle_marker_a3127cc79c106b36d951c385ac596afd = L.circleMarker(
+                [59.6463806, 17.0932352],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_6398eb844d0ad3b9b41aec0804efbfca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adf45d9e6d04eeba9f16e7c2c592af6d = $(`<div id="html_adf45d9e6d04eeba9f16e7c2c592af6d" style="width: 100.0%; height: 100.0%;">Kunskapsskolan Enköping<br>Merit: 242.0<br>Friggavägen 1</div>`)[0];
+                popup_6398eb844d0ad3b9b41aec0804efbfca.setContent(html_adf45d9e6d04eeba9f16e7c2c592af6d);
+            
+        
+
+        circle_marker_a3127cc79c106b36d951c385ac596afd.bindPopup(popup_6398eb844d0ad3b9b41aec0804efbfca)
+        ;
+
+        
+    
+    
+            var circle_marker_948140b5799ca032606f890d2034856f = L.circleMarker(
+                [56.9004444, 12.5222782],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_874ccb3910375339b79dddedc31cffea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eef32125d64041ffccbb2f8487c2355 = $(`<div id="html_1eef32125d64041ffccbb2f8487c2355" style="width: 100.0%; height: 100.0%;">Vesterhavsskolan<br>Merit: 242.0<br>Elvägen 4</div>`)[0];
+                popup_874ccb3910375339b79dddedc31cffea.setContent(html_1eef32125d64041ffccbb2f8487c2355);
+            
+        
+
+        circle_marker_948140b5799ca032606f890d2034856f.bindPopup(popup_874ccb3910375339b79dddedc31cffea)
+        ;
+
+        
+    
+    
+            var circle_marker_bde41ab6bf7180d66a6b0c3ed693cce5 = L.circleMarker(
+                [57.7794278, 14.1618519],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_ef0e3543f99f2e52f1b7e9450d965f14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_387b85221227eae6a6855f33cd3e6998 = $(`<div id="html_387b85221227eae6a6855f33cd3e6998" style="width: 100.0%; height: 100.0%;">Junedalsskolan<br>Merit: 242.0<br>Gjuterigatan 27</div>`)[0];
+                popup_ef0e3543f99f2e52f1b7e9450d965f14.setContent(html_387b85221227eae6a6855f33cd3e6998);
+            
+        
+
+        circle_marker_bde41ab6bf7180d66a6b0c3ed693cce5.bindPopup(popup_ef0e3543f99f2e52f1b7e9450d965f14)
+        ;
+
+        
+    
+    
+            var circle_marker_e22aee4ce5c7cc974748f1060c04ae71 = L.circleMarker(
+                [59.6276166, 17.7757584],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_273e70839bffcc23d8b157ddcfb41e30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71290397b2eb076036ebb103dc8c125d = $(`<div id="html_71290397b2eb076036ebb103dc8c125d" style="width: 100.0%; height: 100.0%;">Josefinaskolan, grundskola<br>Merit: 242.0<br>Rävsta gård</div>`)[0];
+                popup_273e70839bffcc23d8b157ddcfb41e30.setContent(html_71290397b2eb076036ebb103dc8c125d);
+            
+        
+
+        circle_marker_e22aee4ce5c7cc974748f1060c04ae71.bindPopup(popup_273e70839bffcc23d8b157ddcfb41e30)
+        ;
+
+        
+    
+    
+            var circle_marker_3a9c0df14557d8cffe28272034e55bd1 = L.circleMarker(
+                [57.4966849, 12.1066306],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_8426774d82a552002183438a0ec8a710 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d62fcfd379deb06864165cb1105b6f9 = $(`<div id="html_8d62fcfd379deb06864165cb1105b6f9" style="width: 100.0%; height: 100.0%;">Nova Montessoriskola åk 6-9<br>Merit: 241.0<br>Gamla Forsvägen 1A</div>`)[0];
+                popup_8426774d82a552002183438a0ec8a710.setContent(html_8d62fcfd379deb06864165cb1105b6f9);
+            
+        
+
+        circle_marker_3a9c0df14557d8cffe28272034e55bd1.bindPopup(popup_8426774d82a552002183438a0ec8a710)
+        ;
+
+        
+    
+    
+            var circle_marker_21e37ac06427e3e26e0a5057c4d3b89a = L.circleMarker(
+                [59.2778386, 15.1933748],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_8976ee90be3a55d17a90e843244afe84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef50fccf8aa1dbd6fced4dd2d0d62090 = $(`<div id="html_ef50fccf8aa1dbd6fced4dd2d0d62090" style="width: 100.0%; height: 100.0%;">Vittra Örebro<br>Merit: 241.0<br>Karlsgatan 30</div>`)[0];
+                popup_8976ee90be3a55d17a90e843244afe84.setContent(html_ef50fccf8aa1dbd6fced4dd2d0d62090);
+            
+        
+
+        circle_marker_21e37ac06427e3e26e0a5057c4d3b89a.bindPopup(popup_8976ee90be3a55d17a90e843244afe84)
+        ;
+
+        
+    
+    
+            var circle_marker_35e6028d6a14535dcf88bc26e40e6172 = L.circleMarker(
+                [59.5575018, 17.4993294],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_76f52e14e3ed33f2246d01b50c27c561 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_551d1e747f697d4b6f7ec0179103d0fb = $(`<div id="html_551d1e747f697d4b6f7ec0179103d0fb" style="width: 100.0%; height: 100.0%;">Futurum 7-9<br>Merit: 240.0<br>Kalmarleden 12</div>`)[0];
+                popup_76f52e14e3ed33f2246d01b50c27c561.setContent(html_551d1e747f697d4b6f7ec0179103d0fb);
+            
+        
+
+        circle_marker_35e6028d6a14535dcf88bc26e40e6172.bindPopup(popup_76f52e14e3ed33f2246d01b50c27c561)
+        ;
+
+        
+    
+    
+            var circle_marker_5eb2a7611aa3d7150a97ec76af0bfddd = L.circleMarker(
+                [58.605862, 16.1471153],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_9dcb4a845937e9e9af125b8acec20dce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ab56d85e1df4be53790f693420d9bc6 = $(`<div id="html_2ab56d85e1df4be53790f693420d9bc6" style="width: 100.0%; height: 100.0%;">Enebyskolan 1<br>Merit: 240.0<br>Taborsbergsvägen 83</div>`)[0];
+                popup_9dcb4a845937e9e9af125b8acec20dce.setContent(html_2ab56d85e1df4be53790f693420d9bc6);
+            
+        
+
+        circle_marker_5eb2a7611aa3d7150a97ec76af0bfddd.bindPopup(popup_9dcb4a845937e9e9af125b8acec20dce)
+        ;
+
+        
+    
+    
+            var circle_marker_078cc6401e2866c7de6c743abf2d4eea = L.circleMarker(
+                [59.4446301, 17.9646168],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_e95b2fb6aee0a790f5eb5e58f417d72d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4da06ba3eeccff3ab6ddfe20d2086d3 = $(`<div id="html_e4da06ba3eeccff3ab6ddfe20d2086d3" style="width: 100.0%; height: 100.0%;">Edsbergsskolan<br>Merit: 240.0<br>Edsbergs Torg 5</div>`)[0];
+                popup_e95b2fb6aee0a790f5eb5e58f417d72d.setContent(html_e4da06ba3eeccff3ab6ddfe20d2086d3);
+            
+        
+
+        circle_marker_078cc6401e2866c7de6c743abf2d4eea.bindPopup(popup_e95b2fb6aee0a790f5eb5e58f417d72d)
+        ;
+
+        
+    
+    
+            var circle_marker_471bb8be43550c23c882797704e5ca9f = L.circleMarker(
+                [60.7365767, 14.9891359],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_4069eaa7d9c937e9e952304df7ff5261 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1662a460a508bbb5b5d87d0e4ce9ca6a = $(`<div id="html_1662a460a508bbb5b5d87d0e4ce9ca6a" style="width: 100.0%; height: 100.0%;">Profilskolan Excel<br>Merit: 239.0<br>Hjortnäsvägen 35</div>`)[0];
+                popup_4069eaa7d9c937e9e952304df7ff5261.setContent(html_1662a460a508bbb5b5d87d0e4ce9ca6a);
+            
+        
+
+        circle_marker_471bb8be43550c23c882797704e5ca9f.bindPopup(popup_4069eaa7d9c937e9e952304df7ff5261)
+        ;
+
+        
+    
+    
+            var circle_marker_496e959075f20e4bbd12d7ebe98719cf = L.circleMarker(
+                [55.6843882, 13.1815305],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_3cc55b08c5fcc13ac5055069074382d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae7a4e2c93405b4000744f986bf7ef3c = $(`<div id="html_ae7a4e2c93405b4000744f986bf7ef3c" style="width: 100.0%; height: 100.0%;">Kunskapsskolan Lund<br>Merit: 239.0<br>S:t Lars väg 19</div>`)[0];
+                popup_3cc55b08c5fcc13ac5055069074382d5.setContent(html_ae7a4e2c93405b4000744f986bf7ef3c);
+            
+        
+
+        circle_marker_496e959075f20e4bbd12d7ebe98719cf.bindPopup(popup_3cc55b08c5fcc13ac5055069074382d5)
+        ;
+
+        
+    
+    
+            var circle_marker_213aa56749afcbf319ff8da5bb9ed95b = L.circleMarker(
+                [57.8625263, 11.9220327],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_2f702491368244985d838a48b01fa937 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a7330b9e6c8014a82b886002e78ce28 = $(`<div id="html_1a7330b9e6c8014a82b886002e78ce28" style="width: 100.0%; height: 100.0%;">Ytterbyskolan 1<br>Merit: 238.0<br>Skolvägen 1</div>`)[0];
+                popup_2f702491368244985d838a48b01fa937.setContent(html_1a7330b9e6c8014a82b886002e78ce28);
+            
+        
+
+        circle_marker_213aa56749afcbf319ff8da5bb9ed95b.bindPopup(popup_2f702491368244985d838a48b01fa937)
+        ;
+
+        
+    
+    
+            var circle_marker_02832b2695ea7406bf6b29160cabbc69 = L.circleMarker(
+                [64.7567634, 20.9507359],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_bd01e3a8a6721074a8b4b5dc1a7ef757 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_453348651243eda48a5a3376bf226b7c = $(`<div id="html_453348651243eda48a5a3376bf226b7c" style="width: 100.0%; height: 100.0%;">Norrhammarskolan<br>Merit: 238.0<br>Högalidsgatan 25</div>`)[0];
+                popup_bd01e3a8a6721074a8b4b5dc1a7ef757.setContent(html_453348651243eda48a5a3376bf226b7c);
+            
+        
+
+        circle_marker_02832b2695ea7406bf6b29160cabbc69.bindPopup(popup_bd01e3a8a6721074a8b4b5dc1a7ef757)
+        ;
+
+        
+    
+    
+            var circle_marker_1780b0132c224c8e00276c738d3ab3f2 = L.circleMarker(
+                [56.0804261, 12.6877667],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_0c49ceef27102dff38cb14f505b9796d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_633ed45555938d2b506d64b9d6c6c1dd = $(`<div id="html_633ed45555938d2b506d64b9d6c6c1dd" style="width: 100.0%; height: 100.0%;">Maria Parkskolan<br>Merit: 237.0<br>Östra Allén 8-10</div>`)[0];
+                popup_0c49ceef27102dff38cb14f505b9796d.setContent(html_633ed45555938d2b506d64b9d6c6c1dd);
+            
+        
+
+        circle_marker_1780b0132c224c8e00276c738d3ab3f2.bindPopup(popup_0c49ceef27102dff38cb14f505b9796d)
+        ;
+
+        
+    
+    
+            var circle_marker_455521fa853904d30f7e78d8604e0ef3 = L.circleMarker(
+                [59.3107694, 18.0741708],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_47ce4aee7a1260642fe450ea0b73d286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dd2eb06cdf825ccea57be9906165dab = $(`<div id="html_2dd2eb06cdf825ccea57be9906165dab" style="width: 100.0%; height: 100.0%;">Åsö grundskola<br>Merit: 237.0<br>Blekingegatan 55</div>`)[0];
+                popup_47ce4aee7a1260642fe450ea0b73d286.setContent(html_2dd2eb06cdf825ccea57be9906165dab);
+            
+        
+
+        circle_marker_455521fa853904d30f7e78d8604e0ef3.bindPopup(popup_47ce4aee7a1260642fe450ea0b73d286)
+        ;
+
+        
+    
+    
+            var circle_marker_9ea7019eb215ddfaefeacee8f00502f7 = L.circleMarker(
+                [61.8565781, 12.7207255],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_4bdcf42d2c6292087edda16e6d0344d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37fc4d89662931059531a05a54f86851 = $(`<div id="html_37fc4d89662931059531a05a54f86851" style="width: 100.0%; height: 100.0%;">Strandskolan<br>Merit: 237.0<br>Framgårdsvägen 4</div>`)[0];
+                popup_4bdcf42d2c6292087edda16e6d0344d8.setContent(html_37fc4d89662931059531a05a54f86851);
+            
+        
+
+        circle_marker_9ea7019eb215ddfaefeacee8f00502f7.bindPopup(popup_4bdcf42d2c6292087edda16e6d0344d8)
+        ;
+
+        
+    
+    
+            var circle_marker_3ebc1335490a22a60f634f7d4ddd1c31 = L.circleMarker(
+                [57.9520092, 12.1173544],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_358563044ee39c32c864d91ec474dcda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81ac42b3cf653331b6f3a9219bc9943b = $(`<div id="html_81ac42b3cf653331b6f3a9219bc9943b" style="width: 100.0%; height: 100.0%;">Aroseniusskolan<br>Merit: 236.0<br>Vallmovägen</div>`)[0];
+                popup_358563044ee39c32c864d91ec474dcda.setContent(html_81ac42b3cf653331b6f3a9219bc9943b);
+            
+        
+
+        circle_marker_3ebc1335490a22a60f634f7d4ddd1c31.bindPopup(popup_358563044ee39c32c864d91ec474dcda)
+        ;
+
+        
+    
+    
+            var circle_marker_15879b99b52caa9c1d30bebd0fd2fe90 = L.circleMarker(
+                [59.204406, 17.8325746],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_0f140c4f1512779c57b9671e040bd8db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dcb308f8ee8f9e9ba8f6906c50e4a0b = $(`<div id="html_1dcb308f8ee8f9e9ba8f6906c50e4a0b" style="width: 100.0%; height: 100.0%;">Tunaskolan<br>Merit: 236.0<br>Prästgårdsvägen 114</div>`)[0];
+                popup_0f140c4f1512779c57b9671e040bd8db.setContent(html_1dcb308f8ee8f9e9ba8f6906c50e4a0b);
+            
+        
+
+        circle_marker_15879b99b52caa9c1d30bebd0fd2fe90.bindPopup(popup_0f140c4f1512779c57b9671e040bd8db)
+        ;
+
+        
+    
+    
+            var circle_marker_438d55678497db550a671b1e7e48530a = L.circleMarker(
+                [59.9852101, 14.1730791],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_b6b3f6220983287c67c2f1f13433c756 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e48c4c721bf1c420460e2a4354ca198 = $(`<div id="html_5e48c4c721bf1c420460e2a4354ca198" style="width: 100.0%; height: 100.0%;">Stålvallaskolan<br>Merit: 236.0<br>Skolgatan 36</div>`)[0];
+                popup_b6b3f6220983287c67c2f1f13433c756.setContent(html_5e48c4c721bf1c420460e2a4354ca198);
+            
+        
+
+        circle_marker_438d55678497db550a671b1e7e48530a.bindPopup(popup_b6b3f6220983287c67c2f1f13433c756)
+        ;
+
+        
+    
+    
+            var circle_marker_424d7b2a92b587df17b5649fcd5a39f9 = L.circleMarker(
+                [59.3051093, 18.1501924],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_59f54c24939f29ff2e2b6074b5ff358e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a3c775a10193421d691544a88f77b45 = $(`<div id="html_0a3c775a10193421d691544a88f77b45" style="width: 100.0%; height: 100.0%;">Montessori Mondial Nacka<br>Merit: 236.0<br>Winborgs väg 12</div>`)[0];
+                popup_59f54c24939f29ff2e2b6074b5ff358e.setContent(html_0a3c775a10193421d691544a88f77b45);
+            
+        
+
+        circle_marker_424d7b2a92b587df17b5649fcd5a39f9.bindPopup(popup_59f54c24939f29ff2e2b6074b5ff358e)
+        ;
+
+        
+    
+    
+            var circle_marker_7771cd534dd9b11ab937638313fb1bad = L.circleMarker(
+                [57.716529, 12.0323379],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_906c2fb0a537b9ed47af31cb5f6a4ff1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b39bb5e3eccbc6e05ca384e5c31ee441 = $(`<div id="html_b39bb5e3eccbc6e05ca384e5c31ee441" style="width: 100.0%; height: 100.0%;">Kålltorpsskolan 7-9<br>Merit: 234.0<br>Intagsgatan 14</div>`)[0];
+                popup_906c2fb0a537b9ed47af31cb5f6a4ff1.setContent(html_b39bb5e3eccbc6e05ca384e5c31ee441);
+            
+        
+
+        circle_marker_7771cd534dd9b11ab937638313fb1bad.bindPopup(popup_906c2fb0a537b9ed47af31cb5f6a4ff1)
+        ;
+
+        
+    
+    
+            var circle_marker_d453fa21e44d226a8469034f56ae607e = L.circleMarker(
+                [57.6866232, 12.2118798],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_84db3eb627b79130f5d9fd652c4c8167 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcfe66cadd47957b74c8617f9a080258 = $(`<div id="html_dcfe66cadd47957b74c8617f9a080258" style="width: 100.0%; height: 100.0%;">Landvetterskolan 7-9 ABC<br>Merit: 234.0<br>Idrottsvägen 1</div>`)[0];
+                popup_84db3eb627b79130f5d9fd652c4c8167.setContent(html_dcfe66cadd47957b74c8617f9a080258);
+            
+        
+
+        circle_marker_d453fa21e44d226a8469034f56ae607e.bindPopup(popup_84db3eb627b79130f5d9fd652c4c8167)
+        ;
+
+        
+    
+    
+            var circle_marker_c9627e4648e641458bd5a2147bd8e4ec = L.circleMarker(
+                [59.4223498, 17.8283582],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_24e055d08ed3095f007afaee29904644 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f7d1dc350ec6572fc09a17b23c1f2d1 = $(`<div id="html_5f7d1dc350ec6572fc09a17b23c1f2d1" style="width: 100.0%; height: 100.0%;">Vittra Jakobsberg<br>Merit: 234.0<br>Vibblabyvägen 5</div>`)[0];
+                popup_24e055d08ed3095f007afaee29904644.setContent(html_5f7d1dc350ec6572fc09a17b23c1f2d1);
+            
+        
+
+        circle_marker_c9627e4648e641458bd5a2147bd8e4ec.bindPopup(popup_24e055d08ed3095f007afaee29904644)
+        ;
+
+        
+    
+    
+            var circle_marker_592d8b1e1aaef8c870956465e6875338 = L.circleMarker(
+                [56.0490315, 12.7013496],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_a93335ec3d50a27b022dba97f1d8776e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3ae50e1638413b41adb30e57a0e174d = $(`<div id="html_b3ae50e1638413b41adb30e57a0e174d" style="width: 100.0%; height: 100.0%;">Musikgrundskolan Synkopen<br>Merit: 233.0<br>Bergaliden 24</div>`)[0];
+                popup_a93335ec3d50a27b022dba97f1d8776e.setContent(html_b3ae50e1638413b41adb30e57a0e174d);
+            
+        
+
+        circle_marker_592d8b1e1aaef8c870956465e6875338.bindPopup(popup_a93335ec3d50a27b022dba97f1d8776e)
+        ;
+
+        
+    
+    
+            var circle_marker_0a227b9008a13c0f97ac53161f4f5645 = L.circleMarker(
+                [57.6580184, 12.0078952],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_f8c16dabd6be9b1533b37eb07f433c0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f11baf3ad100774857482bce8c6632de = $(`<div id="html_f11baf3ad100774857482bce8c6632de" style="width: 100.0%; height: 100.0%;">Friskolan Kvarnhjulet<br>Merit: 233.0<br>Terrakottagatan 3 A</div>`)[0];
+                popup_f8c16dabd6be9b1533b37eb07f433c0f.setContent(html_f11baf3ad100774857482bce8c6632de);
+            
+        
+
+        circle_marker_0a227b9008a13c0f97ac53161f4f5645.bindPopup(popup_f8c16dabd6be9b1533b37eb07f433c0f)
+        ;
+
+        
+    
+    
+            var circle_marker_9aa30dc971dce1f0813fa667228bc17a = L.circleMarker(
+                [57.1049777, 12.2614199],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_dc1bbd81ac441b5bcbe7377806137505 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7635d0222bda38f2a965a89df36aadd7 = $(`<div id="html_7635d0222bda38f2a965a89df36aadd7" style="width: 100.0%; height: 100.0%;">Påskbergsskolan 4-9<br>Merit: 233.0<br>Ringvägen 97</div>`)[0];
+                popup_dc1bbd81ac441b5bcbe7377806137505.setContent(html_7635d0222bda38f2a965a89df36aadd7);
+            
+        
+
+        circle_marker_9aa30dc971dce1f0813fa667228bc17a.bindPopup(popup_dc1bbd81ac441b5bcbe7377806137505)
+        ;
+
+        
+    
+    
+            var circle_marker_284f5cc2c84e7283639bb40399d0a954 = L.circleMarker(
+                [58.3897994, 15.5644472],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_dcaabe8c662050ef3b2c1c245bdae10e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee8bb5915bad95a9fd4a70b491f4b9f2 = $(`<div id="html_ee8bb5915bad95a9fd4a70b491f4b9f2" style="width: 100.0%; height: 100.0%;">Vittra Lambohov<br>Merit: 232.0<br>Tröskaregatan 73-75</div>`)[0];
+                popup_dcaabe8c662050ef3b2c1c245bdae10e.setContent(html_ee8bb5915bad95a9fd4a70b491f4b9f2);
+            
+        
+
+        circle_marker_284f5cc2c84e7283639bb40399d0a954.bindPopup(popup_dcaabe8c662050ef3b2c1c245bdae10e)
+        ;
+
+        
+    
+    
+            var circle_marker_986019ff4de4527af170b79261e6f6e1 = L.circleMarker(
+                [60.3466689, 17.5160822],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_0f1f32fc1c3127960f3d5fbde439240a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b12e20292d5924349a106417290d4680 = $(`<div id="html_b12e20292d5924349a106417290d4680" style="width: 100.0%; height: 100.0%;">Centralskolan<br>Merit: 232.0<br>Grevegatan 16</div>`)[0];
+                popup_0f1f32fc1c3127960f3d5fbde439240a.setContent(html_b12e20292d5924349a106417290d4680);
+            
+        
+
+        circle_marker_986019ff4de4527af170b79261e6f6e1.bindPopup(popup_0f1f32fc1c3127960f3d5fbde439240a)
+        ;
+
+        
+    
+    
+            var circle_marker_707143959b255ad43749a69398aa5678 = L.circleMarker(
+                [57.6443777, 18.3100914],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_14c026fbd71bc7ada00cd0a6c176c613 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2c1ec360ea79d5fe04eb4a586a2bf92 = $(`<div id="html_b2c1ec360ea79d5fe04eb4a586a2bf92" style="width: 100.0%; height: 100.0%;">Guteskolan, grundskola<br>Merit: 231.0<br>Broväg 8</div>`)[0];
+                popup_14c026fbd71bc7ada00cd0a6c176c613.setContent(html_b2c1ec360ea79d5fe04eb4a586a2bf92);
+            
+        
+
+        circle_marker_707143959b255ad43749a69398aa5678.bindPopup(popup_14c026fbd71bc7ada00cd0a6c176c613)
+        ;
+
+        
+    
+    
+            var circle_marker_6933c0be4246f71fd0572b82ac65e02d = L.circleMarker(
+                [56.4016166, 14.3267279],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_917bf98fe055872f1b5dca73c4bf0aaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a1a6b282f71c8f92bd80e5544bd0098 = $(`<div id="html_3a1a6b282f71c8f92bd80e5544bd0098" style="width: 100.0%; height: 100.0%;">Örkenedskolan F-9<br>Merit: 231.0<br>Tosthultsvägen 19</div>`)[0];
+                popup_917bf98fe055872f1b5dca73c4bf0aaf.setContent(html_3a1a6b282f71c8f92bd80e5544bd0098);
+            
+        
+
+        circle_marker_6933c0be4246f71fd0572b82ac65e02d.bindPopup(popup_917bf98fe055872f1b5dca73c4bf0aaf)
+        ;
+
+        
+    
+    
+            var circle_marker_433d703ef63f9b23cc5d5c6bc2a5ac45 = L.circleMarker(
+                [58.9376145, 11.1791473],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_1b81f0ea0d353ac0e0d22478a55bed64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_818998609d977e5e1ed4d12b5dfb9b67 = $(`<div id="html_818998609d977e5e1ed4d12b5dfb9b67" style="width: 100.0%; height: 100.0%;">Strömstiernaskolan 7-9<br>Merit: 231.0<br>Norra Linnégatan 4</div>`)[0];
+                popup_1b81f0ea0d353ac0e0d22478a55bed64.setContent(html_818998609d977e5e1ed4d12b5dfb9b67);
+            
+        
+
+        circle_marker_433d703ef63f9b23cc5d5c6bc2a5ac45.bindPopup(popup_1b81f0ea0d353ac0e0d22478a55bed64)
+        ;
+
+        
+    
+    
+            var circle_marker_afceb05d6899d7fa0e4e75554e7d25d2 = L.circleMarker(
+                [58.605862, 16.1471153],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_90f6a35ea8953911473417f0c0d35ce6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aebafcc2143596f059a2aa5666496ceb = $(`<div id="html_aebafcc2143596f059a2aa5666496ceb" style="width: 100.0%; height: 100.0%;">Enebyskolan 2<br>Merit: 230.0<br>Taborsbergsvägen 83</div>`)[0];
+                popup_90f6a35ea8953911473417f0c0d35ce6.setContent(html_aebafcc2143596f059a2aa5666496ceb);
+            
+        
+
+        circle_marker_afceb05d6899d7fa0e4e75554e7d25d2.bindPopup(popup_90f6a35ea8953911473417f0c0d35ce6)
+        ;
+
+        
+    
+    
+            var circle_marker_e1019fab1b80c7994c2069be455055ca = L.circleMarker(
+                [65.6081126, 22.1842235],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_ff7514edadcaf44bc9710e04ba879319 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_989ccfbd248e8ce9d5da35c0a6534a0a = $(`<div id="html_989ccfbd248e8ce9d5da35c0a6534a0a" style="width: 100.0%; height: 100.0%;">Björkskataskolan 7-9<br>Merit: 228.0<br>Väderleden 17</div>`)[0];
+                popup_ff7514edadcaf44bc9710e04ba879319.setContent(html_989ccfbd248e8ce9d5da35c0a6534a0a);
+            
+        
+
+        circle_marker_e1019fab1b80c7994c2069be455055ca.bindPopup(popup_ff7514edadcaf44bc9710e04ba879319)
+        ;
+
+        
+    
+    
+            var circle_marker_da587f8919d0138ab3443b0657a4522b = L.circleMarker(
+                [56.5025804, 13.0360516],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_3c62abda7cdd440efa09ba8ec1cc1539 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_183be02c94c8245029fd701ec03ffd28 = $(`<div id="html_183be02c94c8245029fd701ec03ffd28" style="width: 100.0%; height: 100.0%;">Lagaholmsskolan<br>Merit: 227.0<br>Ringvägen 38</div>`)[0];
+                popup_3c62abda7cdd440efa09ba8ec1cc1539.setContent(html_183be02c94c8245029fd701ec03ffd28);
+            
+        
+
+        circle_marker_da587f8919d0138ab3443b0657a4522b.bindPopup(popup_3c62abda7cdd440efa09ba8ec1cc1539)
+        ;
+
+        
+    
+    
+            var circle_marker_131b52f566088bff134daa38ae9387aa = L.circleMarker(
+                [58.1383587, 12.129784],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_41cde1bbe5727f4f19ae7ec035ee2a8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e227c899c4792164569f7f724023f9bc = $(`<div id="html_e227c899c4792164569f7f724023f9bc" style="width: 100.0%; height: 100.0%;">Nya Skolan, Lilla Edet<br>Merit: 227.0<br>Molinsgatan 4</div>`)[0];
+                popup_41cde1bbe5727f4f19ae7ec035ee2a8e.setContent(html_e227c899c4792164569f7f724023f9bc);
+            
+        
+
+        circle_marker_131b52f566088bff134daa38ae9387aa.bindPopup(popup_41cde1bbe5727f4f19ae7ec035ee2a8e)
+        ;
+
+        
+    
+    
+            var circle_marker_0a5e398c792558e15b29aaaa6f4b11f3 = L.circleMarker(
+                [57.6667943, 14.9770559],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_f89eb8e152fd9842c173813d389d2ff1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bceaf1a36c33efff9c2eb724f5d5a140 = $(`<div id="html_bceaf1a36c33efff9c2eb724f5d5a140" style="width: 100.0%; height: 100.0%;">Prästängsskolan A<br>Merit: 226.0<br>Karhulavägen 1 B</div>`)[0];
+                popup_f89eb8e152fd9842c173813d389d2ff1.setContent(html_bceaf1a36c33efff9c2eb724f5d5a140);
+            
+        
+
+        circle_marker_0a5e398c792558e15b29aaaa6f4b11f3.bindPopup(popup_f89eb8e152fd9842c173813d389d2ff1)
+        ;
+
+        
+    
+    
+            var circle_marker_b87ffc03c434e1ef01f1aa28166fc96c = L.circleMarker(
+                [61.7275612, 17.1247955],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_5db50d8de502fe53f4592579f829fc75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50ff7485d80d850168f264e3f6b180b2 = $(`<div id="html_50ff7485d80d850168f264e3f6b180b2" style="width: 100.0%; height: 100.0%;">Östra skolan<br>Merit: 226.0<br>Djupegatan 2</div>`)[0];
+                popup_5db50d8de502fe53f4592579f829fc75.setContent(html_50ff7485d80d850168f264e3f6b180b2);
+            
+        
+
+        circle_marker_b87ffc03c434e1ef01f1aa28166fc96c.bindPopup(popup_5db50d8de502fe53f4592579f829fc75)
+        ;
+
+        
+    
+    
+            var circle_marker_c49fab5f7f15a49c13dbf3a56632eb87 = L.circleMarker(
+                [57.1531479, 13.9485889],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_032c698a48754afcf52acce6467e79ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8ad0d1bd07c0a1101dafdc812d52ea9 = $(`<div id="html_d8ad0d1bd07c0a1101dafdc812d52ea9" style="width: 100.0%; height: 100.0%;">Gröndalsskolan<br>Merit: 226.0<br>Halmstadsvägen</div>`)[0];
+                popup_032c698a48754afcf52acce6467e79ab.setContent(html_d8ad0d1bd07c0a1101dafdc812d52ea9);
+            
+        
+
+        circle_marker_c49fab5f7f15a49c13dbf3a56632eb87.bindPopup(popup_032c698a48754afcf52acce6467e79ab)
+        ;
+
+        
+    
+    
+            var circle_marker_bc0f24eec84b13bf9b52a23ec85f92f6 = L.circleMarker(
+                [56.6739826, 12.8574827],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_46f652ee6b849229a5e568b22587dc05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4100f6b558f508a55a600a88b88107b = $(`<div id="html_f4100f6b558f508a55a600a88b88107b" style="width: 100.0%; height: 100.0%;">Furulundsskolan 4-9<br>Merit: 225.0<br>Halmstad</div>`)[0];
+                popup_46f652ee6b849229a5e568b22587dc05.setContent(html_f4100f6b558f508a55a600a88b88107b);
+            
+        
+
+        circle_marker_bc0f24eec84b13bf9b52a23ec85f92f6.bindPopup(popup_46f652ee6b849229a5e568b22587dc05)
+        ;
+
+        
+    
+    
+            var circle_marker_c3fce8311ad1707bb7c4fe36e29eb8d9 = L.circleMarker(
+                [63.8390197, 20.2332459],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_af26581abd1ee5c60ab07a08dc36a453 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c271edd364bcedb68b4aea8d05159999 = $(`<div id="html_c271edd364bcedb68b4aea8d05159999" style="width: 100.0%; height: 100.0%;">Hörnefors Centralskola F-9<br>Merit: 225.0<br>Industrivägen 9–11</div>`)[0];
+                popup_af26581abd1ee5c60ab07a08dc36a453.setContent(html_c271edd364bcedb68b4aea8d05159999);
+            
+        
+
+        circle_marker_c3fce8311ad1707bb7c4fe36e29eb8d9.bindPopup(popup_af26581abd1ee5c60ab07a08dc36a453)
+        ;
+
+        
+    
+    
+            var circle_marker_41b355d7dd6983c139e314fde4bd063a = L.circleMarker(
+                [57.9358914, 12.5263613],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_e3ec7893ec19579a4b02d5d079efb900 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a99f595e145f49c165960db94595f1ac = $(`<div id="html_a99f595e145f49c165960db94595f1ac" style="width: 100.0%; height: 100.0%;">Montessoriskolan Globen<br>Merit: 224.0<br>Bollvägen 9</div>`)[0];
+                popup_e3ec7893ec19579a4b02d5d079efb900.setContent(html_a99f595e145f49c165960db94595f1ac);
+            
+        
+
+        circle_marker_41b355d7dd6983c139e314fde4bd063a.bindPopup(popup_e3ec7893ec19579a4b02d5d079efb900)
+        ;
+
+        
+    
+    
+            var circle_marker_6a46bf61f36defb7b34a2438624acadf = L.circleMarker(
+                [58.1674765, 13.5501584],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_32a710da67082b5b30114e0497b6becc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdae42c8a3cbbb15a69c590387de659b = $(`<div id="html_fdae42c8a3cbbb15a69c590387de659b" style="width: 100.0%; height: 100.0%;">Högstadium Centrum<br>Merit: 224.0<br>Parkgatan 43</div>`)[0];
+                popup_32a710da67082b5b30114e0497b6becc.setContent(html_fdae42c8a3cbbb15a69c590387de659b);
+            
+        
+
+        circle_marker_6a46bf61f36defb7b34a2438624acadf.bindPopup(popup_32a710da67082b5b30114e0497b6becc)
+        ;
+
+        
+    
+    
+            var circle_marker_535c86deb483c3d39f43c4f185e4fc73 = L.circleMarker(
+                [65.2990354, 21.5069182],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_8ad3c692942360c77434ba0eac6e7537 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55dc1727d1f8844cb64bff27990c896d = $(`<div id="html_55dc1727d1f8844cb64bff27990c896d" style="width: 100.0%; height: 100.0%;">Pitholmsskolan 7-9<br>Merit: 224.0<br>Lövholmsvägen 90</div>`)[0];
+                popup_8ad3c692942360c77434ba0eac6e7537.setContent(html_55dc1727d1f8844cb64bff27990c896d);
+            
+        
+
+        circle_marker_535c86deb483c3d39f43c4f185e4fc73.bindPopup(popup_8ad3c692942360c77434ba0eac6e7537)
+        ;
+
+        
+    
+    
+            var circle_marker_e3b0785438b59b339e5564fe82fd109e = L.circleMarker(
+                [59.5207458, 17.9103451],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_0b57e82b91c5a08c4e1af425ebf910e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49fa8254ef6c9e196a2501e2486a70a2 = $(`<div id="html_49fa8254ef6c9e196a2501e2486a70a2" style="width: 100.0%; height: 100.0%;">Väsby skola<br>Merit: 224.0<br>Skolvägen 11</div>`)[0];
+                popup_0b57e82b91c5a08c4e1af425ebf910e4.setContent(html_49fa8254ef6c9e196a2501e2486a70a2);
+            
+        
+
+        circle_marker_e3b0785438b59b339e5564fe82fd109e.bindPopup(popup_0b57e82b91c5a08c4e1af425ebf910e4)
+        ;
+
+        
+    
+    
+            var circle_marker_1fd1f726baf566a97840a5a28386c35c = L.circleMarker(
+                [57.6345611, 18.2947886],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_199cc6fda27c69016da6a7ca5fbfb33d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21e44d7f048cda5b2c5c0568a11cbf36 = $(`<div id="html_21e44d7f048cda5b2c5c0568a11cbf36" style="width: 100.0%; height: 100.0%;">Solbergaskolan<br>Merit: 223.0<br>Kung Magnus väg 4</div>`)[0];
+                popup_199cc6fda27c69016da6a7ca5fbfb33d.setContent(html_21e44d7f048cda5b2c5c0568a11cbf36);
+            
+        
+
+        circle_marker_1fd1f726baf566a97840a5a28386c35c.bindPopup(popup_199cc6fda27c69016da6a7ca5fbfb33d)
+        ;
+
+        
+    
+    
+            var circle_marker_41033ae13b36971526dc55e31ea34804 = L.circleMarker(
+                [55.5915226, 12.9817725],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_c990c417ff253199cd07aabfac0b2f33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f39ad49f54d9215c0c42804ec86f4ce4 = $(`<div id="html_f39ad49f54d9215c0c42804ec86f4ce4" style="width: 100.0%; height: 100.0%;">Dammfriskolan<br>Merit: 222.0<br>Dammfrigången 9A</div>`)[0];
+                popup_c990c417ff253199cd07aabfac0b2f33.setContent(html_f39ad49f54d9215c0c42804ec86f4ce4);
+            
+        
+
+        circle_marker_41033ae13b36971526dc55e31ea34804.bindPopup(popup_c990c417ff253199cd07aabfac0b2f33)
+        ;
+
+        
+    
+    
+            var circle_marker_8b0103bf628b7423ad6b25c36f9e32de = L.circleMarker(
+                [63.5681943, 19.50547],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_c17959bcfb5b03e744a70f3f9862e16d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_979f08edcb1add1181de526bce76c766 = $(`<div id="html_979f08edcb1add1181de526bce76c766" style="width: 100.0%; height: 100.0%;">Artediskolan åk 7-9<br>Merit: 222.0<br>Stallgatan 14</div>`)[0];
+                popup_c17959bcfb5b03e744a70f3f9862e16d.setContent(html_979f08edcb1add1181de526bce76c766);
+            
+        
+
+        circle_marker_8b0103bf628b7423ad6b25c36f9e32de.bindPopup(popup_c17959bcfb5b03e744a70f3f9862e16d)
+        ;
+
+        
+    
+    
+            var circle_marker_a7d6431eabe1c78203359e69a32580a0 = L.circleMarker(
+                [59.6492529, 16.5387936],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_f8504d7cf8b8b3351e9ab4649e6fc869 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ab786e49de79f5ee4285de86c942301 = $(`<div id="html_5ab786e49de79f5ee4285de86c942301" style="width: 100.0%; height: 100.0%;">Önstaskolan<br>Merit: 222.0<br>Daggrosgatan 2</div>`)[0];
+                popup_f8504d7cf8b8b3351e9ab4649e6fc869.setContent(html_5ab786e49de79f5ee4285de86c942301);
+            
+        
+
+        circle_marker_a7d6431eabe1c78203359e69a32580a0.bindPopup(popup_f8504d7cf8b8b3351e9ab4649e6fc869)
+        ;
+
+        
+    
+    
+            var circle_marker_7ec8b29e49373d14e2770b20ccaaa70b = L.circleMarker(
+                [59.5119091, 16.0013813],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_e45c924b2eb5c3ece31f47ff69bf7377 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6eacc7f47f35a14dfcc97a8e09f1f19b = $(`<div id="html_6eacc7f47f35a14dfcc97a8e09f1f19b" style="width: 100.0%; height: 100.0%;">Karlbergsskolan<br>Merit: 221.0<br>Theodor Dahls gata 3</div>`)[0];
+                popup_e45c924b2eb5c3ece31f47ff69bf7377.setContent(html_6eacc7f47f35a14dfcc97a8e09f1f19b);
+            
+        
+
+        circle_marker_7ec8b29e49373d14e2770b20ccaaa70b.bindPopup(popup_e45c924b2eb5c3ece31f47ff69bf7377)
+        ;
+
+        
+    
+    
+            var circle_marker_4fa4a22e7a2b81f44234ab57a166dd8e = L.circleMarker(
+                [56.8759095, 16.6561531],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_015de58238d9eb98acfc39c8be065c9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28e54236a98a9db9867c3bb41a3938ac = $(`<div id="html_28e54236a98a9db9867c3bb41a3938ac" style="width: 100.0%; height: 100.0%;">Slottsskolan<br>Merit: 220.0<br>Södra Esplanaden 28</div>`)[0];
+                popup_015de58238d9eb98acfc39c8be065c9f.setContent(html_28e54236a98a9db9867c3bb41a3938ac);
+            
+        
+
+        circle_marker_4fa4a22e7a2b81f44234ab57a166dd8e.bindPopup(popup_015de58238d9eb98acfc39c8be065c9f)
+        ;
+
+        
+    
+    
+            var circle_marker_942128d843fdb2d874fe2bb6c69897da = L.circleMarker(
+                [62.6305977, 17.9494997],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_f780892a9c7a8781267c9ae22039abed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec9f221ffee8fa26148891c3aaa02856 = $(`<div id="html_ec9f221ffee8fa26148891c3aaa02856" style="width: 100.0%; height: 100.0%;">Hedda Wisingskolan<br>Merit: 220.0<br>Gånsviksvägen 2</div>`)[0];
+                popup_f780892a9c7a8781267c9ae22039abed.setContent(html_ec9f221ffee8fa26148891c3aaa02856);
+            
+        
+
+        circle_marker_942128d843fdb2d874fe2bb6c69897da.bindPopup(popup_f780892a9c7a8781267c9ae22039abed)
+        ;
+
+        
+    
+    
+            var circle_marker_3f63b8b26c33dd30461ce74da639bd23 = L.circleMarker(
+                [59.3709329, 16.5050998],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_86c11d11d40204ac98abfed50be2be25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1504ca12fb6ca4d43cc66e7194641bd6 = $(`<div id="html_1504ca12fb6ca4d43cc66e7194641bd6" style="width: 100.0%; height: 100.0%;">Entréskolan Eskilstuna<br>Merit: 219.0<br>Smedjegatan 43</div>`)[0];
+                popup_86c11d11d40204ac98abfed50be2be25.setContent(html_1504ca12fb6ca4d43cc66e7194641bd6);
+            
+        
+
+        circle_marker_3f63b8b26c33dd30461ce74da639bd23.bindPopup(popup_86c11d11d40204ac98abfed50be2be25)
+        ;
+
+        
+    
+    
+            var circle_marker_c9f7153e25f0fea4ff522c8d2c0b1883 = L.circleMarker(
+                [56.8349375, 13.9645234],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_6d04878deff5cbe3cafdf8901c55b40f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b1600a90084440f6bd78be46a37ca25 = $(`<div id="html_4b1600a90084440f6bd78be46a37ca25" style="width: 100.0%; height: 100.0%;">Astradskolan 3<br>Merit: 219.0<br>Replösavägen 4</div>`)[0];
+                popup_6d04878deff5cbe3cafdf8901c55b40f.setContent(html_4b1600a90084440f6bd78be46a37ca25);
+            
+        
+
+        circle_marker_c9f7153e25f0fea4ff522c8d2c0b1883.bindPopup(popup_6d04878deff5cbe3cafdf8901c55b40f)
+        ;
+
+        
+    
+    
+            var circle_marker_deba48f6d53edd8e16c5fa6321dbd361 = L.circleMarker(
+                [64.9297572, 20.5459276],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_1ccf56738df0afd05274c6ec2bcfbda6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e46eda4bc03e1d6ea623cdbd8c675a7 = $(`<div id="html_5e46eda4bc03e1d6ea623cdbd8c675a7" style="width: 100.0%; height: 100.0%;">Kågeskolan<br>Merit: 219.0<br>Jörnsvägen 27</div>`)[0];
+                popup_1ccf56738df0afd05274c6ec2bcfbda6.setContent(html_5e46eda4bc03e1d6ea623cdbd8c675a7);
+            
+        
+
+        circle_marker_deba48f6d53edd8e16c5fa6321dbd361.bindPopup(popup_1ccf56738df0afd05274c6ec2bcfbda6)
+        ;
+
+        
+    
+    
+            var circle_marker_aace8bc2fec1ad9e87261478b7ec5bba = L.circleMarker(
+                [58.7609906, 17.0380719],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_65efd77e3ce22a83bccbffb7207fcbdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3dd810caafd2eedc0dae46ed3b79e11f = $(`<div id="html_3dd810caafd2eedc0dae46ed3b79e11f" style="width: 100.0%; height: 100.0%;">Fokusskolan<br>Merit: 218.0<br>Hälsovägen 11</div>`)[0];
+                popup_65efd77e3ce22a83bccbffb7207fcbdf.setContent(html_3dd810caafd2eedc0dae46ed3b79e11f);
+            
+        
+
+        circle_marker_aace8bc2fec1ad9e87261478b7ec5bba.bindPopup(popup_65efd77e3ce22a83bccbffb7207fcbdf)
+        ;
+
+        
+    
+    
+            var circle_marker_31c384c03c4ebbc1ad049bf51e08d517 = L.circleMarker(
+                [56.3618818, 12.8165268],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_50d127e535a4213e57328d2f59632689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5439da5247677ac2b5150a2a0cdf63f = $(`<div id="html_a5439da5247677ac2b5150a2a0cdf63f" style="width: 100.0%; height: 100.0%;">Förslövs skola F-9<br>Merit: 217.0<br>Bokesliden 20</div>`)[0];
+                popup_50d127e535a4213e57328d2f59632689.setContent(html_a5439da5247677ac2b5150a2a0cdf63f);
+            
+        
+
+        circle_marker_31c384c03c4ebbc1ad049bf51e08d517.bindPopup(popup_50d127e535a4213e57328d2f59632689)
+        ;
+
+        
+    
+    
+            var circle_marker_b886f9272b490516007d6950e92bc70a = L.circleMarker(
+                [57.3524441, 12.111342],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_a736dc762c12ed6c43a4d2982f97f17f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_141330c4485ee277e6398e3e023a7624 = $(`<div id="html_141330c4485ee277e6398e3e023a7624" style="width: 100.0%; height: 100.0%;">Åsaskolan 7-9FI<br>Merit: 216.0<br>Pölagårdsvägen 8</div>`)[0];
+                popup_a736dc762c12ed6c43a4d2982f97f17f.setContent(html_141330c4485ee277e6398e3e023a7624);
+            
+        
+
+        circle_marker_b886f9272b490516007d6950e92bc70a.bindPopup(popup_a736dc762c12ed6c43a4d2982f97f17f)
+        ;
+
+        
+    
+    
+            var circle_marker_dd8b884791a3ff7b089a03196d520830 = L.circleMarker(
+                [59.2127, 17.6343666],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_030ade96e0477815c7f73ced26a985de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77dc24a5ebe5946decfc2534ffe9c711 = $(`<div id="html_77dc24a5ebe5946decfc2534ffe9c711" style="width: 100.0%; height: 100.0%;">Brunnsängskolan<br>Merit: 216.0<br>Häradsvägen 11</div>`)[0];
+                popup_030ade96e0477815c7f73ced26a985de.setContent(html_77dc24a5ebe5946decfc2534ffe9c711);
+            
+        
+
+        circle_marker_dd8b884791a3ff7b089a03196d520830.bindPopup(popup_030ade96e0477815c7f73ced26a985de)
+        ;
+
+        
+    
+    
+            var circle_marker_2b6f63648397cd8a5b6892262d2bb8f9 = L.circleMarker(
+                [58.5523551, 11.2741737],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_bd0631f6309ded3e91ba826c15ff2fb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f433b76693c6195efb2352dd06cce28 = $(`<div id="html_0f433b76693c6195efb2352dd06cce28" style="width: 100.0%; height: 100.0%;">Hamburgsundskolan F-9<br>Merit: 216.0<br>Skolvägen 2</div>`)[0];
+                popup_bd0631f6309ded3e91ba826c15ff2fb9.setContent(html_0f433b76693c6195efb2352dd06cce28);
+            
+        
+
+        circle_marker_2b6f63648397cd8a5b6892262d2bb8f9.bindPopup(popup_bd0631f6309ded3e91ba826c15ff2fb9)
+        ;
+
+        
+    
+    
+            var circle_marker_8d902b19bfa6f21113ce1abf38d8a0a9 = L.circleMarker(
+                [58.3682, 12.3299086],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_9a0a1510f683e12a893033a1f4a62862 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fccfce1b60815daf36a1b7807bcd28fe = $(`<div id="html_fccfce1b60815daf36a1b7807bcd28fe" style="width: 100.0%; height: 100.0%;">Torpaskolan Söder<br>Merit: 216.0<br>Idrottsgatan 1</div>`)[0];
+                popup_9a0a1510f683e12a893033a1f4a62862.setContent(html_fccfce1b60815daf36a1b7807bcd28fe);
+            
+        
+
+        circle_marker_8d902b19bfa6f21113ce1abf38d8a0a9.bindPopup(popup_9a0a1510f683e12a893033a1f4a62862)
+        ;
+
+        
+    
+    
+            var circle_marker_b27757bcd9aee06d91e7f9ff35017748 = L.circleMarker(
+                [59.5755428, 17.5116941],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_93f87ff8712a2ad15ba16dea2f901810 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8b101e94c67d104c6735aecc53b8b0c = $(`<div id="html_b8b101e94c67d104c6735aecc53b8b0c" style="width: 100.0%; height: 100.0%;">Västerängsskolan<br>Merit: 215.0<br>Idrottsvägen 5</div>`)[0];
+                popup_93f87ff8712a2ad15ba16dea2f901810.setContent(html_b8b101e94c67d104c6735aecc53b8b0c);
+            
+        
+
+        circle_marker_b27757bcd9aee06d91e7f9ff35017748.bindPopup(popup_93f87ff8712a2ad15ba16dea2f901810)
+        ;
+
+        
+    
+    
+            var circle_marker_d21f8e80a84de45713164aa5ff85fc5a = L.circleMarker(
+                [55.5785868, 13.0224306],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_a05b3a8629173d2e3c2b218d0997b691 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88e4359add056ac6c02b241edaf168c6 = $(`<div id="html_88e4359add056ac6c02b241edaf168c6" style="width: 100.0%; height: 100.0%;">Augustenborgsskolan<br>Merit: 215.0<br>Ystadvägen 50</div>`)[0];
+                popup_a05b3a8629173d2e3c2b218d0997b691.setContent(html_88e4359add056ac6c02b241edaf168c6);
+            
+        
+
+        circle_marker_d21f8e80a84de45713164aa5ff85fc5a.bindPopup(popup_a05b3a8629173d2e3c2b218d0997b691)
+        ;
+
+        
+    
+    
+            var circle_marker_e0c3db1fab770c98153b023f87084bde = L.circleMarker(
+                [56.24152, 12.5412594],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_43abafdb4cbd32cff607f2b0379d6114 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50c21fb5bd70cb72c19ee2008368648d = $(`<div id="html_50c21fb5bd70cb72c19ee2008368648d" style="width: 100.0%; height: 100.0%;">Nyhamnsskolan<br>Merit: 214.0<br>Eleshultsvägen 24</div>`)[0];
+                popup_43abafdb4cbd32cff607f2b0379d6114.setContent(html_50c21fb5bd70cb72c19ee2008368648d);
+            
+        
+
+        circle_marker_e0c3db1fab770c98153b023f87084bde.bindPopup(popup_43abafdb4cbd32cff607f2b0379d6114)
+        ;
+
+        
+    
+    
+            var circle_marker_82a0cf305b0571d319fdc2bcb8123015 = L.circleMarker(
+                [58.414331, 15.6214878],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_d0e00395293b0ce6ff94b6afb8b23fa3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c361cb38192450fcb6ae3319c9894b4 = $(`<div id="html_3c361cb38192450fcb6ae3319c9894b4" style="width: 100.0%; height: 100.0%;">Elsa Brändströms skola<br>Merit: 214.0<br>Vasavägen 6</div>`)[0];
+                popup_d0e00395293b0ce6ff94b6afb8b23fa3.setContent(html_3c361cb38192450fcb6ae3319c9894b4);
+            
+        
+
+        circle_marker_82a0cf305b0571d319fdc2bcb8123015.bindPopup(popup_d0e00395293b0ce6ff94b6afb8b23fa3)
+        ;
+
+        
+    
+    
+            var circle_marker_b8ddedb0e2f573811509e3cd2e3ac367 = L.circleMarker(
+                [59.7584291, 18.7048361],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_958d63fe04f845d82819b4d9162821cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5098231cebc3af386bdfd7c118e2a436 = $(`<div id="html_5098231cebc3af386bdfd7c118e2a436" style="width: 100.0%; height: 100.0%;">Freinetskolan Hugin<br>Merit: 214.0<br>Lilla Brogatan 10</div>`)[0];
+                popup_958d63fe04f845d82819b4d9162821cd.setContent(html_5098231cebc3af386bdfd7c118e2a436);
+            
+        
+
+        circle_marker_b8ddedb0e2f573811509e3cd2e3ac367.bindPopup(popup_958d63fe04f845d82819b4d9162821cd)
+        ;
+
+        
+    
+    
+            var circle_marker_0268e296b5b607d6658b3f088d47f981 = L.circleMarker(
+                [65.5806232, 19.1611969],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_6689166ec3b2245f50f0b6c0597d02b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dad3e54b723d200234bc61902d0f46c3 = $(`<div id="html_dad3e54b723d200234bc61902d0f46c3" style="width: 100.0%; height: 100.0%;">Fridhemsskolan<br>Merit: 213.0<br>Västlundavägen 54</div>`)[0];
+                popup_6689166ec3b2245f50f0b6c0597d02b6.setContent(html_dad3e54b723d200234bc61902d0f46c3);
+            
+        
+
+        circle_marker_0268e296b5b607d6658b3f088d47f981.bindPopup(popup_6689166ec3b2245f50f0b6c0597d02b6)
+        ;
+
+        
+    
+    
+            var circle_marker_43de602c2aaefdf064b5db8c12e15c21 = L.circleMarker(
+                [60.5015814, 15.4539423],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_e4580164fd9a4e3756f16a9ab1d964cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8d35ae0ce29cfa528ae8662da50f3cb = $(`<div id="html_f8d35ae0ce29cfa528ae8662da50f3cb" style="width: 100.0%; height: 100.0%;">Domnarvets skola<br>Merit: 213.0<br>Honefsgatan 7</div>`)[0];
+                popup_e4580164fd9a4e3756f16a9ab1d964cc.setContent(html_f8d35ae0ce29cfa528ae8662da50f3cb);
+            
+        
+
+        circle_marker_43de602c2aaefdf064b5db8c12e15c21.bindPopup(popup_e4580164fd9a4e3756f16a9ab1d964cc)
+        ;
+
+        
+    
+    
+            var circle_marker_628baabbee7105aafeed67c97b00783e = L.circleMarker(
+                [58.0764144, 13.0172533],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_3fb846663dd45a6ac389fc9823bf2233 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92458189086c45a2d505f64529ce67c9 = $(`<div id="html_92458189086c45a2d505f64529ce67c9" style="width: 100.0%; height: 100.0%;">Altorpskolan A C<br>Merit: 213.0<br>Västra Parkgatan 6</div>`)[0];
+                popup_3fb846663dd45a6ac389fc9823bf2233.setContent(html_92458189086c45a2d505f64529ce67c9);
+            
+        
+
+        circle_marker_628baabbee7105aafeed67c97b00783e.bindPopup(popup_3fb846663dd45a6ac389fc9823bf2233)
+        ;
+
+        
+    
+    
+            var circle_marker_b51026b691d4e9e184eb3d442a9fbcb3 = L.circleMarker(
+                [60.5525879, 15.1401358],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_a72ad77a39cf64f545cd9714f573a2e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82b47924a6503e7e38fcd9c9ae80b32c = $(`<div id="html_82b47924a6503e7e38fcd9c9ae80b32c" style="width: 100.0%; height: 100.0%;">Djuråsskolan F-9<br>Merit: 212.0<br>Färjbacksvägen 13</div>`)[0];
+                popup_a72ad77a39cf64f545cd9714f573a2e7.setContent(html_82b47924a6503e7e38fcd9c9ae80b32c);
+            
+        
+
+        circle_marker_b51026b691d4e9e184eb3d442a9fbcb3.bindPopup(popup_a72ad77a39cf64f545cd9714f573a2e7)
+        ;
+
+        
+    
+    
+            var circle_marker_790f96f96803c6b22f168119392bb1f8 = L.circleMarker(
+                [56.6336658, 16.1665524],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_8e933fe6f37dab8c2f2fd0c3e5677f85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca1c1927a4edee941dbb51e0f3bb590d = $(`<div id="html_ca1c1927a4edee941dbb51e0f3bb590d" style="width: 100.0%; height: 100.0%;">Södermöreskolan<br>Merit: 212.0<br>Backsippvägen 2</div>`)[0];
+                popup_8e933fe6f37dab8c2f2fd0c3e5677f85.setContent(html_ca1c1927a4edee941dbb51e0f3bb590d);
+            
+        
+
+        circle_marker_790f96f96803c6b22f168119392bb1f8.bindPopup(popup_8e933fe6f37dab8c2f2fd0c3e5677f85)
+        ;
+
+        
+    
+    
+            var circle_marker_3c5f2be379a587b3aaa3a834224da87b = L.circleMarker(
+                [59.370489, 16.5101725],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_1e56b3a01806bfa03b4a46942810f125 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a8e4a2a3128470ad54dd9baafc67da1 = $(`<div id="html_5a8e4a2a3128470ad54dd9baafc67da1" style="width: 100.0%; height: 100.0%;">Fristadsskolan 7-9<br>Merit: 211.0<br>Nygatan 9</div>`)[0];
+                popup_1e56b3a01806bfa03b4a46942810f125.setContent(html_5a8e4a2a3128470ad54dd9baafc67da1);
+            
+        
+
+        circle_marker_3c5f2be379a587b3aaa3a834224da87b.bindPopup(popup_1e56b3a01806bfa03b4a46942810f125)
+        ;
+
+        
+    
+    
+            var circle_marker_2eba8118e023e38648ab3c7cad901ebf = L.circleMarker(
+                [67.1354941, 20.6697987],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_1f73ad7617e7f39875e02fd71f39c8ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4006b5a482603adba016d05052c5f6e0 = $(`<div id="html_4006b5a482603adba016d05052c5f6e0" style="width: 100.0%; height: 100.0%;">Sjöparksskolan A<br>Merit: 211.0<br>Hellebergsvägen 4</div>`)[0];
+                popup_1f73ad7617e7f39875e02fd71f39c8ba.setContent(html_4006b5a482603adba016d05052c5f6e0);
+            
+        
+
+        circle_marker_2eba8118e023e38648ab3c7cad901ebf.bindPopup(popup_1f73ad7617e7f39875e02fd71f39c8ba)
+        ;
+
+        
+    
+    
+            var circle_marker_0ad7cffca5e3a1a5277583e17d0f73be = L.circleMarker(
+                [57.0366941, 12.4045569],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_21cb351602d089561b3ebdcbf8f9917f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1de3f6a7407cdbe3055af760440266e9 = $(`<div id="html_1de3f6a7407cdbe3055af760440266e9" style="width: 100.0%; height: 100.0%;">Bosgårdsskolan 4-9<br>Merit: 211.0<br>Sannavägen 6</div>`)[0];
+                popup_21cb351602d089561b3ebdcbf8f9917f.setContent(html_1de3f6a7407cdbe3055af760440266e9);
+            
+        
+
+        circle_marker_0ad7cffca5e3a1a5277583e17d0f73be.bindPopup(popup_21cb351602d089561b3ebdcbf8f9917f)
+        ;
+
+        
+    
+    
+            var circle_marker_8802a94ddf0ae4b7fac7a6b3031110c2 = L.circleMarker(
+                [57.6690497, 15.8615566],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_5b368e7026e47981d757e867df42e8cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d592e06c5dedf101dc556e6acc99cbd = $(`<div id="html_1d592e06c5dedf101dc556e6acc99cbd" style="width: 100.0%; height: 100.0%;">Astrid Lindgrens skola 7-9<br>Merit: 211.0<br>Kungsgatan 13</div>`)[0];
+                popup_5b368e7026e47981d757e867df42e8cc.setContent(html_1d592e06c5dedf101dc556e6acc99cbd);
+            
+        
+
+        circle_marker_8802a94ddf0ae4b7fac7a6b3031110c2.bindPopup(popup_5b368e7026e47981d757e867df42e8cc)
+        ;
+
+        
+    
+    
+            var circle_marker_ad79be463d44f1c4556eb3868f8a2545 = L.circleMarker(
+                [58.3228669, 15.1343512],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_9f698f507cea2138cbb33f8f64d88ba6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67492dc2a9ad9b8f56b4e6bb811b7621 = $(`<div id="html_67492dc2a9ad9b8f56b4e6bb811b7621" style="width: 100.0%; height: 100.0%;">Lagmansskolan Beta MH<br>Merit: 210.0<br>Lagmansgatan 34</div>`)[0];
+                popup_9f698f507cea2138cbb33f8f64d88ba6.setContent(html_67492dc2a9ad9b8f56b4e6bb811b7621);
+            
+        
+
+        circle_marker_ad79be463d44f1c4556eb3868f8a2545.bindPopup(popup_9f698f507cea2138cbb33f8f64d88ba6)
+        ;
+
+        
+    
+    
+            var circle_marker_2d51d8cbc12eb6af7aeece344c3963bc = L.circleMarker(
+                [56.1047791, 12.8655193],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_d53d4a9e58159e59e350b6dc97fa301f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81ae1f2b6d158d1364a47a9a0cac9516 = $(`<div id="html_81ae1f2b6d158d1364a47a9a0cac9516" style="width: 100.0%; height: 100.0%;">Hyllinge skola<br>Merit: 210.0<br>Ågatan 20</div>`)[0];
+                popup_d53d4a9e58159e59e350b6dc97fa301f.setContent(html_81ae1f2b6d158d1364a47a9a0cac9516);
+            
+        
+
+        circle_marker_2d51d8cbc12eb6af7aeece344c3963bc.bindPopup(popup_d53d4a9e58159e59e350b6dc97fa301f)
+        ;
+
+        
+    
+    
+            var circle_marker_f933fe7e97b75667a4be3da2e28f72df = L.circleMarker(
+                [58.701071, 15.7731724],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_d9428eecc176d4318cb60e0c76c8bc31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfaeaf52fe02bc38585e8bf8c7d95034 = $(`<div id="html_bfaeaf52fe02bc38585e8bf8c7d95034" style="width: 100.0%; height: 100.0%;">Nyhemsskolan 7-9<br>Merit: 209.0<br>Oxhagsvägen 22</div>`)[0];
+                popup_d9428eecc176d4318cb60e0c76c8bc31.setContent(html_bfaeaf52fe02bc38585e8bf8c7d95034);
+            
+        
+
+        circle_marker_f933fe7e97b75667a4be3da2e28f72df.bindPopup(popup_d9428eecc176d4318cb60e0c76c8bc31)
+        ;
+
+        
+    
+    
+            var circle_marker_dde1debec10b657838980f6bd9524473 = L.circleMarker(
+                [56.0978995, 12.7492249],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_db83369d7f5a74c290add2aab9049d69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7f8735717dfd356d1e195fc79f66897 = $(`<div id="html_b7f8735717dfd356d1e195fc79f66897" style="width: 100.0%; height: 100.0%;">Gläntanskolan<br>Merit: 209.0<br>Merkuriusgatan 200</div>`)[0];
+                popup_db83369d7f5a74c290add2aab9049d69.setContent(html_b7f8735717dfd356d1e195fc79f66897);
+            
+        
+
+        circle_marker_dde1debec10b657838980f6bd9524473.bindPopup(popup_db83369d7f5a74c290add2aab9049d69)
+        ;
+
+        
+    
+    
+            var circle_marker_c42cfdab6f02b72d91ecf65742f18c2c = L.circleMarker(
+                [57.7800581, 14.2133191],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_de6913800ee468250d981916f1d55e58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80219ad64aba2e8b9167b4e3326d8e1a = $(`<div id="html_80219ad64aba2e8b9167b4e3326d8e1a" style="width: 100.0%; height: 100.0%;">Rosenlundsskolan 7-9<br>Merit: 209.0<br>Källgatan 9</div>`)[0];
+                popup_de6913800ee468250d981916f1d55e58.setContent(html_80219ad64aba2e8b9167b4e3326d8e1a);
+            
+        
+
+        circle_marker_c42cfdab6f02b72d91ecf65742f18c2c.bindPopup(popup_de6913800ee468250d981916f1d55e58)
+        ;
+
+        
+    
+    
+            var circle_marker_daeae22f6628343844a7e2edabfbdc85 = L.circleMarker(
+                [57.466667, 12.166667],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_70430e290e537379d0e63336509353e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c7ec9eeede176d6fe6f0a89894f0461 = $(`<div id="html_3c7ec9eeede176d6fe6f0a89894f0461" style="width: 100.0%; height: 100.0%;">Hålabäcksskolan B<br>Merit: 209.0<br>Kungsbacka</div>`)[0];
+                popup_70430e290e537379d0e63336509353e6.setContent(html_3c7ec9eeede176d6fe6f0a89894f0461);
+            
+        
+
+        circle_marker_daeae22f6628343844a7e2edabfbdc85.bindPopup(popup_70430e290e537379d0e63336509353e6)
+        ;
+
+        
+    
+    
+            var circle_marker_b2cc22c94275b0e74a7a85648b456507 = L.circleMarker(
+                [62.4287875, 17.4199922],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_07cb2c40957423d7786aefae7c6a65c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bedfd776c6ac9d89210b65f4aed67cc8 = $(`<div id="html_bedfd776c6ac9d89210b65f4aed67cc8" style="width: 100.0%; height: 100.0%;">Vibackeskolan<br>Merit: 209.0<br>Raholmsvägen 7</div>`)[0];
+                popup_07cb2c40957423d7786aefae7c6a65c8.setContent(html_bedfd776c6ac9d89210b65f4aed67cc8);
+            
+        
+
+        circle_marker_b2cc22c94275b0e74a7a85648b456507.bindPopup(popup_07cb2c40957423d7786aefae7c6a65c8)
+        ;
+
+        
+    
+    
+            var circle_marker_2a7c90dddb9f2278edd34c389c37155c = L.circleMarker(
+                [58.4098135, 15.6245252],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_540f27ae3bd5372655d0836a3b6b9d64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09c02c36ab46a236fb602383f1ddc87a = $(`<div id="html_09c02c36ab46a236fb602383f1ddc87a" style="width: 100.0%; height: 100.0%;">Tornhagsskolan<br>Merit: 208.0<br>Linköping</div>`)[0];
+                popup_540f27ae3bd5372655d0836a3b6b9d64.setContent(html_09c02c36ab46a236fb602383f1ddc87a);
+            
+        
+
+        circle_marker_2a7c90dddb9f2278edd34c389c37155c.bindPopup(popup_540f27ae3bd5372655d0836a3b6b9d64)
+        ;
+
+        
+    
+    
+            var circle_marker_972e5a9089b04bc4a514ea243fcab04c = L.circleMarker(
+                [61.2641372, 16.8355314],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_5d922dcf01a07fa9d8839a5b39e13a2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41b5ac128ff6f0304d3f433d5d9edfb8 = $(`<div id="html_41b5ac128ff6f0304d3f433d5d9edfb8" style="width: 100.0%; height: 100.0%;">Bergviksskolan åk 4-9<br>Merit: 208.0<br>Skalbyrakan 2</div>`)[0];
+                popup_5d922dcf01a07fa9d8839a5b39e13a2e.setContent(html_41b5ac128ff6f0304d3f433d5d9edfb8);
+            
+        
+
+        circle_marker_972e5a9089b04bc4a514ea243fcab04c.bindPopup(popup_5d922dcf01a07fa9d8839a5b39e13a2e)
+        ;
+
+        
+    
+    
+            var circle_marker_1185092b9f3c83dc40d299bff218cbb6 = L.circleMarker(
+                [58.2, 13.933333],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_d2e8377664bc4e72a8f9282e49c9bf6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00b8b89ad356fe41e7c6fa93c282d37b = $(`<div id="html_00b8b89ad356fe41e7c6fa93c282d37b" style="width: 100.0%; height: 100.0%;">Hellids grundskola 7-9<br>Merit: 208.0<br>Tidaholm</div>`)[0];
+                popup_d2e8377664bc4e72a8f9282e49c9bf6d.setContent(html_00b8b89ad356fe41e7c6fa93c282d37b);
+            
+        
+
+        circle_marker_1185092b9f3c83dc40d299bff218cbb6.bindPopup(popup_d2e8377664bc4e72a8f9282e49c9bf6d)
+        ;
+
+        
+    
+    
+            var circle_marker_035176736b22e8781566d6f907b82945 = L.circleMarker(
+                [56.2005291, 14.7547992],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_5d69d2983dbe2500130ba37ac400e2c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43ad42130fdccf477a6ceba3562fbdad = $(`<div id="html_43ad42130fdccf477a6ceba3562fbdad" style="width: 100.0%; height: 100.0%;">Norrevångskolan<br>Merit: 207.0<br>Gungvalavägen 41</div>`)[0];
+                popup_5d69d2983dbe2500130ba37ac400e2c6.setContent(html_43ad42130fdccf477a6ceba3562fbdad);
+            
+        
+
+        circle_marker_035176736b22e8781566d6f907b82945.bindPopup(popup_5d69d2983dbe2500130ba37ac400e2c6)
+        ;
+
+        
+    
+    
+            var circle_marker_7e2d2e15c32e45e9aabae670c94d92ef = L.circleMarker(
+                [59.3809146, 13.5027631],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_ab085353ccb8199814ed0b7da5e1347e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3e6b0d664b072670f5bafda811a0f7a = $(`<div id="html_a3e6b0d664b072670f5bafda811a0f7a" style="width: 100.0%; height: 100.0%;">Hultsbergsskolan 7-9<br>Merit: 207.0<br>Karlstad</div>`)[0];
+                popup_ab085353ccb8199814ed0b7da5e1347e.setContent(html_a3e6b0d664b072670f5bafda811a0f7a);
+            
+        
+
+        circle_marker_7e2d2e15c32e45e9aabae670c94d92ef.bindPopup(popup_ab085353ccb8199814ed0b7da5e1347e)
+        ;
+
+        
+    
+    
+            var circle_marker_d90064f461f5f47d593da6692992c5b0 = L.circleMarker(
+                [60.469986, 17.756197],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_da09dd7deadd7aba13a1ea94f303b77b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a741416214ee61cf6daf2f8209dee42 = $(`<div id="html_4a741416214ee61cf6daf2f8209dee42" style="width: 100.0%; height: 100.0%;">Ol Andersskolan<br>Merit: 207.0<br>Sätravägen 7</div>`)[0];
+                popup_da09dd7deadd7aba13a1ea94f303b77b.setContent(html_4a741416214ee61cf6daf2f8209dee42);
+            
+        
+
+        circle_marker_d90064f461f5f47d593da6692992c5b0.bindPopup(popup_da09dd7deadd7aba13a1ea94f303b77b)
+        ;
+
+        
+    
+    
+            var circle_marker_a4b5e8afd5bf859ebac6e15c6e36cd08 = L.circleMarker(
+                [64.6276475, 16.6450626],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_1bbdb9daa3a6ba85bb12ef6ed3de8901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b72a49217b6b200dc893e42320f6466f = $(`<div id="html_b72a49217b6b200dc893e42320f6466f" style="width: 100.0%; height: 100.0%;">Strandskolan<br>Merit: 207.0<br>Strandvägen 1</div>`)[0];
+                popup_1bbdb9daa3a6ba85bb12ef6ed3de8901.setContent(html_b72a49217b6b200dc893e42320f6466f);
+            
+        
+
+        circle_marker_a4b5e8afd5bf859ebac6e15c6e36cd08.bindPopup(popup_1bbdb9daa3a6ba85bb12ef6ed3de8901)
+        ;
+
+        
+    
+    
+            var circle_marker_ed6b8f65dcb19edd2ad2da11890dbb7f = L.circleMarker(
+                [63.3202953, 14.4618105],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_b6986ba674c5465cb3ede024489bfe9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_097fd074f208608b83f6232c774f8e9d = $(`<div id="html_097fd074f208608b83f6232c774f8e9d" style="width: 100.0%; height: 100.0%;">Nyhedens skola<br>Merit: 206.0<br>Skolvägen 6</div>`)[0];
+                popup_b6986ba674c5465cb3ede024489bfe9c.setContent(html_097fd074f208608b83f6232c774f8e9d);
+            
+        
+
+        circle_marker_ed6b8f65dcb19edd2ad2da11890dbb7f.bindPopup(popup_b6986ba674c5465cb3ede024489bfe9c)
+        ;
+
+        
+    
+    
+            var circle_marker_d37c9229150db52994a3ce909f89aa13 = L.circleMarker(
+                [62.3893965, 17.3131712],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_bd408206674487ff9a95035b6a9f09d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d6c5823fe4db386bf24f6ec2b41409f = $(`<div id="html_6d6c5823fe4db386bf24f6ec2b41409f" style="width: 100.0%; height: 100.0%;">Prolympia Sundsvall 7-9<br>Merit: 206.0<br>Rådhusgatan 4</div>`)[0];
+                popup_bd408206674487ff9a95035b6a9f09d7.setContent(html_6d6c5823fe4db386bf24f6ec2b41409f);
+            
+        
+
+        circle_marker_d37c9229150db52994a3ce909f89aa13.bindPopup(popup_bd408206674487ff9a95035b6a9f09d7)
+        ;
+
+        
+    
+    
+            var circle_marker_97801c4ed009164aebbee60b28cd6866 = L.circleMarker(
+                [59.619676, 16.5923203],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_163683b99cc43cbd533c5169ce7e32ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f41961874cc98b0828a3d98bcbb906a5 = $(`<div id="html_f41961874cc98b0828a3d98bcbb906a5" style="width: 100.0%; height: 100.0%;">Skiljeboskolan<br>Merit: 206.0<br>Säbygatan 4</div>`)[0];
+                popup_163683b99cc43cbd533c5169ce7e32ad.setContent(html_f41961874cc98b0828a3d98bcbb906a5);
+            
+        
+
+        circle_marker_97801c4ed009164aebbee60b28cd6866.bindPopup(popup_163683b99cc43cbd533c5169ce7e32ad)
+        ;
+
+        
+    
+    
+            var circle_marker_0856744d84ec78313dba98ec18242c56 = L.circleMarker(
+                [56.0624506, 12.9759208],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_85ee9c69a7d7c1427dd2e79e8c0716f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab1de4c21c514c54d8c1a92eedfe8639 = $(`<div id="html_ab1de4c21c514c54d8c1a92eedfe8639" style="width: 100.0%; height: 100.0%;">Jens Billeskolan<br>Merit: 205.0<br>Badhusvägen 1</div>`)[0];
+                popup_85ee9c69a7d7c1427dd2e79e8c0716f0.setContent(html_ab1de4c21c514c54d8c1a92eedfe8639);
+            
+        
+
+        circle_marker_0856744d84ec78313dba98ec18242c56.bindPopup(popup_85ee9c69a7d7c1427dd2e79e8c0716f0)
+        ;
+
+        
+    
+    
+            var circle_marker_c7ac750331d676a889d7c73427037ef1 = L.circleMarker(
+                [59.2558683, 18.0760825],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_e50dbcd36d8029c96c41132cb7d851bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5087c516c43a3a9541f08fce9320488 = $(`<div id="html_d5087c516c43a3a9541f08fce9320488" style="width: 100.0%; height: 100.0%;">Hökarängsskolan<br>Merit: 205.0<br>Fagersjövägen 18</div>`)[0];
+                popup_e50dbcd36d8029c96c41132cb7d851bc.setContent(html_d5087c516c43a3a9541f08fce9320488);
+            
+        
+
+        circle_marker_c7ac750331d676a889d7c73427037ef1.bindPopup(popup_e50dbcd36d8029c96c41132cb7d851bc)
+        ;
+
+        
+    
+    
+            var circle_marker_76cd620d4ff25a4bd0864f562647177b = L.circleMarker(
+                [59.6398452, 17.0906316],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_b07431e835b2441ef0424656d4f7e5ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd5003bface1b1b1d6e02e429fc1b2b6 = $(`<div id="html_dd5003bface1b1b1d6e02e429fc1b2b6" style="width: 100.0%; height: 100.0%;">Korsängsskolan<br>Merit: 204.0<br>Korsängsgatan 10</div>`)[0];
+                popup_b07431e835b2441ef0424656d4f7e5ab.setContent(html_dd5003bface1b1b1d6e02e429fc1b2b6);
+            
+        
+
+        circle_marker_76cd620d4ff25a4bd0864f562647177b.bindPopup(popup_b07431e835b2441ef0424656d4f7e5ab)
+        ;
+
+        
+    
+    
+            var circle_marker_999d9b8e43eb7626f9bbaa0a683d19db = L.circleMarker(
+                [61.479335, 16.3787194],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_b7c6b2b9c3c5176be51080b896ec273f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5be7f3ddd1ebcf02cb12457ff6e38d10 = $(`<div id="html_5be7f3ddd1ebcf02cb12457ff6e38d10" style="width: 100.0%; height: 100.0%;">Arbråskolan F-9<br>Merit: 203.0<br>Elevvägen 3</div>`)[0];
+                popup_b7c6b2b9c3c5176be51080b896ec273f.setContent(html_5be7f3ddd1ebcf02cb12457ff6e38d10);
+            
+        
+
+        circle_marker_999d9b8e43eb7626f9bbaa0a683d19db.bindPopup(popup_b7c6b2b9c3c5176be51080b896ec273f)
+        ;
+
+        
+    
+    
+            var circle_marker_e394d3c9bad8a8f1b3e785514bec8e6c = L.circleMarker(
+                [59.2750338, 15.1969694],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_62430fe491231f4b339cc75bf0680b1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8f7a617cc99c524b949e5a8c9b47f74 = $(`<div id="html_f8f7a617cc99c524b949e5a8c9b47f74" style="width: 100.0%; height: 100.0%;">Gumaeliusskolan<br>Merit: 203.0<br>Karlslundsgatan 32</div>`)[0];
+                popup_62430fe491231f4b339cc75bf0680b1d.setContent(html_f8f7a617cc99c524b949e5a8c9b47f74);
+            
+        
+
+        circle_marker_e394d3c9bad8a8f1b3e785514bec8e6c.bindPopup(popup_62430fe491231f4b339cc75bf0680b1d)
+        ;
+
+        
+    
+    
+            var circle_marker_b62d14e1c144ebe2f3d412b4614cb440 = L.circleMarker(
+                [59.3251172, 18.0710935],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_89a043a9a946a5f7a57cc209191194fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78ea351ae89699afdbe382f596260bde = $(`<div id="html_78ea351ae89699afdbe382f596260bde" style="width: 100.0%; height: 100.0%;">Hässelbygårdsskolan<br>Merit: 199.0<br>Stockholm</div>`)[0];
+                popup_89a043a9a946a5f7a57cc209191194fb.setContent(html_78ea351ae89699afdbe382f596260bde);
+            
+        
+
+        circle_marker_b62d14e1c144ebe2f3d412b4614cb440.bindPopup(popup_89a043a9a946a5f7a57cc209191194fb)
+        ;
+
+        
+    
+    
+            var circle_marker_060b1750f8a1d01026468edfe3d610a6 = L.circleMarker(
+                [58.716618, 13.8552546],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_bd446e3e90b61c6e69d3fd1d839feb8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d11d87fc5187f3220bf4bccd8efca43 = $(`<div id="html_7d11d87fc5187f3220bf4bccd8efca43" style="width: 100.0%; height: 100.0%;">Högelidsskolan 7-9<br>Merit: 198.0<br>Bergsgatan 31</div>`)[0];
+                popup_bd446e3e90b61c6e69d3fd1d839feb8d.setContent(html_7d11d87fc5187f3220bf4bccd8efca43);
+            
+        
+
+        circle_marker_060b1750f8a1d01026468edfe3d610a6.bindPopup(popup_bd446e3e90b61c6e69d3fd1d839feb8d)
+        ;
+
+        
+    
+    
+            var circle_marker_258a6ac54cd1910c1ccb05f621730a11 = L.circleMarker(
+                [61.333333, 13.75],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_7ef325bb6d7afdaa69d9887926799134 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80c26d3380825601742b7c79a4ca04e0 = $(`<div id="html_80c26d3380825601742b7c79a4ca04e0" style="width: 100.0%; height: 100.0%;">Älvdalsskolan<br>Merit: 195.0<br>Älvdalen</div>`)[0];
+                popup_7ef325bb6d7afdaa69d9887926799134.setContent(html_80c26d3380825601742b7c79a4ca04e0);
+            
+        
+
+        circle_marker_258a6ac54cd1910c1ccb05f621730a11.bindPopup(popup_7ef325bb6d7afdaa69d9887926799134)
+        ;
+
+        
+    
+    
+            var circle_marker_6cc5386279b9298f14d5c1b3e720c715 = L.circleMarker(
+                [59.2403529, 17.8444716],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_887bb9dc509aaea711423dab72f03528 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22e1eeb9d78901c59bfff59b2bcc966e = $(`<div id="html_22e1eeb9d78901c59bfff59b2bcc966e" style="width: 100.0%; height: 100.0%;">Grindtorpsskolan<br>Merit: 194.0<br>Lagmansbacken 12</div>`)[0];
+                popup_887bb9dc509aaea711423dab72f03528.setContent(html_22e1eeb9d78901c59bfff59b2bcc966e);
+            
+        
+
+        circle_marker_6cc5386279b9298f14d5c1b3e720c715.bindPopup(popup_887bb9dc509aaea711423dab72f03528)
+        ;
+
+        
+    
+    
+            var circle_marker_9d79b744c5af95f13980d8c40ef19364 = L.circleMarker(
+                [56.2451109, 15.2825217],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_f7bc84bf661c129200aec4452f96d69c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9d884d1b1408eb273da16c524e4465f = $(`<div id="html_c9d884d1b1408eb273da16c524e4465f" style="width: 100.0%; height: 100.0%;">Kallingeskolan 7-9<br>Merit: 193.0<br>Tivolivägen 1</div>`)[0];
+                popup_f7bc84bf661c129200aec4452f96d69c.setContent(html_c9d884d1b1408eb273da16c524e4465f);
+            
+        
+
+        circle_marker_9d79b744c5af95f13980d8c40ef19364.bindPopup(popup_f7bc84bf661c129200aec4452f96d69c)
+        ;
+
+        
+    
+    
+            var circle_marker_f810ab14bf4016f9ba1a9d73b0790787 = L.circleMarker(
+                [60.0391483, 13.7024377],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_a2c8a42fa85a7ddd095e58b1fcf57214 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_592fd3408787b8dbe8d636353684ac16 = $(`<div id="html_592fd3408787b8dbe8d636353684ac16" style="width: 100.0%; height: 100.0%;">Älvstranden bildn.centrum 7-9<br>Merit: 191.0<br>Älvstrandsvägen 2</div>`)[0];
+                popup_a2c8a42fa85a7ddd095e58b1fcf57214.setContent(html_592fd3408787b8dbe8d636353684ac16);
+            
+        
+
+        circle_marker_f810ab14bf4016f9ba1a9d73b0790787.bindPopup(popup_a2c8a42fa85a7ddd095e58b1fcf57214)
+        ;
+
+        
+    
+    
+            var circle_marker_be41b848e451e0070355809df77af449 = L.circleMarker(
+                [63.6970917, 16.8649147],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_f220da889a7c5e80aabaaa3a95e630f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ef2642f3fd0dbfc6ec043b210b05f3d = $(`<div id="html_1ef2642f3fd0dbfc6ec043b210b05f3d" style="width: 100.0%; height: 100.0%;">Junsele skola<br>Merit: 186.0<br>Krokvägen 6</div>`)[0];
+                popup_f220da889a7c5e80aabaaa3a95e630f4.setContent(html_1ef2642f3fd0dbfc6ec043b210b05f3d);
+            
+        
+
+        circle_marker_be41b848e451e0070355809df77af449.bindPopup(popup_f220da889a7c5e80aabaaa3a95e630f4)
+        ;
+
+        
+    
+    
+            var circle_marker_016b8fccf2f45d6288e1ad82df81110f = L.circleMarker(
+                [58.6747521, 17.07885],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_2d51dcb4ab74d455b8722e077271f14f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a4cf4dcb5d079de0f892982be5f26d2 = $(`<div id="html_2a4cf4dcb5d079de0f892982be5f26d2" style="width: 100.0%; height: 100.0%;">Ramdalsskolan<br>Merit: 185.0<br>Torpsvägen 1 B</div>`)[0];
+                popup_2d51dcb4ab74d455b8722e077271f14f.setContent(html_2a4cf4dcb5d079de0f892982be5f26d2);
+            
+        
+
+        circle_marker_016b8fccf2f45d6288e1ad82df81110f.bindPopup(popup_2d51dcb4ab74d455b8722e077271f14f)
+        ;
+
+        
+    
+    
+            var circle_marker_78fdb9b96af800bc09b1c3a85524c611 = L.circleMarker(
+                [59.6017967, 15.2054402],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_6cf3b61e9466485a84381c89a94872cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bece94cf7a47482d9465a3f758a36804 = $(`<div id="html_bece94cf7a47482d9465a3f758a36804" style="width: 100.0%; height: 100.0%;">Lindbackaskolan<br>Merit: 184.0<br>Ishockeygatan 6A</div>`)[0];
+                popup_6cf3b61e9466485a84381c89a94872cc.setContent(html_bece94cf7a47482d9465a3f758a36804);
+            
+        
+
+        circle_marker_78fdb9b96af800bc09b1c3a85524c611.bindPopup(popup_6cf3b61e9466485a84381c89a94872cc)
+        ;
+
+        
+    
+    
+            var circle_marker_9e115a1e1472fca156fe757dbc00403d = L.circleMarker(
+                [59.2558892, 15.2112596],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_33c1007ce2791ee25ddb19a766508505 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3770a179bda5ce769c8a9a0a3acf1a3 = $(`<div id="html_b3770a179bda5ce769c8a9a0a3acf1a3" style="width: 100.0%; height: 100.0%;">Navet<br>Merit: 184.0<br>Loftbodsgatan 1</div>`)[0];
+                popup_33c1007ce2791ee25ddb19a766508505.setContent(html_b3770a179bda5ce769c8a9a0a3acf1a3);
+            
+        
+
+        circle_marker_9e115a1e1472fca156fe757dbc00403d.bindPopup(popup_33c1007ce2791ee25ddb19a766508505)
+        ;
+
+        
+    
+    
+            var circle_marker_bddb5e7769d4378f2abcee226eac869a = L.circleMarker(
+                [55.635977, 13.7028362],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_ebac9b5f7f10eefef6a941288ba0c390 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_908e2e7d0cc0857ba2d1cc7b6ca1bee8 = $(`<div id="html_908e2e7d0cc0857ba2d1cc7b6ca1bee8" style="width: 100.0%; height: 100.0%;">Färsingaskolan<br>Merit: 182.0<br>Ågatan 3</div>`)[0];
+                popup_ebac9b5f7f10eefef6a941288ba0c390.setContent(html_908e2e7d0cc0857ba2d1cc7b6ca1bee8);
+            
+        
+
+        circle_marker_bddb5e7769d4378f2abcee226eac869a.bindPopup(popup_ebac9b5f7f10eefef6a941288ba0c390)
+        ;
+
+        
+    
+    
+            var circle_marker_a6082fcc828127cc33ef1d01b233be63 = L.circleMarker(
+                [63.8256568, 20.2630745],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_99f7bd3b970236a3ac47a671a358e83a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9468f5d3a80e9df27a21f37958c1754d = $(`<div id="html_9468f5d3a80e9df27a21f37958c1754d" style="width: 100.0%; height: 100.0%;">Pops Academy Umeå<br>Merit: 179.0<br>Umeå</div>`)[0];
+                popup_99f7bd3b970236a3ac47a671a358e83a.setContent(html_9468f5d3a80e9df27a21f37958c1754d);
+            
+        
+
+        circle_marker_a6082fcc828127cc33ef1d01b233be63.bindPopup(popup_99f7bd3b970236a3ac47a671a358e83a)
+        ;
+
+        
+    
+    
+            var circle_marker_66e39b1673d3fcff681dcf84cf5b3432 = L.circleMarker(
+                [59.5287096, 18.0778597],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_bf623836c109ed3ef2d1a89d7d1cadeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4d3b0f3656d2624de3a69e17c1fb024 = $(`<div id="html_c4d3b0f3656d2624de3a69e17c1fb024" style="width: 100.0%; height: 100.0%;">Aktiviaskolan<br>Merit: 133.0<br>Hjälmstavägen 8</div>`)[0];
+                popup_bf623836c109ed3ef2d1a89d7d1cadeb.setContent(html_c4d3b0f3656d2624de3a69e17c1fb024);
+            
+        
+
+        circle_marker_66e39b1673d3fcff681dcf84cf5b3432.bindPopup(popup_bf623836c109ed3ef2d1a89d7d1cadeb)
+        ;
+
+        
+    
+    
+            var circle_marker_fb5ea273d0ddf7ccb79089dc5a827be6 = L.circleMarker(
+                [59.5287096, 18.0778597],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6e7983467237187b241f5acf0dab73cf);
+        
+    
+        var popup_9c2afd7ff9dc107e7db555c44bcd4c78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d72778c37993eea7962da1d5df74901 = $(`<div id="html_9d72778c37993eea7962da1d5df74901" style="width: 100.0%; height: 100.0%;">Aktiviaskolan Enhet Eken<br>Merit: 98.0<br>Hjälmstavägen 6</div>`)[0];
+                popup_9c2afd7ff9dc107e7db555c44bcd4c78.setContent(html_9d72778c37993eea7962da1d5df74901);
+            
+        
+
+        circle_marker_fb5ea273d0ddf7ccb79089dc5a827be6.bindPopup(popup_9c2afd7ff9dc107e7db555c44bcd4c78)
+        ;
+
+        
+    
+</script>
+</html>
