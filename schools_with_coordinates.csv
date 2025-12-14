@@ -1,0 +1,157 @@
+school_id,school_name,municipality,address,merit_value,latitude,longitude
+35547286,Carlssons skola,Stockholm,Kommendörsgatan 31,302.0,59.3380493,18.0827216
+79708334,Viktor Rydbergs skola Sundbyberg,Sundbyberg,Landsvägen 66,278.0,59.3611676,17.9623714
+37112288,Kulturama Grundsk. Sundbyberg,Sundbyberg,Lötsjövägen 10-12,277.0,59.3745516,17.9690225
+61454000,Jönsbergska Idrottsskolan Norrköping,Norrköping,Sprängstensgatan 1,276.0,58.5716958,16.1821213
+29158808,Observatorielundens skola,Stockholm,Sandåsgatan 2,274.0,59.342118,18.0525887
+73947432,Kunskapsskolan Uppsala,Uppsala,Dag Hammarskjölds väg 31,273.0,59.84393,17.6376248
+20253736,Tegelhagens skola,Sollentuna,Skogstorpsvägen 370,271.0,59.4089139,17.9771865
+61686233,Rålambshovsskolan,Stockholm,Gjörwellsgatan 13,268.0,59.3291297,18.0199917
+54847211,Entréskolan Stockholm,Stockholm,Lövholmsvägen 61,266.0,59.3131225,18.0124838
+46796995,Kunskapsskolan Spånga,Stockholm,Salagatan 42,266.0,59.3862145,17.8893118
+80408917,Fiskebäcksskolan F-9,Göteborg,Norra Fiskebäcksvägen 296,264.0,57.6529911,11.8678773
+76314428,Vittangi skola,Kiruna,Sjövägen 1,264.0,67.6723187,21.6525224
+40385157,Rydebäcksskolan,Helsingborg,Storövägen 51,262.0,55.966954,12.7729775
+58622330,Östratornskolan,Lund,Musikantvägen 1,262.0,55.7089974,13.2372137
+44284183,JENSEN grundskola Västerås,Västerås,Gustavsborgsgatan 9,262.0,59.6184397,16.5419254
+75580959,Rikstens skola,Botkyrka,Flygarvägen 5,261.0,59.1863549,17.9094251
+67020135,Svaneskolan,Lund,Svanevägen 17,261.0,55.7024691,13.1820869
+69895255,Mariaskolan,Stockholm,Ringvägen 23,261.0,59.3151132,18.0521702
+19804936,Nordhemsskolan 1-9,Göteborg,Nordhemsgatan 51,260.0,57.6942576,11.9497951
+71078874,Fornuddens skola,Tyresö,Ängsvägen 8,260.0,59.2181997,18.2025193
+66475520,Träkvista skola,Ekerö,Gräsåkersvägen 1,259.0,59.274166,17.8015395
+88247874,Ebba Petterssons Privatskola,Göteborg,Radiovägen 25,259.0,57.6490497,11.9285678
+46512685,Kristinaskolan,Göteborg,Fjällblomman 1,259.0,57.8036156,12.0708651
+42601396,Trångsundsskolan,Huddinge,Löparvägen 4,259.0,59.2320439,18.1317014
+82183259,Nya Läroverket,Luleå,Björkgatan 2,258.0,65.5949814,22.1610614
+93919365,Musikugglan,Karlskrona,Blåportshöjden 5,257.0,56.1760299,15.5957887
+64736967,Västbergaskolan,Stockholm,Klensmedsvägen 2,257.0,59.2958002,17.9952782
+57457346,Önnerödsskolan 4-9,Härryda,Önnerödsvägen 1,256.0,57.6980754,12.2067869
+71367825,Sandeplanskolan,Vellinge,Kronodalsvägen 41,256.0,55.41601,12.975805
+21250086,Sidsjö Fristående Grundskola,Sundsvall,Paviljongvägen 31A,255.0,62.3770524,17.2940523
+80678068,Victoriaskolan,Göteborg,Engelbrektsgatan 1,254.0,57.696403,11.9671838
+91978548,Djupedalskolan 7-9,Härryda,Rullstensvägen 1,254.0,57.6514608,12.1262395
+74482611,Internationella Engelska skolan Hässelby,Stockholm,Aprikosgatan 68-74,254.0,59.3607219,17.8349049
+13390547,Hannaskolan,Örebro,Egnahemsgatan 2,254.0,59.2753123,15.1947934
+67788311,Noblaskolan Sundbyberg,Sundbyberg,Marieborgsgatan 12,252.0,59.3855666,17.9534867
+44227469,Grimstaskolan,Upplands Väsby,Vårvägen 1,252.0,59.4997416,17.9475248
+28753548,Sankt Thomas Skola,Lund,Sankt Lars väg 1,251.0,55.6854344,13.1827914
+93730568,Internationella Engelska Skolan Karlstad,Karlstad,Gruvgången 4,250.0,59.379485,13.4588022
+53993567,Internationella Engelska Skolan Umeå,Umeå,Bölevägen 44,250.0,63.8218591,20.2340515
+38661388,Broängsskolan,Botkyrka,Kärrvägen 20,249.0,59.1843993,17.8103617
+84520303,Hagaskolan,Vallentuna,Lingsbergsvägen 14,249.0,59.5457934,18.1312466
+83516023,Spångholmsskolan 4-9,Svedala,Henriette Coyets gata,248.0,55.5801745,13.1770127
+10592650,Lerbergsskolan,Höganäs,Skördevägen 155,247.0,56.1798805,12.5653658
+83197782,Prolympia Växjö,Växjö,Hejaregatan 5 D,247.0,56.8840087,14.7621495
+98753011,Internationella Engelska Skolan Sundbyberg,Sundbyberg,Rissneleden 136,246.0,59.3729496,17.9346697
+33951941,Råsunda Centralskola,Solna,Parkvägen 4,244.0,59.3624178,17.9952234
+67723630,Kunskapsskolan Enköping,Enköping,Friggavägen 1,242.0,59.6463806,17.0932352
+35136963,Vesterhavsskolan,Falkenberg,Elvägen 4,242.0,56.9004444,12.5222782
+20696736,Junedalsskolan,Jönköping,Gjuterigatan 27,242.0,57.7794278,14.1618519
+55508705,"Josefinaskolan, grundskola",Sigtuna,Rävsta gård,242.0,59.6276166,17.7757584
+56655808,Nova Montessoriskola åk 6-9,Kungsbacka,Gamla Forsvägen 1A,241.0,57.4966849,12.1066306
+55597667,Vittra Örebro,Örebro,Karlsgatan 30,241.0,59.2778386,15.1933748
+22385992,Futurum 7-9,Håbo,Kalmarleden 12,240.0,59.5575018,17.4993294
+24625357,Enebyskolan 1,Norrköping,Taborsbergsvägen 83,240.0,58.605862,16.1471153
+18595907,Edsbergsskolan,Sollentuna,Edsbergs Torg 5,240.0,59.4446301,17.9646168
+38368827,Profilskolan Excel,Leksand,Hjortnäsvägen 35,239.0,60.7365767,14.9891359
+52037312,Kunskapsskolan Lund,Lund,S:t Lars väg 19,239.0,55.6843882,13.1815305
+63621283,Ytterbyskolan 1,Kungälv,Skolvägen 1,238.0,57.8625263,11.9220327
+20566987,Norrhammarskolan,Skellefteå,Högalidsgatan 25,238.0,64.7567634,20.9507359
+42164778,Maria Parkskolan,Helsingborg,Östra Allén 8-10,237.0,56.0804261,12.6877667
+94864296,Åsö grundskola,Stockholm,Blekingegatan 55,237.0,59.3107694,18.0741708
+81918902,Strandskolan,Älvdalen,Framgårdsvägen 4,237.0,61.8565781,12.7207255
+48529699,Aroseniusskolan,Ale,Vallmovägen,236.0,57.9520092,12.1173544
+36350546,Tunaskolan,Botkyrka,Prästgårdsvägen 114,236.0,59.204406,17.8325746
+37648787,Stålvallaskolan,Filipstad,Skolgatan 36,236.0,59.9852101,14.1730791
+34135484,Montessori Mondial Nacka,Nacka,Winborgs väg 12,236.0,59.3051093,18.1501924
+16954837,Kålltorpsskolan 7-9,Göteborg,Intagsgatan 14,234.0,57.716529,12.0323379
+28836025,Landvetterskolan 7-9 ABC,Härryda,Idrottsvägen 1,234.0,57.6866232,12.2118798
+66634449,Vittra Jakobsberg,Järfälla,Vibblabyvägen 5,234.0,59.4223498,17.8283582
+55200547,Musikgrundskolan Synkopen,Helsingborg,Bergaliden 24,233.0,56.0490315,12.7013496
+64490264,Friskolan Kvarnhjulet,Mölndal,Terrakottagatan 3 A,233.0,57.6580184,12.0078952
+50675351,Påskbergsskolan 4-9,Varberg,Ringvägen 97,233.0,57.1049777,12.2614199
+26255239,Vittra Lambohov,Linköping,Tröskaregatan 73-75,232.0,58.3897994,15.5644472
+17240817,Centralskolan,Tierp,Grevegatan 16,232.0,60.3466689,17.5160822
+42518434,"Guteskolan, grundskola",Gotland,Broväg 8,231.0,57.6443777,18.3100914
+21002578,Örkenedskolan F-9,Osby,Tosthultsvägen 19,231.0,56.4016166,14.3267279
+51494126,Strömstiernaskolan 7-9,Strömstad,Norra Linnégatan 4,231.0,58.9376145,11.1791473
+35609364,Enebyskolan 2,Norrköping,Taborsbergsvägen 83,230.0,58.605862,16.1471153
+89477984,Björkskataskolan 7-9,Luleå,Väderleden 17,228.0,65.6081126,22.1842235
+50150550,Lagaholmsskolan,Laholm,Ringvägen 38,227.0,56.5025804,13.0360516
+74771085,"Nya Skolan, Lilla Edet",Lilla Edet,Molinsgatan 4,227.0,58.1383587,12.129784
+48457931,Prästängsskolan A,Eksjö,Karhulavägen 1 B,226.0,57.6667943,14.9770559
+50190330,Östra skolan,Hudiksvall,Djupegatan 2,226.0,61.7275612,17.1247955
+41729877,Gröndalsskolan,Värnamo,Halmstadsvägen,226.0,57.1531479,13.9485889
+84189577,Furulundsskolan 4-9,Halmstad,Halmstad,225.0,56.6739826,12.8574827
+61483058,Hörnefors Centralskola F-9,Umeå,Industrivägen 9–11,225.0,63.8390197,20.2332459
+87109819,Montessoriskolan Globen,Alingsås,Bollvägen 9,224.0,57.9358914,12.5263613
+17911537,Högstadium Centrum,Falköping,Parkgatan 43,224.0,58.1674765,13.5501584
+18339846,Pitholmsskolan 7-9,Piteå,Lövholmsvägen 90,224.0,65.2990354,21.5069182
+31018677,Väsby skola,Upplands Väsby,Skolvägen 11,224.0,59.5207458,17.9103451
+96609581,Solbergaskolan,Gotland,Kung Magnus väg 4,223.0,57.6345611,18.2947886
+48874671,Dammfriskolan,Malmö,Dammfrigången 9A,222.0,55.5915226,12.9817725
+58185455,Artediskolan åk 7-9,Nordmaling,Stallgatan 14,222.0,63.5681943,19.50547
+84998800,Önstaskolan,Västerås,Daggrosgatan 2,222.0,59.6492529,16.5387936
+31319179,Karlbergsskolan,Köping,Theodor Dahls gata 3,221.0,59.5119091,16.0013813
+80852248,Slottsskolan,Borgholm,Södra Esplanaden 28,220.0,56.8759095,16.6561531
+16490220,Hedda Wisingskolan,Härnösand,Gånsviksvägen 2,220.0,62.6305977,17.9494997
+10443922,Entréskolan Eskilstuna,Eskilstuna,Smedjegatan 43,219.0,59.3709329,16.5050998
+21157015,Astradskolan 3,Ljungby,Replösavägen 4,219.0,56.8349375,13.9645234
+67809657,Kågeskolan,Skellefteå,Jörnsvägen 27,219.0,64.9297572,20.5459276
+18915192,Fokusskolan,Nyköping,Hälsovägen 11,218.0,58.7609906,17.0380719
+94453321,Förslövs skola F-9,Båstad,Bokesliden 20,217.0,56.3618818,12.8165268
+56285442,Åsaskolan 7-9FI,Kungsbacka,Pölagårdsvägen 8,216.0,57.3524441,12.111342
+60570294,Brunnsängskolan,Södertälje,Häradsvägen 11,216.0,59.2127,17.6343666
+81072495,Hamburgsundskolan F-9,Tanum,Skolvägen 2,216.0,58.5523551,11.2741737
+69372123,Torpaskolan Söder,Vänersborg,Idrottsgatan 1,216.0,58.3682,12.3299086
+29299366,Västerängsskolan,Håbo,Idrottsvägen 5,215.0,59.5755428,17.5116941
+89876778,Augustenborgsskolan,Malmö,Ystadvägen 50,215.0,55.5785868,13.0224306
+85928436,Nyhamnsskolan,Höganäs,Eleshultsvägen 24,214.0,56.24152,12.5412594
+95720059,Elsa Brändströms skola,Linköping,Vasavägen 6,214.0,58.414331,15.6214878
+89692072,Freinetskolan Hugin,Norrtälje,Lilla Brogatan 10,214.0,59.7584291,18.7048361
+48373752,Fridhemsskolan,Arvidsjaur,Västlundavägen 54,213.0,65.5806232,19.1611969
+91219337,Domnarvets skola,Borlänge,Honefsgatan 7,213.0,60.5015814,15.4539423
+84724191,Altorpskolan A C,Herrljunga,Västra Parkgatan 6,213.0,58.0764144,13.0172533
+36819574,Djuråsskolan F-9,Gagnef,Färjbacksvägen 13,212.0,60.5525879,15.1401358
+79012102,Södermöreskolan,Kalmar,Backsippvägen 2,212.0,56.6336658,16.1665524
+26140079,Fristadsskolan 7-9,Eskilstuna,Nygatan 9,211.0,59.370489,16.5101725
+46309621,Sjöparksskolan A,Gällivare,Hellebergsvägen 4,211.0,67.1354941,20.6697987
+55731587,Bosgårdsskolan 4-9,Varberg,Sannavägen 6,211.0,57.0366941,12.4045569
+92620495,Astrid Lindgrens skola 7-9,Vimmerby,Kungsgatan 13,211.0,57.6690497,15.8615566
+10609045,Lagmansskolan Beta MH,Mjölby,Lagmansgatan 34,210.0,58.3228669,15.1343512
+11662899,Hyllinge skola,Åstorp,Ågatan 20,210.0,56.1047791,12.8655193
+65487720,Nyhemsskolan 7-9,Finspång,Oxhagsvägen 22,209.0,58.701071,15.7731724
+67721487,Gläntanskolan,Helsingborg,Merkuriusgatan 200,209.0,56.0978995,12.7492249
+96558008,Rosenlundsskolan 7-9,Jönköping,Källgatan 9,209.0,57.7800581,14.2133191
+77163912,Hålabäcksskolan B,Kungsbacka,Kungsbacka,209.0,57.466667,12.166667
+10170655,Vibackeskolan,Sundsvall,Raholmsvägen 7,209.0,62.4287875,17.4199922
+24291925,Tornhagsskolan,Linköping,Linköping,208.0,58.4098135,15.6245252
+32721673,Bergviksskolan åk 4-9,Söderhamn,Skalbyrakan 2,208.0,61.2641372,16.8355314
+12872502,Hellids grundskola 7-9,Tidaholm,Tidaholm,208.0,58.2,13.933333
+89878714,Norrevångskolan,Karlshamn,Gungvalavägen 41,207.0,56.2005291,14.7547992
+99406709,Hultsbergsskolan 7-9,Karlstad,Karlstad,207.0,59.3809146,13.5027631
+65153737,Ol Andersskolan,Tierp,Sätravägen 7,207.0,60.469986,17.756197
+45737019,Strandskolan,Vilhelmina,Strandvägen 1,207.0,64.6276475,16.6450626
+40025257,Nyhedens skola,Krokom,Skolvägen 6,206.0,63.3202953,14.4618105
+50999973,Prolympia Sundsvall 7-9,Sundsvall,Rådhusgatan 4,206.0,62.3893965,17.3131712
+77449846,Skiljeboskolan,Västerås,Säbygatan 4,206.0,59.619676,16.5923203
+63754384,Jens Billeskolan,Bjuv,Badhusvägen 1,205.0,56.0624506,12.9759208
+57184925,Hökarängsskolan,Stockholm,Fagersjövägen 18,205.0,59.2558683,18.0760825
+96757645,Korsängsskolan,Enköping,Korsängsgatan 10,204.0,59.6398452,17.0906316
+75662206,Arbråskolan F-9,Bollnäs,Elevvägen 3,203.0,61.479335,16.3787194
+74902204,Gumaeliusskolan,Örebro,Karlslundsgatan 32,203.0,59.2750338,15.1969694
+87838841,Hässelbygårdsskolan,Stockholm,Stockholm,199.0,59.3251172,18.0710935
+62694008,Högelidsskolan 7-9,Mariestad,Bergsgatan 31,198.0,58.716618,13.8552546
+22811420,Älvdalsskolan,Älvdalen,Älvdalen,195.0,61.333333,13.75
+57228484,Grindtorpsskolan,Botkyrka,Lagmansbacken 12,194.0,59.2403529,17.8444716
+53155267,Kallingeskolan 7-9,Ronneby,Tivolivägen 1,193.0,56.2451109,15.2825217
+18315553,Älvstranden bildn.centrum 7-9,Hagfors,Älvstrandsvägen 2,191.0,60.0391483,13.7024377
+49748045,Junsele skola,Sollefteå,Krokvägen 6,186.0,63.6970917,16.8649147
+98215830,Ramdalsskolan,Oxelösund,Torpsvägen 1 B,185.0,58.6747521,17.07885
+31015204,Lindbackaskolan,Lindesberg,Ishockeygatan 6A,184.0,59.6017967,15.2054402
+12248380,Navet,Örebro,Loftbodsgatan 1,184.0,59.2558892,15.2112596
+17176734,Färsingaskolan,Sjöbo,Ågatan 3,182.0,55.635977,13.7028362
+41363340,Pops Academy Umeå,Umeå,Umeå,179.0,63.8256568,20.2630745
+48184058,Aktiviaskolan,Vallentuna,Hjälmstavägen 8,133.0,59.5287096,18.0778597
+28145722,Aktiviaskolan Enhet Eken,Vallentuna,Hjälmstavägen 6,98.0,59.5287096,18.0778597
