@@ -1,0 +1,30 @@
+# API Keys and Secrets
+google_maps_api_key.txt
+*.key
+*.secret
+
+# Cache Files
+address_cache.json
+coord_cache.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
