@@ -1,6 +1,6 @@
 requests
 pandas
-openpyxl
 beautifulsoup4
 folium
 geopy
+googlemaps

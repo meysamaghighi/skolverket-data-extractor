@@ -7,6 +7,7 @@ import re
 from bs4 import BeautifulSoup
 import json
 import os
+import argparse
 
 class SchoolMapper:
     def __init__(self):
@@ -121,6 +122,101 @@ class SchoolMapper:
         # Cache negative result
         self.coord_cache[cache_key] = None
         return None
+def create_map_from_cache():
+    """Create map using only cached data without querying addresses"""
+    print("=" * 60)
+    print("SKOLVERKET MAP GENERATOR - CACHE-ONLY MODE")
+    print("=" * 60)
+    
+    # Read CSV
+    print("\n[1/4] Reading school data from CSV...")
+    df = pd.read_csv('Grundskola - Slutbetyg årskurs 9, samtliga elever 2025 Skolenhet.csv', 
+                     sep=';', skiprows=5)
+    
+    # Process merit values
+    df = df.dropna(subset=['Skol-enhetskod'])
+    df['merit_clean'] = df['Genomsnittligt meritvärde (17 ämnen)'].astype(str).str.replace(',', '.')
+    df['merit_value'] = pd.to_numeric(df['merit_clean'], errors='coerce')
+    schools_with_merit = df[df['merit_value'].notna()].copy()
+    schools_with_merit = schools_with_merit.sort_values('merit_value', ascending=False).head(100)
+    
+    print(f"      Processing top {len(schools_with_merit)} schools by merit value")
+    
+    # Load caches
+    print("\n[2/4] Loading cached data...")
+    mapper = SchoolMapper()
+    address_count = len(mapper.address_cache)
+    coord_count = len([v for v in mapper.coord_cache.values() if v is not None])
+    print(f"      Found {address_count} cached addresses")
+    print(f"      Found {coord_count} cached coordinates")
+    
+    # Process schools using cache only
+    print("\n[3/4] Processing schools from cache...")
+    school_data = []
+    
+    for _, row in schools_with_merit.iterrows():
+        school_id = str(row['Skol-enhetskod'])
+        school_name = row['Skola']
+        municipality = row['Skolkommun']
+        merit_value = row['merit_value']
+        
+        # Get cached address
+        address = mapper.address_cache.get(school_id)
+        if not address:
+            continue
+            
+        # Get cached coordinates
+        cache_key = f"{address}|{municipality}"
+        cached_coords = mapper.coord_cache.get(cache_key)
+        if not cached_coords:
+            continue
+            
+        school_data.append({
+            'school_id': school_id,
+            'school_name': school_name,
+            'municipality': municipality,
+            'address': address,
+            'merit_value': merit_value,
+            'latitude': cached_coords[0],
+            'longitude': cached_coords[1]
+        })
+    
+    print(f"      Successfully loaded {len(school_data)} schools from cache")
+    
+    # Create map
+    print("\n[4/4] Creating map...")
+    m = folium.Map(location=[62.0, 15.0], zoom_start=5)
+    
+    for school in school_data:
+        if school['merit_value'] >= 250:
+            color = 'green'
+        elif school['merit_value'] >= 200:
+            color = 'orange'
+        else:
+            color = 'red'
+        
+        folium.CircleMarker(
+            location=[school['latitude'], school['longitude']],
+            radius=8,
+            popup=f"{school['school_name']}<br>Merit: {school['merit_value']}<br>{school['address']}",
+            color=color,
+            fill=True,
+            fillColor=color
+        ).add_to(m)
+    
+    # Save results
+    m.save('schools_merit_map.html')
+    df_schools = pd.DataFrame(school_data)
+    df_schools.to_csv('schools_with_coordinates.csv', index=False)
+    
+    print(f"\n" + "=" * 60)
+    print(f"MAP GENERATION COMPLETE")
+    print(f"=" * 60)
+    print(f"Schools mapped: {len(school_data)}")
+    print(f"Average merit value: {df_schools['merit_value'].mean():.1f}")
+    print(f"\nFiles updated:")
+    print(f"- schools_merit_map.html (interactive map)")
+    print(f"- schools_with_coordinates.csv (data file)")
 
 def main():
     start_time = time.time()
@@ -268,4 +364,15 @@ def main():
     print(f"- coord_cache.json (cached coordinates)")
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description='Skolverket Data Extractor')
+    parser.add_argument('--map-only', action='store_true', 
+                       help='Generate map using cached data only (no address queries)')
+    parser.add_argument('--top', type=int, default=100,
+                       help='Number of top schools to process (default: 100)')
+    
+    args = parser.parse_args()
+    
+    if args.map_only:
+        create_map_from_cache()
+    else:
+        main()

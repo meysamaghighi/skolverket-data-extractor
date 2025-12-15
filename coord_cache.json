@@ -1,3 +1,6150 @@
 {
-  "Fredrikshovsgatan 6|Stockholm": null
+  "Kommendörsgatan 31|Stockholm": [
+    59.3380493,
+    18.0827216
+  ],
+  "Manillavägen 32-36|Stockholm": [
+    59.329368,
+    18.1319847
+  ],
+  "Tegnérlunden 5|Stockholm": [
+    59.337888,
+    18.0554537
+  ],
+  "Gotlandsgatan 43|Stockholm": [
+    59.3098313,
+    18.0771624
+  ],
+  "Tegnérgatan 44-46|Stockholm": [
+    59.3373443,
+    18.0509847
+  ],
+  "Luntmakargatan 101|Stockholm": [
+    59.3440694,
+    18.0569868
+  ],
+  "Norrtullsgatan 14|Stockholm": [
+    59.3459263,
+    18.0484329
+  ],
+  "Lundsberg|Storfors": [
+    59.4945853,
+    14.1759835
+  ],
+  "Döbelsgatan 9|Stockholm": [
+    59.3251172,
+    18.0710935
+  ],
+  "Eskadervägen 10|Täby": [
+    59.4307824,
+    18.0952855
+  ],
+  "Seminariegatan 1|Uppsala": [
+    59.8680887,
+    17.6190496
+  ],
+  "Sollentunavägen 265-267|Sollentuna": [
+    59.4482749,
+    17.938619
+  ],
+  "Viktoriagatan 17|Göteborg": [
+    57.6987006,
+    11.9652248
+  ],
+  "Banérgatan 56|Stockholm": [
+    59.340019,
+    18.0975769
+  ],
+  "Konradsbergsgatan 12-24|Stockholm": [
+    59.3305237,
+    18.0137322
+  ],
+  "Kvarnholmsvägen 93|Nacka": [
+    59.3167021,
+    18.1408576
+  ],
+  "Eric Perssons väg 10 B|Malmö": [
+    55.5828459,
+    12.9900214
+  ],
+  "Alviksvägen 97|Stockholm": [
+    59.3239043,
+    17.9746664
+  ],
+  "Söder Mälarstrand 39, 7 tr|Stockholm": [
+    59.3140545,
+    18.0711342
+  ],
+  "Herr Arnes Gata 8|Göteborg": [
+    57.7489136,
+    11.984223
+  ],
+  "Kungstensgatan 6|Stockholm": [
+    59.3433796,
+    18.0647989
+  ],
+  "Viktor Rydbergs väg 2|Danderyd": [
+    59.4025382,
+    18.0825469
+  ],
+  "Staffans väg 13|Sollentuna": [
+    59.4827605,
+    17.9146698
+  ],
+  "Björkhagsplan 5-9|Stockholm": [
+    59.2910762,
+    18.1166967
+  ],
+  "Planiavägen 15|Nacka": [
+    59.3057775,
+    18.1309492
+  ],
+  "Källängsvägen 1|Lidingö": [
+    59.3741866,
+    18.1439525
+  ],
+  "Gustav III:s Boulevard 15|Solna": [
+    59.3687191,
+    18.0146977
+  ],
+  "S:t Göransgatan 73|Stockholm": [
+    59.3334134,
+    18.0279578
+  ],
+  "Hälsingegatan 23-25|Stockholm": [
+    59.343184,
+    18.0420379
+  ],
+  "Erik Dahlbergsgatan 58-62|Stockholm": [
+    59.3414198,
+    18.0911508
+  ],
+  "Hjulåkersvägen 1|Södertälje": [
+    59.0858042,
+    17.559856
+  ],
+  "Maleviksvägen 84|Kungsbacka": [
+    57.5324392,
+    11.9606928
+  ],
+  "Videdalsvägen 40|Malmö": [
+    55.5897314,
+    13.0706247
+  ],
+  "Stockholmsvägen 30|Stockholm": [
+    59.2826224,
+    18.0859539
+  ],
+  "Höglandstorget|Stockholm": [
+    59.3234581,
+    17.9397565
+  ],
+  "Kottlavägen 116C|Lidingö": [
+    59.3465888,
+    18.1756139
+  ],
+  "Björkuddsvägen 98|Ekerö": [
+    59.2826314,
+    17.8216831
+  ],
+  "Silverbäcksvägen 1|Sollentuna": [
+    57.5475323,
+    14.1382515
+  ],
+  "Roslagstullsbacken 4|Stockholm": [
+    59.3506775,
+    18.0593687
+  ],
+  "Charlottendalsvägen 2A-B|Värmdö": [
+    59.3128635,
+    18.3889196
+  ],
+  "Thunmansgatan 47|Uppsala": [
+    59.8689363,
+    17.6528848
+  ],
+  "Nytorpsvägen 7|Täby": [
+    59.4361728,
+    18.0776508
+  ],
+  "Segelbåtsvägen 11B|Stockholm": [
+    59.3251306,
+    17.9929873
+  ],
+  "Bergaliden 15|Helsingborg": [
+    56.0471816,
+    12.7006615
+  ],
+  "Cylindervägen 2|Nacka": [
+    59.3155459,
+    18.1633321
+  ],
+  "Knäppingsborgsgatan 2|Norrköping": [
+    58.5895989,
+    16.1853396
+  ],
+  "Enhagsslingan 23-25|Täby": [
+    59.4393253,
+    18.038018
+  ],
+  "Sommarsolsvägen 9|Huddinge": [
+    59.2334943,
+    17.9594916
+  ],
+  "Skolvägen 3E|Lidingö": [
+    59.365404,
+    18.1269402
+  ],
+  "Mörbyhöjden 24|Danderyd": [
+    59.3972978,
+    18.0396591
+  ],
+  "Nefirsgata 1|Staffanstorp": [
+    55.65,
+    13.2
+  ],
+  "Hedenströms väg 1|Nacka": [
+    59.3054345,
+    18.2338248
+  ],
+  "Landsvägen 66|Sundbyberg": [
+    59.3611676,
+    17.9623714
+  ],
+  "Margaretavägen 1b|Lund": [
+    55.7182579,
+    13.1928316
+  ],
+  "Observatoriebacken 1|Nacka": [
+    59.271857,
+    18.304074
+  ],
+  "Själlandstorget 1|Malmö": [
+    55.5927301,
+    12.9877771
+  ],
+  "Bångsbovägen 13|Kungsbacka": [
+    57.5543027,
+    11.9544119
+  ],
+  "Landgillevägen 39 A-E|Lund": [
+    55.6910575,
+    13.2344637
+  ],
+  "Kvarngatan 18|Stockholm": [
+    59.3165956,
+    18.0681363
+  ],
+  "Lötsjövägen 10-12|Sundbyberg": [
+    59.3745516,
+    17.9690225
+  ],
+  "Palmgatan 19 B|Malmö": [
+    55.5863373,
+    13.0154136
+  ],
+  "Valhallavägen 76|Stockholm": [
+    59.3450888,
+    18.0697889
+  ],
+  "Svartmangatan 20-22|Stockholm": [
+    59.3246226,
+    18.0714131
+  ],
+  "Lundgrens väg 2B|Kristianstad": [
+    55.9294832,
+    13.9697943
+  ],
+  "Molinsgatan 6|Göteborg": [
+    57.6946545,
+    11.9746463
+  ],
+  "Sprängstensgatan 1|Norrköping": [
+    58.5716958,
+    16.1821213
+  ],
+  "Kärrtorpsvägen 95|Stockholm": [
+    59.2823408,
+    18.1141655
+  ],
+  "Västra särövägen 27|Kungsbacka": [
+    57.5061619,
+    11.9411293
+  ],
+  "Läroverksvägen 56|Lidingö": [
+    59.3541372,
+    18.1500541
+  ],
+  "Stora Mans väg 11 C|Stockholm": [
+    59.2817465,
+    17.9740132
+  ],
+  "Maria montessorisväg 2|Kävlinge": [
+    55.7741228,
+    12.9649825
+  ],
+  "Sankt Lars väg 4|Lund": [
+    55.686163,
+    13.1817305
+  ],
+  "Boovägen 4|Nacka": [
+    59.3104469,
+    18.2849218
+  ],
+  "Lingvägen 17|Lomma": [
+    55.7203796,
+    13.0246147
+  ],
+  "Döbelnsgatan 2B|Uppsala": [
+    59.8436671,
+    17.6307006
+  ],
+  "Sandåsgatan 2|Stockholm": [
+    59.342118,
+    18.0525887
+  ],
+  "Klågerupsvägen 342|Malmö": [
+    55.589029,
+    13.0892944
+  ],
+  "Warholms väg 10|Lund": [
+    55.706931,
+    13.2150835
+  ],
+  "Stampgatan 13|Göteborg": [
+    57.7076185,
+    11.9793977
+  ],
+  "Rörumsbyaväg 16|Simrishamn": [
+    55.5565541,
+    14.3499903
+  ],
+  "Bäckagårdsvägen 19|Halmstad": [
+    56.6542226,
+    12.7800013
+  ],
+  "Lämshagavägen 5-15|Värmdö": [
+    59.3000895,
+    18.4009682
+  ],
+  "Nygatan 18B|Kalmar": [
+    56.666112,
+    16.3484706
+  ],
+  "Redegatan 2|Göteborg": [
+    57.6716505,
+    11.8839315
+  ],
+  "Ryttargatan 275|Upplands Väsby": [
+    59.507273,
+    17.9079653
+  ],
+  "Dag Hammarskjölds väg 31|Uppsala": [
+    59.84393,
+    17.6376248
+  ],
+  "Upplandsgatan 100|Stockholm": [
+    59.34843,
+    18.0425116
+  ],
+  "Sollentunavägen 68|Sollentuna": [
+    59.4153201,
+    17.9662346
+  ],
+  "Vanadisvägen 16|Stockholm": [
+    59.3471565,
+    18.0472524
+  ],
+  "Svampvägen 4|Österåker": [
+    59.4934518,
+    18.3318616
+  ],
+  "Södra Allén 43|Örebro": [
+    59.2643339,
+    15.208729
+  ],
+  "Lugntorpsvägen 2|Stockholm": [
+    59.2975268,
+    17.9566888
+  ],
+  "Hyttgatan 5|Sandviken": [
+    60.6157859,
+    16.7775489
+  ],
+  "Vendevägen 94|Danderyd": [
+    59.3942436,
+    18.0446425
+  ],
+  "Stora Gatan 57-65|Västerås": [
+    59.6060919,
+    16.5329892
+  ],
+  "Birkagatan 61|Göteborg": [
+    57.7032713,
+    12.0215476
+  ],
+  "Linnégatan 2b|Linköping": [
+    58.4074415,
+    15.6287503
+  ],
+  "Storvägen 2|Vellinge": [
+    55.4052958,
+    12.9218682
+  ],
+  "Skolhagsvägen 1|Täby": [
+    59.4922544,
+    18.0673535
+  ],
+  "Virkesvägen 21|Stockholm": [
+    59.3017771,
+    18.0977811
+  ],
+  "Ringungsgatan 1|Malmö": [
+    55.604981,
+    13.003822
+  ],
+  "Skogstorpsvägen 370|Sollentuna": [
+    59.40875939999999,
+    17.9815518
+  ],
+  "Västerängsvägen 19|Stockholm": [
+    59.27770770000001,
+    17.9821146
+  ],
+  "Domedejlavägen 2|Lomma": [
+    55.7346624,
+    13.025755
+  ],
+  "Sankt Lars väg 7|Lund": [
+    55.6850511,
+    13.1832408
+  ],
+  "Ängsdalsvägen 20|Malmö": [
+    55.5581308,
+    12.9143909
+  ],
+  "Havsgatan 1|Landskrona": [
+    55.8993925,
+    12.8130359
+  ],
+  "Adolf Rudbecks väg 21|Stockholm": [
+    59.3798645,
+    17.8926239
+  ],
+  "Pilgatan 13|Lomma": [
+    55.6723576,
+    13.08079
+  ],
+  "Hagmarksgatan 39|Örebro": [
+    59.26505900000001,
+    15.2352349
+  ],
+  "Verkmästaregatan 7|Göteborg": [
+    57.7061424,
+    11.9342737
+  ],
+  "Källtorpsvägen 4|Täby": [
+    59.434131,
+    18.079249
+  ],
+  "Gymnasiegatan 46|Kungsbacka": [
+    57.4819834,
+    12.0760252
+  ],
+  "Skånegatan 117|Stockholm": [
+    59.3129739,
+    18.0922274
+  ],
+  "Sankt Lars Väg 90|Lund": [
+    55.6877958,
+    13.1820022
+  ],
+  "Norra Västkustvägen 80|Lomma": [
+    55.7383083,
+    13.0320112
+  ],
+  "Eric Perssons väg 1B|Malmö": [
+    55.5845944,
+    12.9914054
+  ],
+  "Bergslagsvägen 80|Stockholm": [
+    59.342099,
+    17.9285633
+  ],
+  "Slagsta Gårdsväg 2|Botkyrka": [
+    59.2530543,
+    17.8460597
+  ],
+  "Vävar Johans gata 5|Stockholm": [
+    59.30470320000001,
+    18.1109294
+  ],
+  "Sköntorpsvägen 31|Stockholm": [
+    59.29793179999999,
+    18.0624134
+  ],
+  "Gjörwellsgatan 13|Stockholm": [
+    59.3291376,
+    18.0200318
+  ],
+  "Björnkullaringen 42|Huddinge": [
+    59.2110661,
+    17.9420043
+  ],
+  "Sveavägen 55|Sollentuna": [
+    59.42378710000001,
+    17.9298145
+  ],
+  "Kvarnbacken 2|Härryda": [
+    57.64799660000001,
+    12.1038639
+  ],
+  "None|Strängnäs": [
+    59.37745229999999,
+    17.0321193
+  ],
+  "Sjöviksbacken 24-26|Stockholm": [
+    59.3048081,
+    18.0294371
+  ],
+  "Sundbyviksvägen 2|Eskilstuna": [
+    59.44821450000001,
+    16.3393524
+  ],
+  "Kornettvägen 44|Sollentuna": [
+    59.4583758,
+    17.8905471
+  ],
+  "Armborstvägen 1|Stockholm": [
+    59.2809403,
+    18.005395
+  ],
+  "Diktarvägen 4|Solna": [
+    59.3512839,
+    18.0068621
+  ],
+  "Anders Lundströms gata 5|Solna": [
+    59.37035049999999,
+    18.0151614
+  ],
+  "Viggbyholmsvägen 59|Täby": [
+    59.447023,
+    18.1021252
+  ],
+  "Landstormsvägen 37|Kungsbacka": [
+    57.389937,
+    12.0110845
+  ],
+  "Mellanvångsvägen 10D|Lund": [
+    55.693118,
+    13.192801
+  ],
+  "Rönnbladsgatan 4|Malmö": [
+    55.6019242,
+    13.0283078
+  ],
+  "Viktor Rydbergsgatan 18|Göteborg": [
+    57.69551989999999,
+    11.9786164
+  ],
+  "Ljungmyrsvägen 20-24|Täby": [
+    59.4454311,
+    18.032982
+  ],
+  "Lövholmsvägen 61|Stockholm": [
+    59.31296390000001,
+    18.0125419
+  ],
+  "Salagatan 42|Stockholm": [
+    59.3862821,
+    17.8893046
+  ],
+  "Dag Hammarskjölds väg 21|Uppsala": [
+    59.84896579999999,
+    17.6355521
+  ],
+  "Storevångsvägen 19|Vellinge": [
+    55.4117157,
+    12.8654135
+  ],
+  "Norra kustvägen 1004, Brunnby Skola|Höganäs": [
+    56.2620721,
+    12.5771059
+  ],
+  "Ängdalavägen 139-20|Vellinge": [
+    55.414364,
+    12.9864433
+  ],
+  "Griffelvägen 15|Nacka": [
+    59.30984230000001,
+    18.1536102
+  ],
+  "Bagartorpsringen 20|Solna": [
+    59.3791293,
+    17.9969432
+  ],
+  "Timmermansgatan 21|Stockholm": [
+    59.3178783,
+    18.0609554
+  ],
+  "Folkborgsvägen 17 hus 33|Norrköping": [
+    58.58119120000001,
+    16.148018
+  ],
+  "Sollentunavägen 267 C|Sollentuna": [
+    59.4486675,
+    17.9352811
+  ],
+  "Nedre Slottsgatan 8|Uppsala": [
+    59.8559485,
+    17.6351281
+  ],
+  "Lars Hårds väg 20B|Vallentuna": [
+    59.525546,
+    18.0801311
+  ],
+  "Kunskapsvägen 1|Kävlinge": [
+    55.7939999,
+    13.1104293
+  ],
+  "Skogvaktarvägen 8|Eskilstuna": [
+    59.36132219999999,
+    16.5455092
+  ],
+  "Solstigen 2-4|Strängnäs": [
+    59.3668226,
+    17.0361924
+  ],
+  "Hovås Allé 12|Göteborg": [
+    57.5991745,
+    11.9514286
+  ],
+  "Bondhagsvägen 4|Upplands-Bro": [
+    59.50152600000001,
+    17.617151
+  ],
+  "Gustav III:s väg 2-10|Stockholm": [
+    59.3348708,
+    17.9502641
+  ],
+  "Småviltsgatan 6|Stockholm": [
+    59.357345,
+    18.0927417
+  ],
+  "Karlbergsvägen 15|Stockholm": [
+    59.3425549,
+    18.0443048
+  ],
+  "Sjövägen 1|Kiruna": [
+    67.6769577,
+    21.6382366
+  ],
+  "Norra Fiskebäcksvägen 296|Göteborg": [
+    57.6530032,
+    11.8677138
+  ],
+  "Fjätursvägen 6|Täby": [
+    59.4522728,
+    18.0324191
+  ],
+  "Velamsundsvägen 1|Nacka": [
+    59.33319590000001,
+    18.3136488
+  ],
+  "Håstens Torg 7|Varberg": [
+    57.1123583,
+    12.2781245
+  ],
+  "Hökegårdsgatan 16|Mölndal": [
+    57.67729319999999,
+    11.9945333
+  ],
+  "Enskedevägen 71-73|Stockholm": [
+    59.2843232,
+    18.0746319
+  ],
+  "Tvillingvägen 10|Salem": [
+    59.2017817,
+    17.7307591
+  ],
+  "Lillgårdsvägen 3|Haninge": [
+    59.17554999999999,
+    18.1413702
+  ],
+  "Riksbyvägen 40-48|Stockholm": [
+    59.3424284,
+    17.9445136
+  ],
+  "Slättängsvägen 96|Kristianstad": [
+    56.0188907,
+    14.1261933
+  ],
+  "Ingenjörvägen 1|Vaxholm": [
+    59.4036725,
+    18.3296744
+  ],
+  "Helgesons väg 10|Nacka": [
+    59.3097418,
+    18.1432567
+  ],
+  "Utbildningsvägen 4|Botkyrka": [
+    59.20261299999999,
+    17.8392078
+  ],
+  "Backåkersvägen 3|Malmö": [
+    55.5861709,
+    12.9715327
+  ],
+  "Tjärhovsgatan 15-17|Stockholm": [
+    59.3154878,
+    18.07837
+  ],
+  "Johanneslundsvägen 3|Upplands Väsby": [
+    59.50483879999999,
+    17.9200656
+  ],
+  "Universitetsallén 26|Sundsvall": [
+    62.3962579,
+    17.2859129
+  ],
+  "Uthamra skolväg 1|Vallentuna": [
+    59.5097299,
+    18.0620274
+  ],
+  "Ämnesvägen 2|Staffanstorp": [
+    55.6721204,
+    13.1437403
+  ],
+  "Vesslevägen 3|Lidingö": [
+    59.3760792,
+    18.1445957
+  ],
+  "Södra promenaden 60|Norrköping": [
+    58.5848742,
+    16.1801003
+  ],
+  "Duvbovägen 94|Stockholm": [
+    59.3780076,
+    17.9184106
+  ],
+  "Älvtomtagatan 56|Örebro": [
+    59.28046690000001,
+    15.1970283
+  ],
+  "Östra Banvägen 90|Täby": [
+    59.43992049999999,
+    18.067645
+  ],
+  "Storövägen 51|Helsingborg": [
+    55.9668804,
+    12.773208
+  ],
+  "Musikantvägen 1|Lund": [
+    55.7090088,
+    13.2373077
+  ],
+  "Gustavsborgsgatan 9|Västerås": [
+    59.61897759999999,
+    16.5434307
+  ],
+  "Enskedevägen 89|Stockholm": [
+    59.2826788,
+    18.0724208
+  ],
+  "Idrottsvägen 26|Trollhättan": [
+    58.2863302,
+    12.3094081
+  ],
+  "Assarsgatan 8|Vellinge": [
+    55.4715773,
+    13.0272436
+  ],
+  "Skolskeppsgatan 5|Lomma": [
+    55.6674666,
+    13.0904796
+  ],
+  "Öresundsvägen 2|Lund": [
+    55.7131913,
+    13.1829428
+  ],
+  "Flygarvägen 5|Botkyrka": [
+    59.1863401,
+    17.909253
+  ],
+  "Svanevägen 17|Lund": [
+    55.70222219999999,
+    13.1824799
+  ],
+  "Ringvägen 23|Stockholm": [
+    59.3150759,
+    18.0521433
+  ],
+  "Blackebergsvägen 100|Stockholm": [
+    59.3447568,
+    17.8920849
+  ],
+  "Kornettvägen 42|Sollentuna": [
+    59.4565369,
+    17.8943936
+  ],
+  "Dalvägen 1|Håbo": [
+    59.5665958,
+    17.5212391
+  ],
+  "Båtsmansvägen 1|Härryda": [
+    57.6457669,
+    12.107101
+  ],
+  "Ängsvägen 8|Tyresö": [
+    59.2208926,
+    18.1966165
+  ],
+  "Nordhemsgatan 51|Göteborg": [
+    57.6938763,
+    11.9501859
+  ],
+  "Flädervägen 4|Nacka": [
+    59.2560501,
+    18.1721978
+  ],
+  "Ebba Brahes väg 1|Sollentuna": [
+    59.4776344,
+    17.9091411
+  ],
+  "Samskolevägen 1|Nacka": [
+    59.2775767,
+    18.2833137
+  ],
+  "Klövervallsgatan 54|Trelleborg": [
+    55.373696,
+    13.187576
+  ],
+  "Marknadsvägen 299|Täby": [
+    59.44965879999999,
+    18.079263
+  ],
+  "Sollidenvägen 62B|Östersund": [
+    63.18331669999999,
+    14.6681769
+  ],
+  "Stallvägen 2|Göteborg": [
+    57.75606450000001,
+    11.8292211
+  ],
+  "Skyttepaviljongens Gata 25|Göteborg": [
+    57.71693759999999,
+    11.7583971
+  ],
+  "Fjällblomman 1|Göteborg": [
+    57.70887,
+    11.97456
+  ],
+  "Löparvägen 4|Huddinge": [
+    59.2327562,
+    18.131991
+  ],
+  "Gräsåkersvägen 1|Ekerö": [
+    59.2740678,
+    17.8005458
+  ],
+  "Radiovägen 25|Göteborg": [
+    57.6490801,
+    11.9287737
+  ],
+  "Augustendalsvägen 1|Nacka": [
+    59.31492969999999,
+    18.1608761
+  ],
+  "Tallhöjdsgatan 1|Göteborg": [
+    57.7165376,
+    12.036924
+  ],
+  "Norregatan 22|Hässleholm": [
+    56.1643957,
+    13.7498834
+  ],
+  "Redegatan 12|Göteborg": [
+    57.66996719999999,
+    11.8807238
+  ],
+  "Marklandsbacken 11|Stockholm": [
+    59.3327036,
+    18.0656255
+  ],
+  "Ögärdesvägen 2|Partille": [
+    57.7451483,
+    12.0796258
+  ],
+  "Bollmoragårdsväg 14|Tyresö": [
+    59.2475145,
+    18.2201278
+  ],
+  "Stadsängsgatan 67|Sigtuna": [
+    59.6311101,
+    17.7131985
+  ],
+  "Björkgatan 2|Luleå": [
+    65.5950332,
+    22.1612664
+  ],
+  "S:t Botvids väg 28|Botkyrka": [
+    59.23968920000001,
+    17.8186939
+  ],
+  "Magistergatan 2|Helsingborg": [
+    56.0391409,
+    12.7088867
+  ],
+  "Kyviksvägen 1|Kungsbacka": [
+    57.54648609999999,
+    11.940693
+  ],
+  "Vallmovägen 86|Gällivare": [
+    67.1355888,
+    20.6763352
+  ],
+  "Hästskovägen 76|Järfälla": [
+    59.42781799999999,
+    17.840089
+  ],
+  "Säbyholmsvägen 70|Landskrona": [
+    55.9028347,
+    12.8249375
+  ],
+  "Vallgatan 12|Växjö": [
+    56.87273,
+    14.802254
+  ],
+  "Orrholmsgatan 4|Karlstad": [
+    59.372312,
+    13.5000688
+  ],
+  "Genetikvägen 6|Uppsala": [
+    59.81566600000001,
+    17.6466068
+  ],
+  "Klövervallsvägen 81|Täby": [
+    59.4683313,
+    18.0418941
+  ],
+  "Gaffelbyvägen 1|Sundsvall": [
+    62.40198219999999,
+    17.3158482
+  ],
+  "Mensättravägen 42|Nacka": [
+    59.3332707,
+    18.268441
+  ],
+  "Aklejavägen 4|Karlskrona": [
+    56.1925549,
+    15.6330148
+  ],
+  "Skolvägen 25|Partille": [
+    57.7291516,
+    12.0695429
+  ],
+  "Petrejusvägen 42, entré A1|Stockholm": [
+    59.29640060000001,
+    18.1002287
+  ],
+  "Hjälmarsvägen 16|Stockholm": [
+    59.2994336,
+    18.0539919
+  ],
+  "Blåportshöjden 5|Karlskrona": [
+    56.1768703,
+    15.5965758
+  ],
+  "Klensmedsvägen 2|Stockholm": [
+    59.29477239999999,
+    17.9990555
+  ],
+  "Folkskolegatan 13|Stockholm": [
+    59.3171273,
+    18.0311601
+  ],
+  "Slåttervägen|Vellinge": [
+    55.4153923,
+    12.8579254
+  ],
+  "Killingevägen 13A|Lidingö": [
+    59.35354580000001,
+    18.2082844
+  ],
+  "Lindvägen 16|Sollentuna": [
+    59.4540583,
+    17.9224586
+  ],
+  "Tant Gredelins väg 6|Botkyrka": [
+    59.20352099999999,
+    17.8042715
+  ],
+  "Ellen Keys gata 2-4|Stockholm": [
+    59.2882222,
+    17.9650344
+  ],
+  "Årsta Skolgränd 7-9|Stockholm": [
+    59.301633,
+    18.0299052
+  ],
+  "Martinavägen 1|Göteborg": [
+    57.74161869999999,
+    12.0355397
+  ],
+  "Västra Spång 357|Örkelljunga": [
+    56.2865512,
+    13.3189647
+  ],
+  "Källåsvägen 31|Mölndal": [
+    57.609462,
+    12.0329846
+  ],
+  "Önnerödsvägen 1|Härryda": [
+    57.697976,
+    12.2084228
+  ],
+  "Kronodalsvägen 41|Vellinge": [
+    55.4022078,
+    13.4635666
+  ],
+  "Bronsåldersgatan 82, vita tvåplans vinkelhuset|Göteborg": [
+    57.641442,
+    11.9040139
+  ],
+  "Luftvärnsvägen 4|Göteborg": [
+    57.73588590000001,
+    12.0295133
+  ],
+  "Horisontvägen 22-24|Stockholm": [
+    59.2668804,
+    18.1239228
+  ],
+  "Lagergrens väg 16|Tyresö": [
+    59.2434728,
+    18.2853413
+  ],
+  "Häggviksvägen 2|Sollentuna": [
+    59.44599820000001,
+    17.9394192
+  ],
+  "Floda Allé 2|Lerum": [
+    57.80681149999999,
+    12.3668624
+  ],
+  "Herrgårdsgatan 15|Göteborg": [
+    57.700518,
+    12.0059097
+  ],
+  "Lilla Danska vägen 1|Göteborg": [
+    57.7033941,
+    12.0036501
+  ],
+  "Riddersviksvägen 132|Stockholm": [
+    59.3787863,
+    17.811447
+  ],
+  "Smedbyvägen 8|Upplands Väsby": [
+    59.50930779999999,
+    17.8989791
+  ],
+  "Ångkraftsvägen 1 A|Västerås": [
+    59.6076456,
+    16.5697453
+  ],
+  "Näsbychaussén 81|Kristianstad": [
+    56.0536338,
+    14.1596059
+  ],
+  "Ösby skolväg 4|Värmdö": [
+    59.3181708,
+    18.4163591
+  ],
+  "Vista Skolväg 1|Huddinge": [
+    59.2328477,
+    17.9511259
+  ],
+  "Skolvägen 2|Skellefteå": [
+    64.7541626,
+    20.9200573
+  ],
+  "Beckombergavägen 316|Stockholm": [
+    59.3568665,
+    17.9026244
+  ],
+  "Bastuhagsvägen 20|Stockholm": [
+    59.2767762,
+    18.0435966
+  ],
+  "Paviljongvägen 31A|Sundsvall": [
+    62.3765375,
+    17.2936558
+  ],
+  "Skälläckerödsvägen 6|Uddevalla": [
+    58.2182006,
+    11.9266873
+  ],
+  "Linnégatan 58|Malmö": [
+    55.5823591,
+    12.9387085
+  ],
+  "Badvägen 6|Malmö": [
+    55.5256676,
+    12.9348367
+  ],
+  "Ängsövägen 2A|Malmö": [
+    55.5200668,
+    12.9957685
+  ],
+  "Åstadalsvägen 4|Örebro": [
+    59.2514185,
+    15.2426873
+  ],
+  "Björknäs Skolväg 15|Nacka": [
+    59.312629,
+    18.2368695
+  ],
+  "Brunns centrum|Värmdö": [
+    59.27763599999999,
+    18.430958
+  ],
+  "Norra Skepparvägen 101|Örnsköldsvik": [
+    63.26936670000001,
+    18.7770473
+  ],
+  "Lingvägen 123|Stockholm": [
+    59.26125909999999,
+    18.0845703
+  ],
+  "Aprikosgatan 68-74|Stockholm": [
+    59.36229590000001,
+    17.8362502
+  ],
+  "Egnahemsgatan 2|Örebro": [
+    59.275092,
+    15.1947134
+  ],
+  "Rullstensvägen 1|Härryda": [
+    57.6517127,
+    12.1252308
+  ],
+  "Engelbrektsgatan 1|Göteborg": [
+    57.6965249,
+    11.9674654
+  ],
+  "Folkborgsvägen 19|Norrköping": [
+    58.5796532,
+    16.1476359
+  ],
+  "Karlskronavägen 10|Stockholm": [
+    59.293854,
+    18.1169106
+  ],
+  "Boplatsvägen 8|Sundbyberg": [
+    59.38218180000001,
+    17.9715698
+  ],
+  "Skravsättsvägen 7|Sundsvall": [
+    62.3881068,
+    17.4184086
+  ],
+  "Strindbergsgatan 13|Nyköping": [
+    58.76042709999999,
+    17.0156064
+  ],
+  "Fridhemsgatan 17-19|Stockholm": [
+    59.3325403,
+    18.02733
+  ],
+  "Väderkvarnsgatan 25|Uppsala": [
+    59.8611606,
+    17.6481331
+  ],
+  "Hyllie Kyrkoväg 63|Malmö": [
+    55.57740399999999,
+    12.9371823
+  ],
+  "Häradsvägen 10|Södertälje": [
+    59.2122179,
+    17.6363934
+  ],
+  "Centralvägen 37|Täby": [
+    59.43172689999999,
+    18.0939081
+  ],
+  "Skolvägen 20 E|Upplands-Bro": [
+    59.4805885,
+    17.7348
+  ],
+  "Dymmelkärrsvägen 33|Botkyrka": [
+    59.22027349999999,
+    17.9148122
+  ],
+  "Banmästaregatan 3|Solna": [
+    59.3805875,
+    18.0051914
+  ],
+  "Esplanaden 7|Vellinge": [
+    55.4260927,
+    12.9764242
+  ],
+  "Grangatan 11|Halmstad": [
+    56.7003442,
+    12.7323262
+  ],
+  "Hammarby Allé 74-76|Stockholm": [
+    59.30363569999999,
+    18.0966892
+  ],
+  "Gummarpsvägen 7|Helsingborg": [
+    56.0982225,
+    12.6539904
+  ],
+  "Munstycksvägen 18|Stockholm": [
+    59.25166519999999,
+    18.0792294
+  ],
+  "Vasagatan 28|Falun": [
+    60.60996879999999,
+    15.6382495
+  ],
+  "Esplanaden 2|Kalmar": [
+    56.5250213,
+    16.3721509
+  ],
+  "Södra vägen 6|Svedala": [
+    55.5008332,
+    13.2321272
+  ],
+  "Segersminnesvägen 8 A|Huddinge": [
+    59.2517746,
+    18.0014848
+  ],
+  "Marieborgsgatan 12|Sundbyberg": [
+    59.385493,
+    17.9534875
+  ],
+  "Vårvägen 1|Upplands Väsby": [
+    59.5000462,
+    17.9463574
+  ],
+  "Tellusborgsvägen 36|Stockholm": [
+    59.30439999999999,
+    18.0090501
+  ],
+  "Smörslottsgatan 140|Göteborg": [
+    57.7126342,
+    12.0576594
+  ],
+  "Brattenskogen 42|Göteborg": [
+    57.6123655,
+    11.7911521
+  ],
+  "Ebba Brahes väg 14|Sollentuna": [
+    59.4768177,
+    17.90354
+  ],
+  "Äsebackevägen 2|Göteborg": [
+    57.5909971,
+    11.9459086
+  ],
+  "Sandbacksgatan 10|Stockholm": [
+    59.3169404,
+    18.0825521
+  ],
+  "Sankt Lars väg 1|Lund": [
+    55.6854788,
+    13.1827765
+  ],
+  "Bergakärrsgatan 33|Göteborg": [
+    57.6665473,
+    11.8764124
+  ],
+  "Alstaviksvägen 21|Stockholm": [
+    59.3222062,
+    18.0262626
+  ],
+  "Väpnargatan 19|Uppsala": [
+    59.8758876,
+    17.6159203
+  ],
+  "Kastanjeallén 3|Halmstad": [
+    56.6821286,
+    12.8619322
+  ],
+  "Arenavägen 15|Karlskrona": [
+    56.2162745,
+    15.6019867
+  ],
+  "Ekeblads väg 7|Partille": [
+    57.70255719999999,
+    12.1444236
+  ],
+  "Lillskogsvägen 2|Norrtälje": [
+    59.7423856,
+    18.3560511
+  ],
+  "Bölevägen 44|Umeå": [
+    63.82231839999999,
+    20.2345057
+  ],
+  "Gruvgången 4|Karlstad": [
+    59.379416,
+    13.4588987
+  ],
+  "Fåfängans väg 2|Nyköping": [
+    58.7602953,
+    17.0036287
+  ],
+  "Vikboplan 11|Norrköping": [
+    58.58754979999999,
+    16.2050157
+  ],
+  "Torsbygatan 31c|Stockholm": [
+    59.24260419999999,
+    18.097867
+  ],
+  "Sysslomansgatan 34|Uppsala": [
+    59.86459910000001,
+    17.6199006
+  ],
+  "Ebba Ströms gata 22A|Malmö": [
+    55.61319400000001,
+    13.0538946
+  ],
+  "Valhallavägen 117 D|Stockholm": [
+    59.3435965,
+    18.0830997
+  ],
+  "Kanelgatan 38|Göteborg": [
+    57.8066936,
+    12.0264723
+  ],
+  "Lunnarevägen 7|Huddinge": [
+    59.209309,
+    18.142738
+  ],
+  "Alléen 9|Mölndal": [
+    57.6569709,
+    12.022368
+  ],
+  "Isafjordsgatan 39|Stockholm": [
+    59.4053947,
+    17.9446735
+  ],
+  "Zetterlunds väg 140|Vallentuna": [
+    59.5101486,
+    18.0745867
+  ],
+  "Grimboåsen 22 A|Göteborg": [
+    57.74736399999999,
+    11.94247
+  ],
+  "Haramossevägen 5|Kungsbacka": [
+    57.52100549999999,
+    12.0806818
+  ],
+  "Bergbyvägen 10|Gävle": [
+    60.9248807,
+    17.0437215
+  ],
+  "Kärrvägen 20|Botkyrka": [
+    59.1826537,
+    17.810114
+  ],
+  "Lingsbergsvägen 14|Vallentuna": [
+    59.53739059999999,
+    18.0955657
+  ],
+  "Solkraftsvägen 15|Stockholm": [
+    59.235796,
+    18.1925848
+  ],
+  "Önevägen 147|Östersund": [
+    63.16839599999999,
+    14.5641267
+  ],
+  "Villagatan 5|Skellefteå": [
+    64.74375160000001,
+    20.9450766
+  ],
+  "Pionjärgatan 3|Örebro": [
+    59.2837611,
+    15.2390439
+  ],
+  "Nymärsta Kulle 1|Sigtuna": [
+    59.6206676,
+    17.8570795
+  ],
+  "Ekebyholm 9|Norrtälje": [
+    59.77656129999999,
+    18.3450445
+  ],
+  "Seminariegatan 3|Falun": [
+    60.6165993,
+    15.6276115
+  ],
+  "Fritzhemsgatan 29|Östersund": [
+    63.1787515,
+    14.6092582
+  ],
+  "Landsvägen 374|Vellinge": [
+    55.4950093,
+    13.1113354
+  ],
+  "Margaretavägen 45|Knivsta": [
+    59.7197664,
+    17.8042336
+  ],
+  "Prolympia, Kaserngatan 7-9|Umeå": [
+    63.83469830000001,
+    20.2591524
+  ],
+  "Sorterargatan 26|Stockholm": [
+    59.3721666,
+    17.8536834
+  ],
+  "Lagmansgatan 37|Umeå": [
+    63.83265169999999,
+    20.1985562
+  ],
+  "Söderviksvägen 1|Upplands Väsby": [
+    59.52389100000001,
+    17.9467298
+  ],
+  "Sibyllegatan 12|Uppsala": [
+    59.86084299999999,
+    17.610632
+  ],
+  "Husie Kyrkoväg 96|Malmö": [
+    55.579004,
+    13.0829069
+  ],
+  "Henriette Coyets gata|Svedala": [
+    55.5801787,
+    13.1761898
+  ],
+  "Tegelbruksvägen 36|Östersund": [
+    63.17180939999999,
+    14.6729161
+  ],
+  "Västra Lövnäsvägen 26|Hammarö": [
+    59.33214690000001,
+    13.5343099
+  ],
+  "Herbariegränd 3|Stockholm": [
+    59.30299699999999,
+    18.0175262
+  ],
+  "Strandbadsvägen 2|Simrishamn": [
+    55.5609487,
+    14.3451319
+  ],
+  "Farstavägen 118|Stockholm": [
+    59.24040499999999,
+    18.0900625
+  ],
+  "Slädvägen 2|Uppsala": [
+    59.82130489999999,
+    17.6324581
+  ],
+  "Folkborgsvägen 23|Norrköping": [
+    58.5797589,
+    16.1516954
+  ],
+  "Artillerigatan 8|Gotland": [
+    57.63241439999999,
+    18.2989633
+  ],
+  "Sveagatan 18|Norrtälje": [
+    59.75491390000001,
+    18.6942821
+  ],
+  "Falkenbergsvägen 12|Kalmar": [
+    56.66232489999999,
+    16.3276851
+  ],
+  "Sollentunavägen 192|Sollentuna": [
+    59.4334438,
+    17.9500524
+  ],
+  "Ankarvägen 6|Varberg": [
+    57.0568241,
+    12.2891547
+  ],
+  "Bagaregatan 6|Nyköping": [
+    58.7483529,
+    17.0074318
+  ],
+  "Skördevägen 155|Höganäs": [
+    56.1764565,
+    12.5654039
+  ],
+  "Hejaregatan 5 D|Växjö": [
+    56.88228720000001,
+    14.7767711
+  ],
+  "Hagalidvägen 4|Staffanstorp": [
+    55.6349989,
+    13.2161275
+  ],
+  "Paviljongvägen 15 A|Sundsvall": [
+    62.3775475,
+    17.28999
+  ],
+  "Nibble 19|Södertälje": [
+    59.06633180000001,
+    17.6165263
+  ],
+  "Palme Lydersgatan 33|Ystad": [
+    55.4316803,
+    13.806614
+  ],
+  "Lindblomsvägen 21|Öckerö": [
+    57.6883632,
+    11.6560619
+  ],
+  "Juteskärsgatan 3|Göteborg": [
+    57.6388819,
+    11.8831655
+  ],
+  "Mellbygatan 21|Lidköping": [
+    58.49448950000001,
+    13.1487298
+  ],
+  "Sandbyvägen 18A|Lund": [
+    55.6678947,
+    13.3497982
+  ],
+  "Palmbladsgatan 14|Uppsala": [
+    59.8613522,
+    17.7012492
+  ],
+  "Silverdalsvägen 12|Sollentuna": [
+    59.40338339999999,
+    17.9795737
+  ],
+  "Molinsgatan 7|Göteborg": [
+    57.6960625,
+    11.9723276
+  ],
+  "Källbrinksvägen 55|Huddinge": [
+    59.2495935,
+    17.9612558
+  ],
+  "Björnstjernegatan 10|Ystad": [
+    55.4315128,
+    13.8433347
+  ],
+  "Rissneleden 136|Sundbyberg": [
+    59.3729434,
+    17.9342875
+  ],
+  "Ekollonvägen 14|Lerum": [
+    57.7568108,
+    12.2573605
+  ],
+  "Industrigatan 8|Nyköping": [
+    58.7544511,
+    16.990421
+  ],
+  "Svenshögsvägen 25A|Lund": [
+    55.7239697,
+    13.199857
+  ],
+  "Stensjögatan 2|Malmö": [
+    55.5814884,
+    12.9828772
+  ],
+  "Krossgatan 34, plan 4|Stockholm": [
+    59.37236559999999,
+    17.856675
+  ],
+  "Regulatorvägen 11|Huddinge": [
+    59.2215518,
+    17.9617224
+  ],
+  "Pettersbergsvägen 1|Trollhättan": [
+    58.2667815,
+    12.2923237
+  ],
+  "Ålabodsvägen 5|Landskrona": [
+    55.9401476,
+    12.8130403
+  ],
+  "Bruksgatan 1|Skurup": [
+    55.47774399999999,
+    13.5081658
+  ],
+  "Tappströmsvägen 3|Ekerö": [
+    59.2907692,
+    17.8042063
+  ],
+  "Emelie Lejmans Väg 4|Göteborg": [
+    57.75567150000001,
+    11.8320287
+  ],
+  "Tvetgatan 9|Kungälv": [
+    57.8796869,
+    11.9918547
+  ],
+  "Wendesvägen 1|Hässleholm": [
+    56.1658825,
+    13.7512304
+  ],
+  "Björnvägen 15|Växjö": [
+    56.91450769999999,
+    14.8198696
+  ],
+  "Engelbrektsgatan 45|Trelleborg": [
+    55.37618879999999,
+    13.1713489
+  ],
+  "Tuna 65|Uppsala": [
+    59.7748053,
+    17.5437545
+  ],
+  "Trotzgatan 37 C|Falun": [
+    60.61097400000001,
+    15.6273671
+  ],
+  "Bergavägen 9|Huddinge": [
+    59.23628890000001,
+    17.9359227
+  ],
+  "Björkö Friskola|Linköping": [
+    58.509987,
+    15.5278513
+  ],
+  "Norremarksvägen 8|Växjö": [
+    56.9009121,
+    14.8304547
+  ],
+  "Videdalsvägen 15|Malmö": [
+    55.5909977,
+    13.0711586
+  ],
+  "Gärtunavägen 4|Södertälje": [
+    59.1803366,
+    17.6675541
+  ],
+  "Hägerneholmsvägen 1A|Täby": [
+    59.47159929999999,
+    18.1198631
+  ],
+  "Gyllebogången 1A|Malmö": [
+    55.5909832,
+    12.9645658
+  ],
+  "Billdals Bokväg 1|Göteborg": [
+    57.56630959999999,
+    11.9452705
+  ],
+  "None|Sorsele": [
+    65.5349378,
+    17.5421752
+  ],
+  "Askims Kyrkväg 10|Göteborg": [
+    57.61968499999999,
+    11.9404701
+  ],
+  "Bäckvägen 1|Söderhamn": [
+    61.32576899999999,
+    17.0616605
+  ],
+  "Lännavägen 80|Huddinge": [
+    59.2208115,
+    18.0065404
+  ],
+  "Bränningestrandsvägen 4|Södertälje": [
+    59.1530196,
+    17.651534
+  ],
+  "Ekeby Bruk 10A|Uppsala": [
+    59.8478648,
+    17.6080643
+  ],
+  "Parkvägen 4|Solna": [
+    59.36249849999999,
+    17.9950818
+  ],
+  "Malmvägen 8A|Umeå": [
+    63.804143,
+    20.326851
+  ],
+  "Svampskogsvägen 28|Vallentuna": [
+    59.5100194,
+    18.0778445
+  ],
+  "Voltavägen 8|Stockholm": [
+    59.34574509999999,
+    17.9695081
+  ],
+  "Stengatan 1|Mörbylånga": [
+    56.6387884,
+    16.4799602
+  ],
+  "Slätmossevägen 2|Kalmar": [
+    56.7345,
+    16.2921984
+  ],
+  "Skogslyckegatan 1 G|Linköping": [
+    58.3963683,
+    15.66279
+  ],
+  "Husie Kyrkoväg 64|Malmö": [
+    55.5834882,
+    13.0857113
+  ],
+  "Kungsgatan 18|Uppsala": [
+    59.8623938,
+    17.6373978
+  ],
+  "Västra Allén 11-15|Helsingborg": [
+    56.0803747,
+    12.6839634
+  ],
+  "Erik Dahlbergs väg 9|Södertälje": [
+    59.1980417,
+    17.6367304
+  ],
+  "Tångvallavägen 3|Vellinge": [
+    55.4030432,
+    12.8410458
+  ],
+  "Sjöfågelvägen 1|Österåker": [
+    59.4758552,
+    18.3401449
+  ],
+  "Läroverksgatan 1|Boden": [
+    65.82353979999999,
+    21.7015052
+  ],
+  "Prästgårdsvägen 50|Södertälje": [
+    59.19359060000001,
+    17.5915178
+  ],
+  "Högsätravägen 8|Lidingö": [
+    59.35023989999999,
+    18.155622
+  ],
+  "Brytstugevägen 2|Helsingborg": [
+    56.053614,
+    12.7298121
+  ],
+  "Ljungstigen 2|Södertälje": [
+    59.0947031,
+    17.5566959
+  ],
+  "Skegrie stationsväg 17|Trelleborg": [
+    55.4057676,
+    13.0847149
+  ],
+  "Karlstorpsvägen 159B|Trollhättan": [
+    58.2736506,
+    12.2976018
+  ],
+  "Bokvägen 18|Höganäs": [
+    56.1957046,
+    12.5615182
+  ],
+  "AP Kleens väg|Hörby": [
+    55.8508109,
+    13.6599486
+  ],
+  "Per Josephssons Väg 2|Malmö": [
+    55.5537813,
+    12.9291813
+  ],
+  "Tors väg 12|Tyresö": [
+    59.2214719,
+    18.2064121
+  ],
+  "Skolbacken 1|Härjedalen": [
+    62.54588609999999,
+    12.5467098
+  ],
+  "Herrhagsvägen 8|Uppsala": [
+    59.8504981,
+    17.5580444
+  ],
+  "Stenåldersvägen 6|Lund": [
+    55.7245966,
+    13.1678174
+  ],
+  "Ebbe Lieberathsgatan 25|Göteborg": [
+    57.6780666,
+    12.0012977
+  ],
+  "Visborgsallén 24|Gotland": [
+    57.61210819999999,
+    18.2809261
+  ],
+  "Storgatan 49-51|Västervik": [
+    57.75730169999999,
+    16.6331989
+  ],
+  "Torngatan 61|Trollhättan": [
+    58.3185823,
+    12.2739699
+  ],
+  "Frejavägen 17|Umeå": [
+    63.7029687,
+    20.3719378
+  ],
+  "Friggavägen 1|Enköping": [
+    59.6455504,
+    17.0939173
+  ],
+  "Elvägen 4|Falkenberg": [
+    56.90102590000001,
+    12.5203653
+  ],
+  "Gjuterigatan 27|Jönköping": [
+    57.7809089,
+    14.1519162
+  ],
+  "Rävsta gård|Sigtuna": [
+    59.627636,
+    17.773623
+  ],
+  "Topasgatan 1A|Göteborg": [
+    57.6460645,
+    11.915312
+  ],
+  "Västra Storgatan 17B|Eskilstuna": [
+    59.3785607,
+    16.5100561
+  ],
+  "Mariebergsvägen 8|Uddevalla": [
+    58.355467,
+    11.9478208
+  ],
+  "Olga Bohlins gata 4B|Växjö": [
+    56.8392421,
+    14.8174458
+  ],
+  "Gamla Huddingevägen 425|Stockholm": [
+    59.2751913,
+    18.0276312
+  ],
+  "Tomtaklintgatan 4|Trosa": [
+    58.9037854,
+    17.5581069
+  ],
+  "Östgötagatan 12|Linköping": [
+    58.41199659999999,
+    15.6086223
+  ],
+  "Tyresövägen 6|Tyresö": [
+    59.24094609999999,
+    18.2935777
+  ],
+  "Gamla Forsvägen 1A|Kungsbacka": [
+    57.49116720000001,
+    12.0930011
+  ],
+  "Karlsgatan 30|Örebro": [
+    59.27784140000001,
+    15.1934247
+  ],
+  "Östra Esplanaden 16|Arvika": [
+    59.65574950000001,
+    12.5984664
+  ],
+  "Forsgläntevägen 3|Kungsbacka": [
+    57.4900142,
+    12.0939089
+  ],
+  "Skolbacken 58|Sigtuna": [
+    59.6213264,
+    17.7253468
+  ],
+  "Malla Silfverstolpes väg 2|Sollentuna": [
+    59.4438372,
+    17.9561309
+  ],
+  "Högadalsvägen 14|Karlshamn": [
+    56.1840923,
+    14.8548842
+  ],
+  "Hagnäsvägen 1-3|Upplands-Bro": [
+    59.5014181,
+    17.7522349
+  ],
+  "Attarpsvägen 7|Jönköping": [
+    57.8575263,
+    14.1227141
+  ],
+  "None|Stockholm": [
+    59.3327036,
+    18.0656255
+  ],
+  "Almungeberg 14|Uppsala": [
+    59.85856380000001,
+    17.6389267
+  ],
+  "Vallgatan 19|Arboga": [
+    59.39504520000001,
+    15.8338068
+  ],
+  "Bogsätravägen 46|Stockholm": [
+    59.28548109999999,
+    17.9187261
+  ],
+  "Magnarps Byaväg 333|Ängelholm": [
+    56.3073504,
+    12.7871011
+  ],
+  "Övägen 8|Luleå": [
+    65.6405216,
+    22.0138432
+  ],
+  "Jordhyttegatan 5|Göteborg": [
+    57.6850788,
+    11.9140342
+  ],
+  "Västgötagatan 16|Katrineholm": [
+    58.98758349999999,
+    16.1924781
+  ],
+  "Kockatorpsvägen 1|Varberg": [
+    57.107118,
+    12.2520907
+  ],
+  "Taborsbergsvägen 83|Norrköping": [
+    58.606952,
+    16.1473011
+  ],
+  "Edsbergs Torg 5|Sollentuna": [
+    59.44509739999999,
+    17.9652647
+  ],
+  "Kalmarleden 12|Håbo": [
+    59.5578025,
+    17.5002528
+  ],
+  "Skeppsbrogatan 1|Luleå": [
+    65.5836259,
+    22.1363754
+  ],
+  "Kungsörnsgatan 3|Malmö": [
+    55.5653801,
+    13.0092681
+  ],
+  "Torggatan 9|Sollefteå": [
+    63.5396234,
+    16.4664967
+  ],
+  "Folkungagatan 20|Linköping": [
+    58.41024089999999,
+    15.605775
+  ],
+  "År F-6 Irstaskolan 1,  År 7-9 Ullvigatan 49|Västerås": [
+    59.6022955,
+    16.7006947
+  ],
+  "Lilla Danska vägen 26|Göteborg": [
+    57.7075847,
+    12.0061077
+  ],
+  "Länna skolväg 23|Norrtälje": [
+    59.6393498,
+    18.654983
+  ],
+  "Balsbyvägen 6|Kristianstad": [
+    56.05245559999999,
+    14.1964056
+  ],
+  "Vårbergsvägen 41-43|Stockholm": [
+    59.2735875,
+    17.8997408
+  ],
+  "Storgatan 9|Sävsjö": [
+    57.23845009999999,
+    14.5812938
+  ],
+  "Eriksbergsvägen 9|Södertälje": [
+    59.0217389,
+    17.5431124
+  ],
+  "Birkagatan 42|Jönköping": [
+    57.783857,
+    14.2604152
+  ],
+  "Bältartorpsgatan 19|Norrtälje": [
+    59.76260019999999,
+    18.7107081
+  ],
+  "Bredviksvägen 1|Växjö": [
+    56.87637369999999,
+    14.7453045
+  ],
+  "Blåtands väg 20A|Kristianstad": [
+    56.0119093,
+    14.0981619
+  ],
+  "Hjortnäsvägen 35|Leksand": [
+    60.740855,
+    14.9815655
+  ],
+  "S:t Lars väg 19|Lund": [
+    55.6843914,
+    13.1815412
+  ],
+  "Stubbåkersgatan 21|Mölndal": [
+    57.6530423,
+    11.9862922
+  ],
+  "Stora Mans Väg 11B|Stockholm": [
+    59.2807856,
+    17.9753327
+  ],
+  "Blombackagatan 6|Södertälje": [
+    59.19240869999999,
+    17.6103099
+  ],
+  "Säbytorgsvägen 18-20|Salem": [
+    59.19642039999999,
+    17.7589172
+  ],
+  "S. Sjötullsgatan 3|Gävle": [
+    60.67509869999999,
+    17.1600862
+  ],
+  "Hembygdsgatan 2|Göteborg": [
+    57.7275815,
+    11.7700272
+  ],
+  "Nygatan 18 A|Kalmar": [
+    56.665968,
+    16.3479628
+  ],
+  "Westmans väg 6|Strängnäs": [
+    59.3777646,
+    17.0495403
+  ],
+  "Bruksvägen 169|Örnsköldsvik": [
+    63.3314795,
+    19.1645029
+  ],
+  "Norra Fogdarödsvägen 16|Höör": [
+    55.9340278,
+    13.572041
+  ],
+  "Birkagatan 41|Jönköping": [
+    57.7869656,
+    14.2625435
+  ],
+  "Södervägen 4|Bräcke": [
+    62.98119969999999,
+    16.0866979
+  ],
+  "Emaljgatan 9-11|Landskrona": [
+    55.89003229999999,
+    12.8462909
+  ],
+  "Prosten Linders väg 2|Södertälje": [
+    59.1936233,
+    17.5805782
+  ],
+  "Häradsvägen 33|Strömsund": [
+    63.58312899999999,
+    15.3584221
+  ],
+  "Rusthållarvägen 5|Stockholm": [
+    59.27973470000001,
+    18.1276625
+  ],
+  "Östanvägen 3|Botkyrka": [
+    59.20514669999999,
+    17.8957282
+  ],
+  "Idrottsgatan 13|Borås": [
+    57.73723769999999,
+    12.9333877
+  ],
+  "Skolvägen 1|Kungälv": [
+    57.8628112,
+    11.9218598
+  ],
+  "Högalidsgatan 25|Skellefteå": [
+    64.7570029,
+    20.9558279
+  ],
+  "Intendenturvägen 11 b|Boden": [
+    65.8237217,
+    21.6633704
+  ],
+  "Häradsvägen 2|Lerum": [
+    57.7723346,
+    12.2663485
+  ],
+  "Lasarettsvägen 11|Trollhättan": [
+    58.27178060000001,
+    12.2903438
+  ],
+  "Ledetvägen 33|Ale": [
+    57.9247435,
+    12.0927912
+  ],
+  "Norra Långgatan 25|Gislaved": [
+    57.30475990000001,
+    13.5368471
+  ],
+  "Bollvägen 8|Kävlinge": [
+    55.76362469999999,
+    13.0169784
+  ],
+  "Östra farmvägen 18|Malmö": [
+    55.597592,
+    13.029973
+  ],
+  "None|Nynäshamn": [
+    58.90292600000001,
+    17.9465289
+  ],
+  "Jakob Gråbergs plats 6|Gotland": [
+    57.2396113,
+    18.3819214
+  ],
+  "Sankt Jörgens väg 18|Göteborg": [
+    57.74954829999999,
+    11.9537991
+  ],
+  "Slottsmöllan 14 F|Halmstad": [
+    56.6909619,
+    12.8708966
+  ],
+  "Gustav Adolfsgatan 25|Linköping": [
+    58.4164487,
+    15.6113099
+  ],
+  "Kantarellgatan 1|Enköping": [
+    59.6301508,
+    17.114572
+  ],
+  "Karolinervägen 33|Åre": [
+    63.3938682,
+    12.9304012
+  ],
+  "Framnäsgatan 25|Göteborg": [
+    57.6841127,
+    11.9934206
+  ],
+  "Elevvägen 4|Höör": [
+    55.9056696,
+    13.542342
+  ],
+  "Thottsgatan 5|Malmö": [
+    55.5978159,
+    12.9919702
+  ],
+  "Linvägen 19|Sundsvall": [
+    62.2682693,
+    17.3677216
+  ],
+  "Västgötaresan 133|Uppsala": [
+    59.81055180000001,
+    17.7036065
+  ],
+  "Pilvingegatan 34|Stockholm": [
+    59.2695224,
+    18.129402
+  ],
+  "Gymnasievägen 6|Huddinge": [
+    59.24202709999999,
+    17.9997641
+  ],
+  "Skolgången 2|Lund": [
+    60.6588928,
+    17.1597645
+  ],
+  "Gåvstavägen 9-11|Uppsala": [
+    59.94698769999999,
+    17.8784567
+  ],
+  "Frillesås skolväg 10|Kungsbacka": [
+    57.31951900000001,
+    12.1826285
+  ],
+  "Vikingagatan 6|Kungälv": [
+    57.86975400000001,
+    11.9740317
+  ],
+  "Blekingegatan 55|Stockholm": [
+    59.3109976,
+    18.0745083
+  ],
+  "Framgårdsvägen 4|Älvdalen": [
+    61.85654289999999,
+    12.7206422
+  ],
+  "Östra Allén 8-10|Helsingborg": [
+    56.0805898,
+    12.6868073
+  ],
+  "Sturegatan 11|Eskilstuna": [
+    59.35683830000001,
+    16.4986025
+  ],
+  "Trelleborgsvägen 29|Vellinge": [
+    55.4622179,
+    13.0238704
+  ],
+  "Björnstjernegatan 8|Ystad": [
+    55.43178649999999,
+    13.8423185
+  ],
+  "Fontinvägen 38|Kungälv": [
+    57.8714926,
+    11.9838956
+  ],
+  "Strömmavägen 24E|Karlshamn": [
+    56.1940728,
+    14.8522741
+  ],
+  "Chronas väg 12|Huddinge": [
+    59.27845229999999,
+    17.9452874
+  ],
+  "Agrargränd 4|Järfälla": [
+    59.41194770000001,
+    17.8056543
+  ],
+  "Nokiagatan 1|Karlstad": [
+    59.4009085,
+    13.5188396
+  ],
+  "Rålambsvägen 22|Stockholm": [
+    59.3288254,
+    18.0129384
+  ],
+  "Regementsvägen 3|Uddevalla": [
+    58.3483951,
+    11.9546326
+  ],
+  "Folkhögskolevägen 4|Luleå": [
+    65.65989139999999,
+    21.9442616
+  ],
+  "Målargränd 15|Umeå": [
+    63.8197345,
+    20.2447649
+  ],
+  "Tingsgatan 12|Varberg": [
+    57.1136598,
+    12.2571151
+  ],
+  "Baldersvägen 70|Sundsvall": [
+    62.4018637,
+    17.3182444
+  ],
+  "Hydrovägen 3|Västerås": [
+    59.63593950000001,
+    16.5830356
+  ],
+  "Skolgatan 36|Filipstad": [
+    59.98429160000001,
+    14.1750986
+  ],
+  "Winborgs väg 12|Nacka": [
+    59.30495459999999,
+    18.1497314
+  ],
+  "Prästgårdsvägen 114|Botkyrka": [
+    59.2043487,
+    17.8292018
+  ],
+  "Vallmovägen|Ale": [
+    57.9495392,
+    12.1114784
+  ],
+  "None|Stenungsund": [
+    58.0678388,
+    11.8294346
+  ],
+  "None|Härryda": [
+    57.69139449999999,
+    12.2826656
+  ],
+  "Änglagårdsskolan, Krutvägen 2A|Göteborg": [
+    57.7383138,
+    12.0330172
+  ],
+  "Sulvägen 52|Stockholm": [
+    59.2843433,
+    18.0075803
+  ],
+  "Halltorpsvägen 13|Örebro": [
+    59.23885489999999,
+    15.1860263
+  ],
+  "Solurstorget 5|Sigtuna": [
+    59.62169599999999,
+    17.795027
+  ],
+  "Skolvägen 3|Krokom": [
+    63.3202405,
+    14.4598849
+  ],
+  "Hittarpsvägen 2|Helsingborg": [
+    56.0955546,
+    12.6469907
+  ],
+  "Smedshagsvägen 3|Stockholm": [
+    59.37909209999999,
+    17.8226957
+  ],
+  "Åkervägen 2|Mörbylånga": [
+    56.6579102,
+    16.4898187
+  ],
+  "Ungärde 31|Malung-Sälen": [
+    60.9381382,
+    13.3620093
+  ],
+  "Ekholmsvägen 48|Linköping": [
+    58.37971999999999,
+    15.6743428
+  ],
+  "Vasagatan 21|Göteborg": [
+    57.6983334,
+    11.968905
+  ],
+  "Ekgårdsvägen 6|Mölndal": [
+    57.607257,
+    12.0752188
+  ],
+  "Vallarstigen 11-13|Gävle": [
+    60.6966686,
+    17.150913
+  ],
+  "Mangårdsgatan 70|Helsingborg": [
+    56.0385873,
+    12.7557963
+  ],
+  "Prostvägen 10A|Örebro": [
+    59.2594862,
+    15.2435222
+  ],
+  "Snödroppevägen 8|Kungälv": [
+    57.8473622,
+    11.7897913
+  ],
+  "Ekensbergsgatan 34|Södertälje": [
+    59.20653669999999,
+    17.6394847
+  ],
+  "Hagagatan 12|Ydre": [
+    57.8250683,
+    15.2812414
+  ],
+  "Ringvägen 58-66|Stockholm": [
+    59.30857169999999,
+    18.0623393
+  ],
+  "Skolgatan 3|Karlstad": [
+    59.5986008,
+    13.7248956
+  ],
+  "Nybyvägen 6|Hylte": [
+    57.0466157,
+    13.3350621
+  ],
+  "Kävsjövägen 4|Gnosjö": [
+    57.197812,
+    14.0344295
+  ],
+  "Läroverksgatan 2|Västervik": [
+    57.67068059999999,
+    14.9764574
+  ],
+  "Hörntorpsvägen 20|Västerås": [
+    59.6206235,
+    16.4729491
+  ],
+  "Dragsgatan 7|Norrköping": [
+    58.5896608,
+    16.1724853
+  ],
+  "Gubbängsvägen 63-69|Stockholm": [
+    59.26169169999999,
+    18.0912142
+  ],
+  "Robert Anbergs väg 3|Södertälje": [
+    59.20526179999999,
+    17.5984011
+  ],
+  "Hyttgatan 27|Falun": [
+    60.6042555,
+    15.6244446
+  ],
+  "Hultvägen 6|Norrköping": [
+    58.66218730000001,
+    16.1741772
+  ],
+  "Hellbergs väg 5|Falun": [
+    60.6223022,
+    15.623961
+  ],
+  "Intagsgatan 14|Göteborg": [
+    57.7158597,
+    12.0325733
+  ],
+  "Idrottsvägen 1|Härryda": [
+    57.6602222,
+    12.1200977
+  ],
+  "Vibblabyvägen 5|Järfälla": [
+    59.4224085,
+    17.8283651
+  ],
+  "Alingsåsvägen 8|Borås": [
+    57.72179999999999,
+    12.9290604
+  ],
+  "Marmavägen 12|Östhammar": [
+    60.0670953,
+    18.0851585
+  ],
+  "Hörntorpsvägen 2|Västerås": [
+    59.6199045,
+    16.4692043
+  ],
+  "Norgårdsvägen 12-14|Uddevalla": [
+    58.35023820000001,
+    11.8377889
+  ],
+  "Västgötagatan 2|Göteborg": [
+    57.70438699999999,
+    11.9809209
+  ],
+  "Domänvägen 11|Nyköping": [
+    58.7500654,
+    17.0284331
+  ],
+  "Byvägen 1|Dorotea": [
+    64.26241809999999,
+    16.416587
+  ],
+  "Gripsholmsvägen 29|Stockholm": [
+    59.2807481,
+    18.0274584
+  ],
+  "Fjällgatan 11-13|Gnesta": [
+    59.04495559999999,
+    17.3205066
+  ],
+  "Ladugårdsgatan 1A|Malmö": [
+    55.5644164,
+    12.9448929
+  ],
+  "Hagalundsgatan 26|Solna": [
+    59.36167560000001,
+    18.0128365
+  ],
+  "Biblioteksvägen 1|Pajala": [
+    67.2125148,
+    23.3633511
+  ],
+  "Ärentunavägen 1|Uppsala": [
+    59.9617783,
+    17.6975001
+  ],
+  "Uppingegränd 27-33|Stockholm": [
+    59.3903555,
+    17.9057931
+  ],
+  "Kaserngatan 20|Kiruna": [
+    67.8543901,
+    20.2654287
+  ],
+  "Floda allé 8|Lerum": [
+    57.8057675,
+    12.3663159
+  ],
+  "Revavägen 3|Höganäs": [
+    56.2291129,
+    12.675112
+  ],
+  "Norrviksgatan 1|Göteborg": [
+    57.7198564,
+    11.9018577
+  ],
+  "Nyhedsbacken 16|Bollnäs": [
+    61.3491064,
+    16.3735806
+  ],
+  "Hjälmshultsgatan 17|Helsingborg": [
+    56.0572499,
+    12.6967535
+  ],
+  "Råsslavägen 20|Norrköping": [
+    58.6643067,
+    16.3767709
+  ],
+  "Bergaliden 24|Helsingborg": [
+    56.049653,
+    12.7013512
+  ],
+  "Terrakottagatan 3 A|Mölndal": [
+    57.6573989,
+    12.0071734
+  ],
+  "Ringvägen 97|Varberg": [
+    57.1010606,
+    12.2569707
+  ],
+  "Hagagatan 51 A|Örebro": [
+    59.27042619999999,
+    15.1694529
+  ],
+  "Solhöjdsgatan 1A|Malmö": [
+    55.6087989,
+    12.9844277
+  ],
+  "Katrinebergsgatan 21|Borås": [
+    57.71842199999999,
+    12.9146465
+  ],
+  "Knut Peters väg 21|Halmstad": [
+    56.6680787,
+    12.7989372
+  ],
+  "Sockenvägen 26|Umeå": [
+    63.83256649999999,
+    20.1546144
+  ],
+  "Engelbrektsgatan 14|Borås": [
+    57.7258203,
+    12.947669
+  ],
+  "Backsippevägen 8|Karlskrona": [
+    56.1907265,
+    15.6393057
+  ],
+  "Hällestadsvägen 16|Lund": [
+    55.6649659,
+    13.351978
+  ],
+  "Svalgången 1|Västerås": [
+    59.6241887,
+    16.5021338
+  ],
+  "Nygatan 47|Umeå": [
+    63.8266163,
+    20.2774856
+  ],
+  "Pölagårdsvägen 8|Kungsbacka": [
+    57.35363330000001,
+    12.1113316
+  ],
+  "Klövervägen|Kungsbacka": [
+    57.4592666,
+    12.1770967
+  ],
+  "Trädgården 12|Håbo": [
+    59.56416199999999,
+    17.5315403
+  ],
+  "Österdalsvägen 1|Järfälla": [
+    59.3986927,
+    17.8496433
+  ],
+  "Lundbygatan 5|Södertälje": [
+    59.18571819999999,
+    17.6052485
+  ],
+  "Hortlaxvägen 14C|Piteå": [
+    65.286186,
+    21.408135
+  ],
+  "Decenniumgatan 13|Göteborg": [
+    57.755579,
+    12.0252898
+  ],
+  "Sandvägen 21|Landskrona": [
+    55.850153,
+    12.9239452
+  ],
+  "Fastesgata 2B|Linköping": [
+    58.41773500000001,
+    15.6490289
+  ],
+  "Paradisvägen 10|Trollhättan": [
+    58.2959222,
+    12.2756165
+  ],
+  "Håkullavägen 43|Kungsbacka": [
+    57.4144756,
+    12.0127652
+  ],
+  "Egils Gränd 16|Lund": [
+    55.6975407,
+    13.2406055
+  ],
+  "Tröskaregatan 73-75|Linköping": [
+    58.386346,
+    15.5637357
+  ],
+  "Grevegatan 16|Tierp": [
+    60.345933,
+    17.5170808
+  ],
+  "Sankta Katarinagatan 2|Skara": [
+    58.3860128,
+    13.4393282
+  ],
+  "Magasinsgatan 25|Varberg": [
+    57.1101433,
+    12.2599099
+  ],
+  "Bergaliden 9|Helsingborg": [
+    56.04576410000001,
+    12.7011799
+  ],
+  "Västra Järnvägsgatan 1C|Kristianstad": [
+    55.92635079999999,
+    14.2917917
+  ],
+  "Helenelundsvägen 2|Södertälje": [
+    59.21152799999999,
+    17.587935
+  ],
+  "Industrivägen 30|Mölndal": [
+    57.5793877,
+    12.1044411
+  ],
+  "Lillhagavägen 2|Nykvarn": [
+    59.1768843,
+    17.4237118
+  ],
+  "Gjurds väg 6|Ragunda": [
+    63.16777619999999,
+    15.5969684
+  ],
+  "Ekbacken 8|Kristianstad": [
+    56.17230929999999,
+    14.2856453
+  ],
+  "Lärkvägen 10|Alingsås": [
+    57.9236934,
+    12.539949
+  ],
+  "Skolgatan 13|Härjedalen": [
+    62.4197833,
+    13.5137456
+  ],
+  "Sollentunavägen 189|Sollentuna": [
+    59.43259130000001,
+    17.947888
+  ],
+  "Gosselmansgatan 2|Ystad": [
+    55.43296580000001,
+    13.8205057
+  ],
+  "Sunnanväg 2|Kävlinge": [
+    55.7921051,
+    13.1025608
+  ],
+  "Rönninge Skolväg 31|Salem": [
+    59.1890004,
+    17.743263
+  ],
+  "Hasselstigen 14|Mörbylånga": [
+    56.6468935,
+    16.4755078
+  ],
+  "Kristinagatan 2|Härnösand": [
+    62.6276215,
+    17.9498757
+  ],
+  "Herrgårdsgatan 9|Lessebo": [
+    56.7522598,
+    15.2753536
+  ],
+  "Hjortronstigen 21 A|Skellefteå": [
+    64.75415579999999,
+    20.9979462
+  ],
+  "Kedjevägen 57 B|Stockholm": [
+    59.2838004,
+    17.9975523
+  ],
+  "Norra Linnégatan 4|Strömstad": [
+    58.9370729,
+    11.1798889
+  ],
+  "Broväg 8|Gotland": [
+    57.64444160000001,
+    18.3102671
+  ],
+  "Tosthultsvägen 19|Osby": [
+    56.402762,
+    14.3278684
+  ],
+  "Ringvägen 1A|Botkyrka": [
+    59.1656197,
+    17.7935111
+  ],
+  "Uppgårds skolväg|Ekerö": [
+    59.3364424,
+    17.6852227
+  ],
+  "Tideräkningsgatan 3|Göteborg": [
+    57.7529605,
+    12.03407
+  ],
+  "Fabriksgatan 4|Lidköping": [
+    58.5076509,
+    13.1591129
+  ],
+  "O G Svenssons väg 7|Linköping": [
+    58.5080137,
+    15.5006909
+  ],
+  "Hjälmstavägen 5A|Vallentuna": [
+    59.52884639999999,
+    18.0802887
+  ],
+  "Håkantorpsgatan 158|Västerås": [
+    59.5972168,
+    16.4527272
+  ],
+  "Sandbrogatan 2D|Enköping": [
+    59.6344459,
+    17.0877089
+  ],
+  "None|Vännäs": [
+    63.908007,
+    19.752965
+  ],
+  "Lövstavägen 1|Upplands Väsby": [
+    59.5230573,
+    17.8830362
+  ],
+  "Utmarksvägen 1|Umeå": [
+    63.8349993,
+    20.2692227
+  ],
+  "Sundbyvägen 88-98|Stockholm": [
+    59.3701846,
+    17.918969
+  ],
+  "Ramlösavägen 90|Helsingborg": [
+    56.0290262,
+    12.7259857
+  ],
+  "Klapphällsstigen 9|Luleå": [
+    65.85361809999999,
+    22.2904344
+  ],
+  "Kyrkoallén 3|Oskarshamn": [
+    57.2621984,
+    16.4511225
+  ],
+  "None|Luleå": [
+    65.584819,
+    22.1567026
+  ],
+  "von Rosens väg 43|Malmö": [
+    55.5816731,
+    13.0477963
+  ],
+  "None|Göteborg": [
+    57.70887,
+    11.97456
+  ],
+  "Fredriksdalsvägen 37|Karlskrona": [
+    56.2033836,
+    15.5284558
+  ],
+  "Gavlehovsvägen 5|Gävle": [
+    60.6892532,
+    17.1288486
+  ],
+  "Skolgatan 20|Vännäs": [
+    63.90440389999999,
+    19.7447155
+  ],
+  "Nygatan 7|Habo": [
+    57.91104050000001,
+    14.0780613
+  ],
+  "Lasarettsboulevarden 24|Kristianstad": [
+    56.0328054,
+    14.1745548
+  ],
+  "Magasinsgatan 11|Falun": [
+    60.6114461,
+    15.6308319
+  ],
+  "Föreningsgatan 42|Malmö": [
+    55.6002621,
+    13.0135979
+  ],
+  "Mariagatan 1|Malmö": [
+    55.5959119,
+    13.0185019
+  ],
+  "Idrottsvägen 9|Östersund": [
+    63.1537561,
+    14.7079017
+  ],
+  "Tennisvägen 33|Båstad": [
+    56.42849099999999,
+    12.8486382
+  ],
+  "Lönnebergagatan 55|Malmö": [
+    55.5943516,
+    13.0968495
+  ],
+  "Lustigkullagatan 14|Knivsta": [
+    59.7598074,
+    17.7708826
+  ],
+  "Skolgatan 18C|Kristianstad": [
+    56.05553339999999,
+    14.0230529
+  ],
+  "Folkegatan 1|Oxelösund": [
+    58.67467479999999,
+    17.0999857
+  ],
+  "Allmogevägen 3|Trelleborg": [
+    55.3759104,
+    13.1831789
+  ],
+  "Norra Allén 33|Karlstad": [
+    59.3906563,
+    13.5253924
+  ],
+  "Centralgatan 10|Höganäs": [
+    56.20131199999999,
+    12.553848
+  ],
+  "Kungsgatan 10|Kungsbacka": [
+    57.48942889999999,
+    12.0717707
+  ],
+  "Munkhättegatan 5|Malmö": [
+    55.5775404,
+    13.0155069
+  ],
+  "Trollsjögatan 30|Eslöv": [
+    55.8380854,
+    13.2931855
+  ],
+  "Ilandavägen 50|Karlstad": [
+    59.4324019,
+    13.4214753
+  ],
+  "Mellansjövägen 60 A|Österåker": [
+    59.5260885,
+    18.6233273
+  ],
+  "Västra Kungsgårdsgatan 4|Ängelholm": [
+    56.2516338,
+    12.8778754
+  ],
+  "Märta Ljungbergsvägen 29|Ljungby": [
+    56.83838739999999,
+    13.9377174
+  ],
+  "Arne Tiselius gata 39|Uppsala": [
+    59.8355491,
+    17.6293956
+  ],
+  "Bergsgatan 29|Värmdö": [
+    59.3249422,
+    18.3890311
+  ],
+  "Plutonvägen 1|Hässleholm": [
+    56.1461632,
+    13.7208209
+  ],
+  "Skomakarvägen 1|Haninge": [
+    59.1944891,
+    18.1907279
+  ],
+  "Valthornsvägen 21|Uppsala": [
+    59.8097996,
+    17.6300534
+  ],
+  "Hallundavägen 199|Botkyrka": [
+    59.24148399999999,
+    17.8101773
+  ],
+  "Elevvägen 2|Burlöv": [
+    55.6553489,
+    13.109826
+  ],
+  "Katedergatan 2|Helsingborg": [
+    56.1033512,
+    12.7534349
+  ],
+  "Nyköpingsvägen 54|Södertälje": [
+    59.1871132,
+    17.6267661
+  ],
+  "Skogvaktarvägen 1|Eskilstuna": [
+    59.3651723,
+    16.5386597
+  ],
+  "Södermalmsgatan 1|Kristinehamn": [
+    59.3054671,
+    14.1151666
+  ],
+  "Östra Vägen 37 A|Tranås": [
+    58.0293761,
+    14.9923745
+  ],
+  "Brännavägen 57-59|Skellefteå": [
+    64.75867509999999,
+    20.9095641
+  ],
+  "Storgatan 50-52|Växjö": [
+    56.879275,
+    14.7932296
+  ],
+  "Lindberg skola|Varberg": [
+    57.158289,
+    12.310609
+  ],
+  "Herrgårdsgatan 2|Växjö": [
+    57.1676394,
+    14.5896282
+  ],
+  "Rosenforsvägen 31|Eskilstuna": [
+    59.32178269999999,
+    16.4793774
+  ],
+  "Väderleden 17|Luleå": [
+    65.6150265,
+    22.1761239
+  ],
+  "Skolvägen 4|Härryda": [
+    57.68600550000001,
+    12.2191156
+  ],
+  "Apelgårdstorget 10|Norrköping": [
+    58.587745,
+    16.192421
+  ],
+  "Parkgatan 2|Skövde": [
+    58.3838958,
+    13.8401612
+  ],
+  "Huskvarnavägen 42|Jönköping": [
+    57.7832983,
+    14.2233586
+  ],
+  "Virkesvägen 2|Trelleborg": [
+    55.38663159999999,
+    13.1443274
+  ],
+  "Östra Läraregatan 1|Helsingborg": [
+    55.987137,
+    12.8026151
+  ],
+  "Vårholmsbackarna 100|Stockholm": [
+    59.2753046,
+    17.8853593
+  ],
+  "Sundbyvägen 14, Sundby Park|Strängnäs": [
+    59.38106939999999,
+    17.0470423
+  ],
+  "Kasernhöjden 30|Karlstad": [
+    59.38808090000001,
+    13.4888618
+  ],
+  "Karlavägen 10|Karlskoga": [
+    59.32373089999999,
+    14.5219576
+  ],
+  "Lärdomsvägen 2|Partille": [
+    57.72165500000001,
+    12.0768465
+  ],
+  "Lärarstråket 1|Umeå": [
+    63.80795549999999,
+    20.3155716
+  ],
+  "Aktörgränd 29|Umeå": [
+    63.8385199,
+    20.1598607
+  ],
+  "Sagbrovägen 30|Mölndal": [
+    57.5770692,
+    12.0851948
+  ],
+  "Lillekärr Norra 193|Göteborg": [
+    57.79484910000001,
+    11.9888103
+  ],
+  "Gärdesvägen 21|Jönköping": [
+    58.02324519999999,
+    14.4636642
+  ],
+  "Höviksnäsvägen 1|Tjörn": [
+    58.0367217,
+    11.7379445
+  ],
+  "Fridhemsvägen 8|Umeå": [
+    63.8243034,
+    20.2908401
+  ],
+  "Ringvägen 38|Laholm": [
+    56.5025908,
+    13.0366414
+  ],
+  "Molinsgatan 4|Lilla Edet": [
+    58.1383453,
+    12.1291736
+  ],
+  "Norrtullsgatan 13|Söderhamn": [
+    61.3056869,
+    17.056652
+  ],
+  "Långbackagatan 2|Motala": [
+    58.5388169,
+    15.0463864
+  ],
+  "Parkgatan 1|Leksand": [
+    60.7336349,
+    14.9906033
+  ],
+  "Myntvägen 6|Örnsköldsvik": [
+    63.2933288,
+    18.6178762
+  ],
+  "Nolhaga Allé 8|Alingsås": [
+    57.933333,
+    12.533333
+  ],
+  "Vackra vägen 6-8|Sundbyberg": [
+    59.3677088,
+    17.9741085
+  ],
+  "Onsjövägen 13|Svalöv": [
+    55.9110209,
+    13.1132837
+  ],
+  "Kapellgatan 9|Trollhättan": [
+    58.2844485,
+    12.2727818
+  ],
+  "Rastavallsvägen 1|Värnamo": [
+    57.109343,
+    14.1645946
+  ],
+  "Källbovägen 6|Västerås": [
+    59.68358009999999,
+    16.6239269
+  ],
+  "Onsjövägen 1A|Eslöv": [
+    55.8487739,
+    13.3016812
+  ],
+  "Gröndalsvägen 19A|Kalmar": [
+    56.678314,
+    16.3568698
+  ],
+  "Ösmo centrum 6|Nynäshamn": [
+    58.9822046,
+    17.8952891
+  ],
+  "Sibeliusgången 11|Stockholm": [
+    59.4139225,
+    17.9161295
+  ],
+  "Gökstensgatan 4|Eskilstuna": [
+    59.4164157,
+    16.4758967
+  ],
+  "Bodekulls väg 1|Haninge": [
+    59.160499,
+    18.1326046
+  ],
+  "Hågavägen 81|Uppsala": [
+    59.8391011,
+    17.5784113
+  ],
+  "Skolvägen 6|Borås": [
+    57.69906020000001,
+    13.0241358
+  ],
+  "Broavägen 27|Halmstad": [
+    56.8206517,
+    12.7369792
+  ],
+  "Torggatan 32|Klippan": [
+    56.1348998,
+    13.1290409
+  ],
+  "Mariekällgatan 3|Södertälje": [
+    59.18863450000001,
+    17.6263589
+  ],
+  "Alegatan 15|Växjö": [
+    56.8725017,
+    14.8230128
+  ],
+  "Västra Björkgatan 9|Älmhult": [
+    56.5588528,
+    14.1419724
+  ],
+  "Söderbyvägen 25-27|Salem": [
+    59.1975549,
+    17.7776973
+  ],
+  "Skolvägen 20|Upplands-Bro": [
+    59.4812081,
+    17.7364334
+  ],
+  "Gamla Sjulnäsvägen 8C|Piteå": [
+    65.3454908,
+    21.2402208
+  ],
+  "Skolgatan 3|Sandviken": [
+    60.6157422,
+    16.7666957
+  ],
+  "Gyllenkrooksgatan 10 B|Göteborg": [
+    57.690228,
+    11.9912298
+  ],
+  "Halmstadsvägen|Värnamo": [
+    57.1823446,
+    14.0107378
+  ],
+  "Karhulavägen 1 B|Eksjö": [
+    57.66663610000001,
+    14.978369
+  ],
+  "Djupegatan 2|Hudiksvall": [
+    61.7276123,
+    17.1246035
+  ],
+  "Rundvägen 7|Flen": [
+    59.05364540000001,
+    16.5975512
+  ],
+  "Lagercrantz plats 9|Borås": [
+    57.71172960000001,
+    12.9160942
+  ],
+  "Gamla Edsvägen 46|Dals-Ed": [
+    58.9085449,
+    11.9416854
+  ],
+  "Bångvägen 12|Lycksele": [
+    64.5943766,
+    18.6730155
+  ],
+  "None|Botkyrka": [
+    59.2459411,
+    17.8408583
+  ],
+  "Furulidsgatan 14|Aneby": [
+    57.8351019,
+    14.8218307
+  ],
+  "Rågången 1|Landskrona": [
+    55.887539,
+    12.9496377
+  ],
+  "Arenavägen 11|Karlskrona": [
+    56.21704579999999,
+    15.6016913
+  ],
+  "Företagsallén 14|Österåker": [
+    59.4812799,
+    18.2653054
+  ],
+  "Skärvstensgatan 6|Umeå": [
+    63.8299319,
+    20.3253423
+  ],
+  "Ättekullagatan 28|Helsingborg": [
+    56.00997599999999,
+    12.7587007
+  ],
+  "Sonetorpsgatan 3|Hässleholm": [
+    56.1540233,
+    13.7512397
+  ],
+  "Skärvägen 1|Skellefteå": [
+    64.62092129999999,
+    21.2039052
+  ],
+  "Videvägen 10|Karlskrona": [
+    56.2004832,
+    15.6441904
+  ],
+  "Bredängstorget 21|Stockholm": [
+    59.29419859999999,
+    17.935911
+  ],
+  "Axel Johanssons gata 4|Uppsala": [
+    59.8597583,
+    17.694706
+  ],
+  "Simhallsgatan 2|Varberg": [
+    57.107118,
+    12.2520907
+  ],
+  "None|Halmstad": [
+    56.6743748,
+    12.8577884
+  ],
+  "Industrivägen 9–11|Umeå": [
+    63.83835439999999,
+    20.2362898
+  ],
+  "None|Kramfors": [
+    62.9284332,
+    17.7862947
+  ],
+  "Repslagaregatan 48|Norrköping": [
+    58.5892455,
+    16.1969424
+  ],
+  "Dannemoravägen 5|Östhammar": [
+    60.19620260000001,
+    17.8924471
+  ],
+  "Upplagsvägen 20b|Luleå": [
+    65.57709249999999,
+    22.0801539
+  ],
+  "Rödsvägen 12|Orust": [
+    58.1421997,
+    11.8099484
+  ],
+  "Skolgränd 3|Timrå": [
+    62.51562519999999,
+    17.4995412
+  ],
+  "None|Krokom": [
+    63.3262424,
+    14.4486544
+  ],
+  "Kyrkogatan 35A|Nässjö": [
+    57.70147919999999,
+    14.4655092
+  ],
+  "None|Boxholm": [
+    58.19709870000001,
+    15.0537794
+  ],
+  "Skolgatan 6|Robertsfors": [
+    64.1918737,
+    20.8556564
+  ],
+  "Jägarevägen 1|Kalmar": [
+    56.68683369999999,
+    16.3427506
+  ],
+  "Axel Roothsgatan 17|Ljungby": [
+    56.8421103,
+    13.9599867
+  ],
+  "None|Malmö": [
+    55.604981,
+    13.003822
+  ],
+  "Industrigatan 2|Mark": [
+    57.4872148,
+    12.6495234
+  ],
+  "Hammarvägen 9|Örnsköldsvik": [
+    63.2630474,
+    18.6949368
+  ],
+  "Bygatan 78|Sollentuna": [
+    59.42855789999999,
+    17.9405466
+  ],
+  "Skolgatan 12|Gnesta": [
+    59.04572269999999,
+    17.3172975
+  ],
+  "Exercisgatan 60|Landskrona": [
+    55.8873355,
+    12.8183014
+  ],
+  "Rosengårdsgatan 19|Sotenäs": [
+    58.35968769999999,
+    11.2556262
+  ],
+  "Kringelvägen 14|Växjö": [
+    56.9004413,
+    14.8040392
+  ],
+  "Skolvägen 1-3|Årjäng": [
+    59.3846925,
+    12.1222609
+  ],
+  "Bollvägen 9|Alingsås": [
+    57.9360886,
+    12.5272395
+  ],
+  "Parkgatan 43|Falköping": [
+    58.1675736,
+    13.5512617
+  ],
+  "Lövholmsvägen 90|Piteå": [
+    65.2984343,
+    21.5053415
+  ],
+  "Skolvägen 11|Upplands Väsby": [
+    59.521257,
+    17.9097588
+  ],
+  "Karhulavägen 1B|Eksjö": [
+    57.66663610000001,
+    14.978369
+  ],
+  "Sjöhagavägen 24|Norrtälje": [
+    59.84180259999999,
+    18.6602057
+  ],
+  "Heinövägen 89|Öckerö": [
+    57.69761519999999,
+    11.6533393
+  ],
+  "Gamla Kronvägen 66B|Partille": [
+    57.74091749999999,
+    12.1128477
+  ],
+  "Ekebyvägen 2|Vallentuna": [
+    59.5417751,
+    18.0697879
+  ],
+  "Österleden 13|Huddinge": [
+    59.216375,
+    18.1508722
+  ],
+  "Kyrkogatan 4|Jokkmokk": [
+    66.6038523,
+    19.8435554
+  ],
+  "Borgargatan 13E|Kristianstad": [
+    55.9310167,
+    13.9663378
+  ],
+  "Kungsgatan 33|Linköping": [
+    58.4133984,
+    15.6228347
+  ],
+  "Bygatan 6|Lund": [
+    55.6000192,
+    13.397179
+  ],
+  "Kronhusgatan 14|Göteborg": [
+    57.70847709999999,
+    11.9663675
+  ],
+  "Vattentornsgatan 10|Vellinge": [
+    55.4742016,
+    13.0359431
+  ],
+  "Penselvägen 1|Södertälje": [
+    59.1757088,
+    17.5989173
+  ],
+  "Paternostervägen 18-22|Stockholm": [
+    59.2906073,
+    18.0965095
+  ],
+  "Högenvägen 40|Åre": [
+    63.1783721,
+    14.0827945
+  ],
+  "Kung Magnus väg 4|Gotland": [
+    57.6364078,
+    18.2989773
+  ],
+  "Enoch Thulins väg 1-3|Landskrona": [
+    55.88467139999999,
+    12.8417286
+  ],
+  "Glomman 94|Örebro": [
+    59.2435667,
+    15.1927473
+  ],
+  "Fiskargatan 4|Mölndal": [
+    57.6565831,
+    12.0010149
+  ],
+  "Mariagatan 3|Skurup": [
+    55.4748945,
+    13.5026434
+  ],
+  "Staketgatan 10|Skövde": [
+    58.39218839999999,
+    13.8499736
+  ],
+  "Kungsgatan 1|Alvesta": [
+    56.7860463,
+    14.4475027
+  ],
+  "Varbergsvägen 79|Borås": [
+    57.6357845,
+    12.8588137
+  ],
+  "Finngatan 2A|Hudiksvall": [
+    61.8053943,
+    16.5513556
+  ],
+  "Rödkallens väg 17|Luleå": [
+    65.5804705,
+    22.2041611
+  ],
+  "Sönkmyrvägen 20|Umeå": [
+    63.80505359999999,
+    20.1898711
+  ],
+  "Repslagarevägen 14|Vänersborg": [
+    58.3760133,
+    12.3358449
+  ],
+  "Esplanaden 29|Mörbylånga": [
+    56.5239217,
+    16.3842186
+  ],
+  "Parkgatan 27|Hallstahammar": [
+    59.61923299999999,
+    16.2310184
+  ],
+  "Hardeberga 361|Lund": [
+    55.69356089999999,
+    13.2963861
+  ],
+  "Sethelius väg 3|Mark": [
+    57.5406032,
+    12.4324161
+  ],
+  "Torsgatan 17 G|Skellefteå": [
+    64.75781359999999,
+    20.9724205
+  ],
+  "Lilla vägen 5|Stenungsund": [
+    58.01079,
+    11.8263124
+  ],
+  "Centralgatan 12|Örnsköldsvik": [
+    63.69228709999999,
+    18.8607076
+  ],
+  "Prästgatan 21|Helsingborg": [
+    56.0445529,
+    12.6980596
+  ],
+  "Hagagatan 28|Norrköping": [
+    58.5991632,
+    16.1601562
+  ],
+  "Betlehemsvägen 1|Växjö": [
+    57.0659591,
+    15.057664
+  ],
+  "Skolgatan 2|Ödeshög": [
+    58.2277874,
+    14.6500251
+  ],
+  "Grönstensvägen 16|Lerum": [
+    57.7928632,
+    12.3115955
+  ],
+  "Röselidsvägen 5|Lerum": [
+    57.8339984,
+    12.3013153
+  ],
+  "Stenbackavägen 10|Karlshamn": [
+    56.2048217,
+    14.8384054
+  ],
+  "Mariehamnsgatan 3-5|Stockholm": [
+    59.41586479999999,
+    17.9103935
+  ],
+  "Ouchterlongygatan 9|Värnamo": [
+    57.1819472,
+    14.0448217
+  ],
+  "Gåsahalsvägen 20|Ängelholm": [
+    56.2413751,
+    12.8798951
+  ],
+  "Dammfrigången 9A|Malmö": [
+    55.5917636,
+    12.9810506
+  ],
+  "Stallgatan 14|Nordmaling": [
+    63.56770950000001,
+    19.5066245
+  ],
+  "Daggrosgatan 2|Västerås": [
+    59.64950330000001,
+    16.5375409
+  ],
+  "Tomtbergavägen 370|Botkyrka": [
+    59.24477419999999,
+    17.8101451
+  ],
+  "Grosvadsvägen 5|Finspång": [
+    58.7142598,
+    15.8083822
+  ],
+  "Släggkastargatan 13|Västerås": [
+    59.6470298,
+    16.509714
+  ],
+  "Gånarpsvägen 650|Ängelholm": [
+    56.3123282,
+    12.9171225
+  ],
+  "Lofotengatan 32-34|Stockholm": [
+    59.41145869999999,
+    17.9284704
+  ],
+  "Offerdalsgatan 1-9|Stockholm": [
+    59.3632532,
+    17.881128
+  ],
+  "Skolvägen 12|Ale": [
+    57.84832729999999,
+    12.0183179
+  ],
+  "Turistvägen 3|Ljusdal": [
+    61.70918059999999,
+    16.1637219
+  ],
+  "Skogsgatan 5|Hultsfred": [
+    57.4852613,
+    15.837943
+  ],
+  "None|Flen": [
+    59.0579376,
+    16.5879122
+  ],
+  "Husievägen 17|Malmö": [
+    55.5791708,
+    13.0730507
+  ],
+  "Sävsjövägen 27|Vetlanda": [
+    57.3725998,
+    14.8928332
+  ],
+  "Västeråsleden 10|Surahammar": [
+    59.7023738,
+    16.222723
+  ],
+  "Motionsvägen 4|Värmdö": [
+    59.3200164,
+    18.4861792
+  ],
+  "Tranebergsvägen 73|Stockholm": [
+    59.33533449999999,
+    17.9748344
+  ],
+  "Solskiftesvägen 8|Österåker": [
+    59.1239521,
+    15.9872855
+  ],
+  "Gustav Adolfsgatan 2|Alingsås": [
+    57.92981429999999,
+    12.5274868
+  ],
+  "Ågatan 1|Gislaved": [
+    57.19197699999999,
+    13.2841002
+  ],
+  "Torggatan 13|Mönsterås": [
+    57.044081,
+    16.4373188
+  ],
+  "Verkstadsvägen 3|Eslöv": [
+    55.83878180000001,
+    13.3187016
+  ],
+  "Källtorpsvägen 10|Järfälla": [
+    59.4551388,
+    17.8133823
+  ],
+  "Theodor Dahls gata 3|Köping": [
+    59.51274019999999,
+    16.0022381
+  ],
+  "Opalgatan 81|Göteborg": [
+    57.6407134,
+    11.9001289
+  ],
+  "Askvägen 45|Kungsbacka": [
+    57.4796483,
+    12.0652884
+  ],
+  "Slåtthusvägen 4|Tjörn": [
+    57.94993909999999,
+    11.573207
+  ],
+  "Hagtornsstigen 16|Trollhättan": [
+    58.2901237,
+    12.323629
+  ],
+  "Keramikvägen 122|Malmö": [
+    55.5356135,
+    13.0953637
+  ],
+  "Flugebyvägen 4|Vetlanda": [
+    57.42347600000001,
+    15.0992547
+  ],
+  "Nygårdsvägen 5A|Partille": [
+    57.7459595,
+    12.1232041
+  ],
+  "Nymansgatan 23|Halmstad": [
+    56.6804703,
+    12.8378474
+  ],
+  "Östergatan 15|Höör": [
+    55.9359158,
+    13.5475873
+  ],
+  "Karlslundsgatan 6|Kil": [
+    59.5007031,
+    13.310465
+  ],
+  "Södra Esplanaden 28|Borgholm": [
+    56.8758455,
+    16.6560049
+  ],
+  "Gånsviksvägen 2|Härnösand": [
+    62.6301833,
+    17.9489971
+  ],
+  "Uddeholmsvägen 1|Munkfors": [
+    59.83698200000001,
+    13.5320362
+  ],
+  "Ringvägen 45A|Söderköping": [
+    58.4757383,
+    16.3279067
+  ],
+  "Idunvägen 23|Nynäshamn": [
+    58.9013979,
+    17.937488
+  ],
+  "Carlbäcksvägen 4 A|Mariestad": [
+    58.7101119,
+    13.8213327
+  ],
+  "Klerkgatan 2|Malmö": [
+    55.5935298,
+    13.0021364
+  ],
+  "Idrottsvägen 1|Falun": [
+    60.5957131,
+    15.6397455
+  ],
+  "Marklandsgatan 21B|Göteborg": [
+    57.67188159999999,
+    11.9346917
+  ],
+  "Elektrogatan 1 A|Helsingborg": [
+    56.00914599999999,
+    12.7306007
+  ],
+  "Mellankullagatan 11|Hässleholm": [
+    56.15992370000001,
+    13.7480318
+  ],
+  "Orkestergatan 7|Malmö": [
+    55.56163840000001,
+    12.9903584
+  ],
+  "Heidenstamsgatan 67|Uppsala": [
+    59.8782739,
+    17.6487563
+  ],
+  "Högsbyvägen 3A|Uppvidinge": [
+    57.01026599999999,
+    15.5796402
+  ],
+  "Brunnsgatan 46|Gävle": [
+    60.6682469,
+    17.1414127
+  ],
+  "Värnamovägen 1|Jönköping": [
+    57.75373459999999,
+    14.1540772
+  ],
+  "Skelleftehamnsvägen 100|Skellefteå": [
+    64.71258639999999,
+    21.1627751
+  ],
+  "Kaserngatan 13 vån 3|Östersund": [
+    63.1839966,
+    14.6408955
+  ],
+  "Loftbodsvägen 5|Västerås": [
+    59.62030119999999,
+    16.5024341
+  ],
+  "Frejgatan 9|Avesta": [
+    60.1414688,
+    16.181306
+  ],
+  "Drabantgatan 3-5|Upplands Väsby": [
+    59.5175577,
+    17.9170596
+  ],
+  "Södervägen 18 A|Knivsta": [
+    59.7223035,
+    17.7957427
+  ],
+  "Skillinggatan 1|Malmö": [
+    55.58340339999999,
+    13.0653205
+  ],
+  "Vallarvägen 2|Härjedalen": [
+    62.54196039999999,
+    12.5498206
+  ],
+  "Luftvärnsvägen 25|Göteborg": [
+    57.73566810000001,
+    12.0382779
+  ],
+  "Billerudsgatan 1|Göteborg": [
+    57.7256806,
+    12.037477
+  ],
+  "Brogatan 105|Örnsköldsvik": [
+    63.2767777,
+    18.6498754
+  ],
+  "Smedjegatan 43|Eskilstuna": [
+    59.3713106,
+    16.5034439
+  ],
+  "Replösavägen 4|Ljungby": [
+    56.8308794,
+    13.9551548
+  ],
+  "Jörnsvägen 27|Skellefteå": [
+    64.8446271,
+    20.9152015
+  ],
+  "Brinellgatan 52|Nässjö": [
+    57.66736530000001,
+    14.7007023
+  ],
+  "Kyrkvägen 3-5|Örebro": [
+    59.3208152,
+    15.2283678
+  ],
+  "Hellbergs väg 11|Falun": [
+    60.6250712,
+    15.6221197
+  ],
+  "Folkvandringen 1|Kristianstad": [
+    56.0012361,
+    14.0805949
+  ],
+  "None|Nacka": [
+    59.30531999999999,
+    18.2475
+  ],
+  "Hästskovägen 4|Skövde": [
+    58.4757135,
+    13.8664463
+  ],
+  "Wadköpingsvägen 15|Örebro": [
+    59.27250830000001,
+    15.2390049
+  ],
+  "Östra Strandvägen 26|Storuman": [
+    65.7119044,
+    15.2847976
+  ],
+  "Skolvägen 9|Åre": [
+    63.3456757,
+    13.4697229
+  ],
+  "Slättövägen 9|Värnamo": [
+    57.1579786,
+    13.8229991
+  ],
+  "Skolvägen 8|Rättvik": [
+    61.16672790000001,
+    15.1478073
+  ],
+  "Sporthallsvägen 7|Ovanåker": [
+    61.3789834,
+    15.8115424
+  ],
+  "Malmgatan 2A|Forshaga": [
+    59.52913189999999,
+    13.4804783
+  ],
+  "Jon Jespersgatan 48|Grästorp": [
+    58.3304729,
+    12.6847922
+  ],
+  "Stensminnevägen 2|Svedala": [
+    55.5910032,
+    13.2446029
+  ],
+  "Smedsvängen 72|Växjö": [
+    56.8518458,
+    14.8206632
+  ],
+  "Medborgargatan 4|Älvsbyn": [
+    65.67418119999999,
+    21.0004821
+  ],
+  "Norra Kvarngatan 41|Lysekil": [
+    58.27896909999999,
+    11.4388315
+  ],
+  "Hälsovägen 11|Nyköping": [
+    58.7613259,
+    17.0386642
+  ],
+  "Västergatan 20|Växjö": [
+    56.8832901,
+    14.8046034
+  ],
+  "None|Norrköping": [
+    58.587745,
+    16.192421
+  ],
+  "Halmstadvägen 2|Falkenberg": [
+    56.9033591,
+    12.5009351
+  ],
+  "Kungsgatan 16|Karlsborg": [
+    58.53137599999999,
+    14.5105377
+  ],
+  "Rådmansgatan 24|Skövde": [
+    58.4020983,
+    13.8534316
+  ],
+  "Kungsgatan 24|Uppsala": [
+    59.8623771,
+    17.6390506
+  ],
+  "Viagatan 5|Kumla": [
+    59.122975,
+    15.1322602
+  ],
+  "Slagfjädergatan 9|Västerås": [
+    59.63086850000001,
+    16.574821
+  ],
+  "Depkens väg 21|Gävle": [
+    60.67652140000001,
+    17.256943
+  ],
+  "Skolgatan 7|Heby": [
+    59.9369855,
+    16.8586197
+  ],
+  "Gunnarsforsgatan 7|Ljungby": [
+    56.9152268,
+    14.0048902
+  ],
+  "Viksängsgatan 23|Västerås": [
+    59.60757599999999,
+    16.5845317
+  ],
+  "Ringgatan 14A|Sala": [
+    59.9186523,
+    16.6021412
+  ],
+  "Jämtlandsgatan 12|Bräcke": [
+    62.7512913,
+    15.4230735
+  ],
+  "Krusbodavägen 4|Tyresö": [
+    59.2343716,
+    18.2414496
+  ],
+  "Mastgatan 7|Kumla": [
+    59.1435391,
+    15.1339702
+  ],
+  "Fruktvägen 3|Boden": [
+    65.772215,
+    21.7355284
+  ],
+  "Dalsjövägen 25|Borlänge": [
+    60.50277699999999,
+    15.5338697
+  ],
+  "Slottsgatan 1|Hässleholm": [
+    56.0411278,
+    13.6754168
+  ],
+  "Bokesliden 20|Båstad": [
+    56.3554695,
+    12.8196074
+  ],
+  "Södra Prästgårdsgatan 2|Hallstahammar": [
+    59.55949709999999,
+    16.2290697
+  ],
+  "Linnégatan 1|Hjo": [
+    58.29932780000001,
+    14.2797603
+  ],
+  "Fårhagsvägen 142|Linköping": [
+    58.42390599999999,
+    15.5082827
+  ],
+  "Skolgatan 25|Norsjö": [
+    64.9094895,
+    19.4821547
+  ],
+  "Mårtensdalsgatan 2-8|Stockholm": [
+    59.300828,
+    18.0888911
+  ],
+  "Tre Gruvors väg 1|Österåker": [
+    59.4870063,
+    18.3823562
+  ],
+  "Engelbrektsgatan 5|Trelleborg": [
+    55.3788335,
+    13.1638229
+  ],
+  "Kalmarvägen 7|Torsås": [
+    56.4138055,
+    15.9979013
+  ],
+  "Storgatan 19 B|Flen": [
+    59.1541776,
+    16.4993234
+  ],
+  "Läroverksgatan 17|Gnosjö": [
+    57.35166049999999,
+    13.741686
+  ],
+  "Gäddvägen 181|Halmstad": [
+    56.6491645,
+    12.9228229
+  ],
+  "Nybrogatan 9|Klippan": [
+    56.07799,
+    13.2428052
+  ],
+  "Midvägen 12|Östersund": [
+    63.20445089999999,
+    14.6346394
+  ],
+  "Skolvägen 12|Falkenberg": [
+    57.2411773,
+    12.863215
+  ],
+  "Skolvägen 1|Gagnef": [
+    60.5082927,
+    14.9668305
+  ],
+  "Rosenborgsgatan 28|Karlstad": [
+    59.37242260000001,
+    13.4804856
+  ],
+  "Bökebergsvägen 25|Svedala": [
+    55.5461366,
+    13.2735786
+  ],
+  "Baggängsvägen 4|Karlskoga": [
+    59.31625539999999,
+    14.4991897
+  ],
+  "Slingvägen 40B|Falköping": [
+    58.27395019999999,
+    13.7057145
+  ],
+  "Rådhusgatan 23|Emmaboda": [
+    56.6344135,
+    15.5347972
+  ],
+  "Dalsjövägen 16|Borås": [
+    57.71811479999999,
+    13.0999612
+  ],
+  "Byavägen 30|Gällivare": [
+    66.9144415,
+    21.5749928
+  ],
+  "Lektor Berlins väg 1|Västervik": [
+    57.7499317,
+    16.6421648
+  ],
+  "Västra Bangatan 20|Malung-Sälen": [
+    60.6807476,
+    13.7256242
+  ],
+  "Häggvägen 17|Linköping": [
+    58.3924565,
+    15.6505137
+  ],
+  "Häradsvägen 11|Södertälje": [
+    59.21208859999999,
+    17.6378602
+  ],
+  "Skolvägen 2|Tanum": [
+    58.7202971,
+    11.3226126
+  ],
+  "Idrottsgatan 1|Vänersborg": [
+    58.36747880000001,
+    12.3294568
+  ],
+  "Blommensbergsvägen 166|Stockholm": [
+    59.3092915,
+    17.9987229
+  ],
+  "Geijergatan 4|Sundsvall": [
+    62.4050463,
+    17.3290558
+  ],
+  "Skolgatan 2|Eslöv": [
+    55.8407305,
+    13.2950778
+  ],
+  "Rynningsgatan 2|Gävle": [
+    60.660934,
+    17.1608317
+  ],
+  "Skolvägen 6|Bräcke": [
+    62.9692322,
+    15.1702311
+  ],
+  "Tingvallavägen 44|Sigtuna": [
+    59.6266543,
+    17.8282499
+  ],
+  "Jönköpingsvägen 3|Jönköping": [
+    57.78798029999999,
+    14.2759185
+  ],
+  "Isafjordsgatan 30 C|Stockholm": [
+    59.40637940000001,
+    17.9492861
+  ],
+  "Gråstensgatan 1A|Borlänge": [
+    60.5044544,
+    15.4295097
+  ],
+  "Lundavägen 26|Burlöv": [
+    55.6344777,
+    13.0730121
+  ],
+  "Skolvägen 10|Hagfors": [
+    60.17274059999999,
+    13.4840209
+  ],
+  "Rosgatan 52|Skellefteå": [
+    64.7485942,
+    21.0058096
+  ],
+  "Brattevägen 34|Öckerö": [
+    57.7111787,
+    11.6550812
+  ],
+  "Parkgatan 29|Falköping": [
+    58.1647736,
+    13.5496574
+  ],
+  "Datorgatan 10|Jönköping": [
+    57.78765519999999,
+    14.2648014
+  ],
+  "Murarevägen 50|Falkenberg": [
+    56.9123879,
+    12.4948964
+  ],
+  "Brogatan 18|Tranemo": [
+    57.488637,
+    13.3438551
+  ],
+  "Tångavägen 7|Falköping": [
+    58.0784764,
+    13.5141314
+  ],
+  "Söndreklacksvägen 3C|Kristianstad": [
+    55.831573,
+    14.087432
+  ],
+  "Söderkullagatan 14|Malmö": [
+    55.5705331,
+    13.0100324
+  ],
+  "Skolvägen 1|Orust": [
+    58.0733867,
+    11.4764353
+  ],
+  "Idrottsvägen 5|Håbo": [
+    59.5736761,
+    17.5122087
+  ],
+  "Ystadvägen 50|Malmö": [
+    55.5791991,
+    13.0218241
+  ],
+  "Korpuddsvägen 9|Södertälje": [
+    59.1833717,
+    17.6598702
+  ],
+  "Norebergsvägen 40|Mora": [
+    61.0050166,
+    14.5929099
+  ],
+  "Klockaregatan 2|Säter": [
+    60.34666739999999,
+    15.7411746
+  ],
+  "Kärleksbacken 3|Sollentuna": [
+    59.4831103,
+    17.9312057
+  ],
+  "Norrlandsgatan 1|Storuman": [
+    65.1019692,
+    17.1262779
+  ],
+  "Rosendalsgatan 2|Kungälv": [
+    57.8717923,
+    11.9708594
+  ],
+  "Valhallagatan 1|Norrtälje": [
+    59.7605244,
+    18.7019423
+  ],
+  "Skolgatan 36|Vaggeryd": [
+    57.43466129999999,
+    14.0920931
+  ],
+  "Skyttegatan 6|Vimmerby": [
+    57.6700816,
+    15.8721012
+  ],
+  "Parkgatan 24|Nässjö": [
+    57.6510219,
+    14.7107226
+  ],
+  "Ramsjövägen 3|Uppsala": [
+    60.0278827,
+    17.5486279
+  ],
+  "Skuggsångsvägen 10D|Salem": [
+    59.1995593,
+    17.7735111
+  ],
+  "Skolvägen 8|Östersund": [
+    63.317646,
+    14.8504495
+  ],
+  "Hasslarödsvägen 12|Osby": [
+    56.3742585,
+    13.9857347
+  ],
+  "Eriksfältsgatan 99|Malmö": [
+    55.5677196,
+    13.0181929
+  ],
+  "Jämshögsvägen 3|Olofström": [
+    56.2756917,
+    14.52886
+  ],
+  "Olof Palmes gata 6F|Piteå": [
+    65.31989970000001,
+    21.487347
+  ],
+  "Gräfte 305|Sundsvall": [
+    62.4076506,
+    16.5702519
+  ],
+  "Nygatan 2|Sävsjö": [
+    57.39997779999999,
+    14.6710602
+  ],
+  "Storgatan 30|Gislaved": [
+    57.2996083,
+    13.5315739
+  ],
+  "Ambrosiusgatan 1|Göteborg": [
+    57.7344913,
+    12.0118206
+  ],
+  "Eleshultsvägen 24|Höganäs": [
+    56.2442661,
+    12.5411484
+  ],
+  "Vasavägen 6|Linköping": [
+    58.41423469999999,
+    15.6213887
+  ],
+  "Lilla Brogatan 10|Norrtälje": [
+    59.7587847,
+    18.7049067
+  ],
+  "Vagngatan 20|Motala": [
+    58.5556368,
+    15.0688283
+  ],
+  "Henriksbergsvägen 1-5|Haninge": [
+    59.1810446,
+    18.1755112
+  ],
+  "Vannebergavägen 36|Hässleholm": [
+    56.0944455,
+    13.9075486
+  ],
+  "Esplanaden 82|Lidköping": [
+    58.5079115,
+    13.1312227
+  ],
+  "Alstervägen 55|Nybro": [
+    56.9470264,
+    15.9079851
+  ],
+  "Flygaregatan 2|Halmstad": [
+    56.6726261,
+    12.8451922
+  ],
+  "Högbrinksvägen 4|Botkyrka": [
+    59.1988856,
+    17.8233606
+  ],
+  "Odlingsvägen 36 B|Botkyrka": [
+    59.1904602,
+    17.8420672
+  ],
+  "Järvsöfaks väg 130|Hudiksvall": [
+    61.7770011,
+    17.128702
+  ],
+  "Drottningvägen 7|Umeå": [
+    63.90022279999999,
+    20.557403
+  ],
+  "Mjälgavägen 47|Borlänge": [
+    60.4771672,
+    15.4647059
+  ],
+  "None|Piteå": [
+    65.316698,
+    21.4800364
+  ],
+  "Sommarhemsvägen 3|Uddevalla": [
+    58.33964559999999,
+    11.9198993
+  ],
+  "Centralbacken 10|Bengtsfors": [
+    59.0265532,
+    12.2276901
+  ],
+  "Odlingsvägen 3|Kalmar": [
+    56.68483759999999,
+    16.2298417
+  ],
+  "Snickerigatan 4|Stockholm": [
+    59.2995366,
+    17.9901823
+  ],
+  "None|Gällivare": [
+    67.1379,
+    20.6593618
+  ],
+  "Västlundavägen 54|Arvidsjaur": [
+    65.5920087,
+    19.1809618
+  ],
+  "Västra Parkgatan 6|Herrljunga": [
+    58.07675139999999,
+    13.0175142
+  ],
+  "Honefsgatan 7|Borlänge": [
+    60.50127909999999,
+    15.4545445
+  ],
+  "Lerumsvägen 20|Göteborg": [
+    57.80510719999999,
+    12.1693147
+  ],
+  "Rudenschöldsgatan 3|Lidköping": [
+    58.5041771,
+    13.147703
+  ],
+  "Pål Anders väg 10|Höganäs": [
+    56.1922376,
+    12.5690845
+  ],
+  "Västra Ringvägen 8|Trelleborg": [
+    55.383511,
+    13.124773
+  ],
+  "Sollenkrokavägen 41|Värmdö": [
+    59.31165430000001,
+    18.6993732
+  ],
+  "Fritidsvägen 4|Gävle": [
+    60.6387856,
+    17.0062581
+  ],
+  "Krokdalsvägen 23 A|Bollebygd": [
+    57.6693979,
+    12.5592691
+  ],
+  "Stenbocksgatan 50|Ulricehamn": [
+    57.7894993,
+    13.4168045
+  ],
+  "Skolgatan 4D|Alingsås": [
+    57.9363267,
+    12.5454468
+  ],
+  "Laxviksvägen 30|Halmstad": [
+    56.6167098,
+    12.9349015
+  ],
+  "Räfsalsvägen 7|Kungälv": [
+    57.88914430000001,
+    11.9659568
+  ],
+  "Kristinelundsvägen 1|Solna": [
+    59.34779210000001,
+    17.9947441
+  ],
+  "Fjärdhundragatan 14|Enköping": [
+    59.6429609,
+    17.0800216
+  ],
+  "Kopparvägen 1|Falun": [
+    60.592181,
+    15.6808208
+  ],
+  "Boxhultsvägen 18|Uddevalla": [
+    58.36396389999999,
+    11.928316
+  ],
+  "Per Lars väg 7|Varberg": [
+    57.1458759,
+    12.4613113
+  ],
+  "Kristinedalsvägen 6|Stenungsund": [
+    58.0630371,
+    11.8351394
+  ],
+  "Hiernegatan 1|Eda": [
+    59.70108920000001,
+    12.1500294
+  ],
+  "Skolgatan 5|Hultsfred": [
+    57.5416031,
+    15.7505236
+  ],
+  "Kockumsgatan 6|Kristianstad": [
+    56.03829,
+    14.159382
+  ],
+  "Ådalavägen 3|Laholm": [
+    56.557086,
+    13.0754634
+  ],
+  "Järnvägsgatan 16|Hudiksvall": [
+    61.7242062,
+    17.1035702
+  ],
+  "Mässvägen 1|Sundbyberg": [
+    59.377439,
+    17.9335541
+  ],
+  "Vänerparken 11|Vänersborg": [
+    58.37609999999999,
+    12.3193545
+  ],
+  "Göingevägen 12|Östra Göinge": [
+    56.1976332,
+    14.0890442
+  ],
+  "Gäddgårdsgatan 1|Arboga": [
+    59.3932659,
+    15.8517297
+  ],
+  "Idrottsvägen 1|Sölvesborg": [
+    56.0488371,
+    14.5688827
+  ],
+  "Backsippvägen 2|Kalmar": [
+    56.6335594,
+    16.1665332
+  ],
+  "Färjbacksvägen 13|Gagnef": [
+    60.5573863,
+    15.1346462
+  ],
+  "Skolvägen 1|Ludvika": [
+    60.1266578,
+    15.1805081
+  ],
+  "Röingegatan 55|Hässleholm": [
+    56.1559784,
+    13.7811931
+  ],
+  "Glöstorpsvägen 26|Göteborg": [
+    57.7518347,
+    11.926212
+  ],
+  "Planteringsvägen 139|Helsingborg": [
+    56.0150152,
+    12.7264912
+  ],
+  "Långgatan 65|Ovanåker": [
+    61.34448519999999,
+    16.0639022
+  ],
+  "Kvistbergsvägen 30|Torsby": [
+    60.71446279999999,
+    12.8839577
+  ],
+  "Storgatan 66|Valdemarsvik": [
+    58.20245139999999,
+    16.6013626
+  ],
+  "Idrottsvägen 5|Laxå": [
+    58.9860965,
+    14.627802
+  ],
+  "Vitklövergatan 1|Ale": [
+    57.89251429999999,
+    12.0489389
+  ],
+  "Skolgatan 5|Nora": [
+    59.51732259999999,
+    15.0357556
+  ],
+  "Dykens väg 2|Hässleholm": [
+    56.1648644,
+    13.7751606
+  ],
+  "Kadettgatan 38|Helsingborg": [
+    56.0730446,
+    12.7078121
+  ],
+  "Kyrkbacksvägen 5|Avesta": [
+    60.29055700000001,
+    16.4042805
+  ],
+  "Gällstadsvägen 20|Linköping": [
+    58.4339773,
+    15.7844253
+  ],
+  "Kortebo gård 7|Jönköping": [
+    57.82261779999999,
+    14.151515
+  ],
+  "Hårds väg 113|Malmö": [
+    55.5828254,
+    13.0409347
+  ],
+  "Höjdgatan 10|Skellefteå": [
+    64.75457109999999,
+    21.0224367
+  ],
+  "Nygatan 9|Eskilstuna": [
+    59.3693144,
+    16.5133349
+  ],
+  "Hellebergsvägen 4|Gällivare": [
+    67.13552829999999,
+    20.6696814
+  ],
+  "Sannavägen 6|Varberg": [
+    57.0408396,
+    12.401824
+  ],
+  "Kungsgatan 13|Vimmerby": [
+    57.6690316,
+    15.8615782
+  ],
+  "Skolgatan 19|Smedjebacken": [
+    60.1449266,
+    15.4167923
+  ],
+  "Skolgatan 2|Storfors": [
+    59.5445457,
+    14.2807916
+  ],
+  "Högbergsgatan 19|Ludvika": [
+    60.1499307,
+    15.1931135
+  ],
+  "Läroverksgatan 1|Katrineholm": [
+    58.99044000000001,
+    16.2030283
+  ],
+  "None|Karlstad": [
+    59.3782296,
+    13.5041809
+  ],
+  "Östgötagatan 8|Kinda": [
+    57.98948499999999,
+    15.6404585
+  ],
+  "Skölevägen|Sundsvall": [
+    62.3708774,
+    16.8426468
+  ],
+  "Hälsingegatan 2|Gävle": [
+    60.6787581,
+    17.1319717
+  ],
+  "Tungelstavägen 135|Haninge": [
+    59.106257,
+    18.0447553
+  ],
+  "Hertsöskolans moduler Hertsötorget 6|Luleå": [
+    65.5893143,
+    22.2402083
+  ],
+  "Solhagsvägen 5|Karlskoga": [
+    59.33233920000001,
+    14.5675221
+  ],
+  "Skjutsgatan 7|Mark": [
+    57.5056813,
+    12.6888068
+  ],
+  "Gymnasiegatan 29|Tibro": [
+    58.4152346,
+    14.1686167
+  ],
+  "Kyrkogatan 4|Smedjebacken": [
+    60.07300719999999,
+    15.5635458
+  ],
+  "Skolvägen 7|Nybro": [
+    56.7427073,
+    15.8821329
+  ],
+  "Göklundsvägen 27|Hofors": [
+    60.5472421,
+    16.2689494
+  ],
+  "Forskarevägen 2|Kiruna": [
+    67.83776329999999,
+    20.2837244
+  ],
+  "Kustvägen 26|Skellefteå": [
+    64.7419348,
+    20.9596482
+  ],
+  "Trängvägen 10|Sollefteå": [
+    63.1750734,
+    17.2703184
+  ],
+  "Kursgårdsvägen 6|Uddevalla": [
+    58.2258211,
+    11.9292743
+  ],
+  "Lagmansgatan 34|Mjölby": [
+    58.31970010000001,
+    15.1343073
+  ],
+  "Ågatan 20|Åstorp": [
+    56.1067033,
+    12.8678321
+  ],
+  "Riddaregatan 44A|Kristianstad": [
+    56.03670169999999,
+    14.2744436
+  ],
+  "Kyrkovägen 6|Ljusdal": [
+    61.8007736,
+    15.8437372
+  ],
+  "Centrumvägen  20|Trosa": [
+    58.94429,
+    17.48177
+  ],
+  "Krondikesvägen 1|Östersund": [
+    63.1750227,
+    14.6594118
+  ],
+  "Norra Parkvägen 7|Skellefteå": [
+    64.8680514,
+    20.3847697
+  ],
+  "Munkhättegatan 151|Malmö": [
+    55.5574009,
+    13.0135654
+  ],
+  "Bergslagsgatan 11|Norrköping": [
+    58.59568489999999,
+    16.1686056
+  ],
+  "None|Mjölby": [
+    58.3226908,
+    15.1335348
+  ],
+  "Gränsgatan 25|Nässjö": [
+    57.6581519,
+    14.6962464
+  ],
+  "Ringaregatan 6|Vänersborg": [
+    58.4930226,
+    12.2715611
+  ],
+  "Magistervägen 20|Eskilstuna": [
+    59.38252199999999,
+    16.5265458
+  ],
+  "Violvägen 10|Falkenberg": [
+    56.91098479999999,
+    12.4369349
+  ],
+  "Lutmansvägen|Degerfors": [
+    59.2419887,
+    14.4434603
+  ],
+  "Raholmsvägen 7|Sundsvall": [
+    62.4284448,
+    17.4196874
+  ],
+  "Källgatan 9|Jönköping": [
+    57.6816778,
+    14.0850981
+  ],
+  "Blomstergatan 6|Kungsbacka": [
+    57.48498719999999,
+    12.0893083
+  ],
+  "Merkuriusgatan 200|Helsingborg": [
+    56.0977202,
+    12.7487129
+  ],
+  "Oxhagsvägen 22|Finspång": [
+    58.7011783,
+    15.7686226
+  ],
+  "Posthornsgatan 6|Karlstad": [
+    59.40375040000001,
+    13.569778
+  ],
+  "Trädgårdsgatan 1 A|Åstorp": [
+    56.1373299,
+    12.9514344
+  ],
+  "None|Berg": [
+    62.7724812,
+    14.1698666
+  ],
+  "Ekorrvägen 4|Karlskrona": [
+    56.1771361,
+    15.5989013
+  ],
+  "Nynäsvägen 203 - 205|Haninge": [
+    59.12021559999999,
+    18.1093513
+  ],
+  "Gymnasievägen 2|Luleå": [
+    65.5946852,
+    22.1618111
+  ],
+  "Spårgatan 17|Norrköping": [
+    58.605739,
+    16.1832071
+  ],
+  "Vallbyvägen 33|Sandviken": [
+    60.5892772,
+    16.5277118
+  ],
+  "Backgatan 48|Simrishamn": [
+    55.556534,
+    14.335052
+  ],
+  "Skolgatan 3-5|Sigtuna": [
+    59.624123,
+    17.8525432
+  ],
+  "Barnhemsgatan 55|Köping": [
+    59.5187005,
+    15.9793823
+  ],
+  "Erik Dahlbergsvägen 14|Karlshamn": [
+    56.1680662,
+    14.872624
+  ],
+  "Pilörtsgränd 5|Stockholm": [
+    59.3839437,
+    17.8090958
+  ],
+  "Per Anderssons gata 34|Arvika": [
+    59.6588039,
+    12.5923895
+  ],
+  "Rödebyvägen 42 C|Karlskrona": [
+    56.2641302,
+    15.6210396
+  ],
+  "None|Linköping": [
+    58.41080700000001,
+    15.6213727
+  ],
+  "Kristinagatan 1|Sävsjö": [
+    57.3962026,
+    14.6751513
+  ],
+  "Skalbyrakan 2|Söderhamn": [
+    61.26341530000001,
+    16.8360147
+  ],
+  "None|Tidaholm": [
+    58.1817692,
+    13.9594737
+  ],
+  "Mjölnarvägen 15|Järfälla": [
+    59.42094600000001,
+    17.827203
+  ],
+  "Bossgårdsvägen 9|Norrköping": [
+    58.5785871,
+    16.5629152
+  ],
+  "Stjärngatan 1|Uddevalla": [
+    58.3559676,
+    11.9220817
+  ],
+  "Skolgatan 5|Bollnäs": [
+    61.22820890000001,
+    16.5672087
+  ],
+  "Skolvägen 2|Köping": [
+    59.5128464,
+    15.9680339
+  ],
+  "Centralgatan 3|Rättvik": [
+    60.8877553,
+    15.1188475
+  ],
+  "Spadegatan 3|Göteborg": [
+    57.79293259999999,
+    12.0459558
+  ],
+  "Gillbergavägen 5|Eskilstuna": [
+    59.3613426,
+    16.5044386
+  ],
+  "Milstensgatan 25|Borås": [
+    57.7304504,
+    12.9837488
+  ],
+  "Fågelsjövägen 2|Motala": [
+    58.5673401,
+    15.2860306
+  ],
+  "Arkitektvägen 24|Oskarshamn": [
+    57.25162599999999,
+    16.4651285
+  ],
+  "Vintergatan 6|Alingsås": [
+    57.9335751,
+    12.5459618
+  ],
+  "Ringgatan 15|Mjölby": [
+    58.39340230000001,
+    15.0804269
+  ],
+  "Luffarbacken 82|Österåker": [
+    59.47851159999999,
+    18.3105864
+  ],
+  "Östra Kyrkogatan 7|Uppvidinge": [
+    57.1711663,
+    15.3497561
+  ],
+  "Aggetorpsvägen 2|Lerum": [
+    58.2587464,
+    12.4094627
+  ],
+  "Klassikergatan 2|Göteborg": [
+    57.73087149999999,
+    11.969494
+  ],
+  "Gungvalavägen 41|Karlshamn": [
+    56.2000091,
+    14.7578027
+  ],
+  "Sätravägen 7|Tierp": [
+    60.47039829999999,
+    17.7563638
+  ],
+  "Strandvägen 1|Vilhelmina": [
+    64.6316525,
+    16.6278562
+  ],
+  "Slottsträdgårdsgatan 2|Strängnäs": [
+    59.2616185,
+    17.2255879
+  ],
+  "Brobyvägen 17 B|Söderköping": [
+    58.47710370000001,
+    16.3044228
+  ],
+  "Trollhättevägen 19|Trollhättan": [
+    58.19099050000001,
+    12.2307226
+  ],
+  "Albanoliden 5|Borås": [
+    57.73053770000001,
+    12.9405928
+  ],
+  "Borgmästaregatan 2B|Vadstena": [
+    58.4442347,
+    14.8970271
+  ],
+  "Banérsgatan 15|Alvesta": [
+    56.9988225,
+    14.580166
+  ],
+  "Granvägen 27|Säffle": [
+    59.1292219,
+    12.9401258
+  ],
+  "Lenavägen 1|Ulricehamn": [
+    57.858333,
+    13.4288205
+  ],
+  "Karl Hovbergsgatan 43-45|Eskilstuna": [
+    59.38927589999999,
+    16.5411261
+  ],
+  "Floragatan 4|Lidköping": [
+    58.4958423,
+    13.1677569
+  ],
+  "Fjugesta Letstig 2|Lekeberg": [
+    59.17049129999999,
+    14.8775517
+  ],
+  "Västerleden 155|Enköping": [
+    59.63867679999999,
+    17.0645571
+  ],
+  "Pärlugglegatan 11|Jönköping": [
+    57.78261370000001,
+    14.1617876
+  ],
+  "Idrottsgatan 7|Vänersborg": [
+    58.36894729999999,
+    12.3351085
+  ],
+  "Rudsjöterrassen 1, 3 tr|Haninge": [
+    59.1661975,
+    18.1352453
+  ],
+  "Götgatan 9|Vara": [
+    58.3022326,
+    13.1849742
+  ],
+  "S:t Olovsgatan 121|Landskrona": [
+    55.87537159999999,
+    12.8458598
+  ],
+  "Hjortstigen 2B|Ljungby": [
+    56.8373988,
+    13.9519701
+  ],
+  "Kärralundsgatan 3|Göteborg": [
+    57.7083144,
+    12.0120431
+  ],
+  "Skolvägen 2|Fagersta": [
+    59.9994315,
+    15.8044076
+  ],
+  "Fruängsgatan 57-61|Stockholm": [
+    59.28460200000001,
+    17.96284
+  ],
+  "Vårby Allé 26-30|Huddinge": [
+    59.26474539999999,
+    17.8810853
+  ],
+  "Börje Salmings gata 23|Kiruna": [
+    67.8598095,
+    20.2340999
+  ],
+  "Kyrkvägen 1|Stenungsund": [
+    58.0724735,
+    11.8216042
+  ],
+  "Köpenhamnsgatan 11|Stockholm": [
+    59.4019154,
+    17.9407372
+  ],
+  "Liljefors torg 1|Uppsala": [
+    59.871826,
+    17.6578508
+  ],
+  "Skolvägen 6|Krokom": [
+    63.319979,
+    14.4616983
+  ],
+  "Rådhusgatan 4|Sundsvall": [
+    62.38943440000001,
+    17.3131502
+  ],
+  "Säbygatan 4|Västerås": [
+    59.619547,
+    16.5924191
+  ],
+  "Vinddraget 20 B|Gävle": [
+    60.6501442,
+    17.1392015
+  ],
+  "Bondegatan 19|Vilhelmina": [
+    64.6290281,
+    16.6579396
+  ],
+  "Kommunalvägen 9|Gotland": [
+    57.8578644,
+    19.0592483
+  ],
+  "Stenkumlaväg 35|Gotland": [
+    57.62472769999999,
+    18.2865252
+  ],
+  "Rektor Furuskogs gata 2|Filipstad": [
+    59.71468489999999,
+    14.1623687
+  ],
+  "Medevivägen 55|Motala": [
+    58.54779199999999,
+    15.0183537
+  ],
+  "Klockarvägen 6|Hällefors": [
+    59.7857074,
+    14.5206241
+  ],
+  "Karesuando skola|Kiruna": [
+    67.8557995,
+    20.2252821
+  ],
+  "Allbogatan 19|Alvesta": [
+    56.9015547,
+    14.5538069
+  ],
+  "Linnégatan 14|Gislaved": [
+    57.30554540000001,
+    13.5357592
+  ],
+  "Pluggvägen 2|Tyresö": [
+    59.24090409999999,
+    18.2278794
+  ],
+  "Stökhagsvägen 1|Botkyrka": [
+    59.2460973,
+    17.8608867
+  ],
+  "Torhamnsvägen 28|Karlskrona": [
+    56.1883515,
+    15.8284222
+  ],
+  "Fagersjövägen 18|Stockholm": [
+    59.2560185,
+    18.0765246
+  ],
+  "Badhusvägen 1|Bjuv": [
+    56.0634054,
+    12.9749233
+  ],
+  "Österleden 70|Växjö": [
+    56.88123849999999,
+    14.8300925
+  ],
+  "Skolvägen 6|Ockelbo": [
+    60.892425,
+    16.7166394
+  ],
+  "None|Enköping": [
+    59.63569090000001,
+    17.0778228
+  ],
+  "Runbrovägen 10|Håbo": [
+    59.5635898,
+    17.5277344
+  ],
+  "Stafettgatan 10|Norrköping": [
+    58.5788129,
+    16.1710785
+  ],
+  "Gässlösavägen 39|Borås": [
+    57.704842,
+    12.9277774
+  ],
+  "Gävlevägen 58|Älvkarleby": [
+    60.61507059999999,
+    17.4261554
+  ],
+  "Skolgatan 4|Götene": [
+    58.53261029999999,
+    13.4961485
+  ],
+  "Näsbyvägen 16|Kalix": [
+    65.84117619999999,
+    23.1789339
+  ],
+  "Centrumvägen 53|Kalix": [
+    65.852623,
+    23.1621847
+  ],
+  "Länsmansgatan|Örkelljunga": [
+    56.2812803,
+    13.2723647
+  ],
+  "Kristinebergsgatan 3|Åmål": [
+    59.06405209999999,
+    12.6962453
+  ],
+  "Härmstavägen 2|Sundsvall": [
+    62.390811,
+    17.306927
+  ],
+  "Skolvägen 3|Tierp": [
+    60.2265466,
+    17.7011735
+  ],
+  "Vaktmästargången 14-18|Göteborg": [
+    57.69601549999999,
+    11.9394148
+  ],
+  "Bygatan 26|Västerås": [
+    59.6006137,
+    16.5014469
+  ],
+  "Östergatan 20|Markaryd": [
+    56.4603552,
+    13.6013454
+  ],
+  "Korsängsgatan 10|Enköping": [
+    59.63956289999999,
+    17.090125
+  ],
+  "Gunnarsbovägen 29|Mullsjö": [
+    57.92076580000001,
+    13.8845071
+  ],
+  "Bergsgatan 93, Hovrättsgatan 2|Sundsvall": [
+    62.3906926,
+    17.2929025
+  ],
+  "Tians väg 75|Bromölla": [
+    56.0813734,
+    14.4732359
+  ],
+  "Hollendergatan 36 B|Falköping": [
+    58.1651366,
+    13.5694095
+  ],
+  "Löjtnantsgatan 4|Ljusdal": [
+    61.8273624,
+    16.0890445
+  ],
+  "Spelmansgatan 14|Norrköping": [
+    58.5570274,
+    16.2223841
+  ],
+  "Skolvägen 4|Sölvesborg": [
+    56.04867909999999,
+    14.6769789
+  ],
+  "Aktrisgränd 31|Umeå": [
+    63.8385305,
+    20.157738
+  ],
+  "Skolgatan 2|Överkalix": [
+    66.3277691,
+    22.8364171
+  ],
+  "Näsåkersvägen 4|Skellefteå": [
+    64.37148270000002,
+    21.3137259
+  ],
+  "Skolgatan 10|Skellefteå": [
+    64.86886799999999,
+    20.3871924
+  ],
+  "Skolvägen 2|Enköping": [
+    59.55825089999999,
+    17.2495196
+  ],
+  "Vinlandsgatan 1|Göteborg": [
+    57.73212539999999,
+    11.9196119
+  ],
+  "Norra vägen 65|Oskarshamn": [
+    57.27082000000001,
+    16.4029394
+  ],
+  "Servitutsvägen 17|Botkyrka": [
+    59.23529480000001,
+    17.8463202
+  ],
+  "Sunnadalsvägen 3|Karlskrona": [
+    56.193467,
+    15.6168388
+  ],
+  "Ängarydsgatan 12|Tranås": [
+    58.03396859999999,
+    14.9682125
+  ],
+  "Köpingsvägen 11-13|Skinnskatteberg": [
+    59.8285469,
+    15.6874474
+  ],
+  "Kantagårdsvägen 3|Varberg": [
+    57.2650181,
+    12.3270507
+  ],
+  "Kvarnholsvägen 18 A|Mora": [
+    60.9979995,
+    14.5256178
+  ],
+  "Klockvägen 1|Munkedal": [
+    58.47191840000001,
+    11.6645138
+  ],
+  "Plejadgatan 1|Göteborg": [
+    57.7039169,
+    11.9327698
+  ],
+  "Drottning Kristinas väg 2|Askersund": [
+    58.8795113,
+    14.9082522
+  ],
+  "Skolvägen 2|Östersund": [
+    63.0837179,
+    14.8238468
+  ],
+  "Marinens väg 30|Haninge": [
+    59.1627147,
+    18.1341026
+  ],
+  "Strömvägen 28|Arjeplog": [
+    66.04715279999999,
+    17.8757003
+  ],
+  "Elevvägen 3|Bollnäs": [
+    61.4800741,
+    16.3793982
+  ],
+  "Nyckelpigevägen 1|Trollhättan": [
+    58.25630929999999,
+    12.2784388
+  ],
+  "Karlslundsgatan 32|Örebro": [
+    59.274925,
+    15.1960877
+  ],
+  "Värö skolväg 7|Varberg": [
+    57.2569708,
+    12.1840771
+  ],
+  "Prästgårdsallén 4|Vingåker": [
+    59.0491323,
+    15.8794249
+  ],
+  "Kristinavägen 1|Strängnäs": [
+    59.37674359999999,
+    17.0194568
+  ],
+  "Brårudsvägen 2|Sunne": [
+    59.8410507,
+    13.1606496
+  ],
+  "Långgatan 16|Krokom": [
+    63.6718275,
+    14.6178436
+  ],
+  "Skolvägen 3|Mjölby": [
+    58.35063249999999,
+    15.2824013
+  ],
+  "Rinkebystråket 53|Stockholm": [
+    59.3893309,
+    17.925258
+  ],
+  "Adelsnäsvägen 15|Åtvidaberg": [
+    58.1943463,
+    15.9988707
+  ],
+  "Södra Hunnetorpsvägen 52|Helsingborg": [
+    56.045947,
+    12.7432458
+  ],
+  "Bäckamaden 1|Lerum": [
+    57.83240519999999,
+    12.2850771
+  ],
+  "Karl IX:s väg 3-7|Västerås": [
+    59.7191578,
+    16.4306345
+  ],
+  "Nävervägen 23|Östersund": [
+    63.15757309999999,
+    14.7430564
+  ],
+  "Hjulsta Backar 6|Stockholm": [
+    59.39664649999999,
+    17.889161
+  ],
+  "Landsvägen 2122|Trelleborg": [
+    55.4393148,
+    13.310587
+  ],
+  "Ostvägen 20|Umeå": [
+    63.8604491,
+    20.3200239
+  ],
+  "Mjölkuddsvägen 289|Luleå": [
+    65.60494960000001,
+    22.1112098
+  ],
+  "Parkgatan 18|Vårgårda": [
+    58.0330518,
+    12.8176385
+  ],
+  "Gylle Skolgata 1|Borlänge": [
+    60.4675753,
+    15.4483773
+  ],
+  "Trondheimsgatan 21|Stockholm": [
+    59.40967509999999,
+    17.9246339
+  ],
+  "Skolgatan 24|Vara": [
+    58.2622402,
+    12.9599917
+  ],
+  "Backvägen 9|Kristinehamn": [
+    59.32439230000001,
+    14.1082677
+  ],
+  "Rönnblomsgatan 7|Malmö": [
+    55.60245639999999,
+    13.0307045
+  ],
+  "Skolvägen 6|Berg": [
+    62.9964435,
+    14.3912896
+  ],
+  "Hemdalsvägen 3|Västerås": [
+    59.61635579999999,
+    16.5732963
+  ],
+  "Södra Smedjegatan 19|Tingsryd": [
+    56.52802699999999,
+    14.9765603
+  ],
+  "Kastanjevägen 1|Bromölla": [
+    56.0740083,
+    14.4905829
+  ],
+  "Kyrkogatan 3|Hedemora": [
+    60.27846839999999,
+    15.9908596
+  ],
+  "Skolgatan 20|Norberg": [
+    60.06864889999999,
+    15.9190461
+  ],
+  "Berghällsvägen 9|Trollhättan": [
+    58.282653,
+    12.2893687
+  ],
+  "Köpmangatan 68|Örnsköldsvik": [
+    63.4450254,
+    18.1159901
+  ],
+  "Skaraborgsgatan 43|Skara": [
+    58.3860161,
+    13.4492403
+  ],
+  "Skolvägen 1|Strängnäs": [
+    59.2556318,
+    17.1092986
+  ],
+  "Parkgatan 1|Södertälje": [
+    59.1919287,
+    17.6247156
+  ],
+  "Studiegatan 2|Vansbro": [
+    60.5102853,
+    14.2188809
+  ],
+  "Leksbergsvägen 10|Mariestad": [
+    58.705753,
+    13.8101903
+  ],
+  "Hagavägen 3|Söderhamn": [
+    61.21429800000001,
+    17.1294385
+  ],
+  "Larmvägen 31|Helsingborg": [
+    56.0573081,
+    12.7220817
+  ],
+  "Gässlingavägen 21|Lund": [
+    55.7097026,
+    13.1622445
+  ],
+  "Tingshusvägen 3|Övertorneå": [
+    66.3879156,
+    23.652853
+  ],
+  "Hagavägen 70|Borlänge": [
+    60.49341519999999,
+    15.4182945
+  ],
+  "Kyrkvägen 7|Sollefteå": [
+    63.1636872,
+    17.2770478
+  ],
+  "Idrottsvägen 2|Härnösand": [
+    62.6388744,
+    17.9258337
+  ],
+  "Skogsfruvägen 51|Sandviken": [
+    60.62378820000001,
+    16.7429093
+  ],
+  "Gruvgatan 1|Sala": [
+    59.92076470000001,
+    16.6026773
+  ],
+  "Allhemsvägen 5|Färgelanda": [
+    58.5685501,
+    11.9905297
+  ],
+  "Skolgatan 1|Heby": [
+    60.1829938,
+    17.1746817
+  ],
+  "Klinkvägen 48|Borås": [
+    57.72103500000001,
+    12.939819
+  ],
+  "Hjalmar Bergmans väg 3|Örebro": [
+    59.2881356,
+    15.2013424
+  ],
+  "Skolvägen|Tanum": [
+    58.7209957,
+    11.3245386
+  ],
+  "Mölnbovägen 25|Södertälje": [
+    59.0836481,
+    17.5575214
+  ],
+  "Södra Obbolavägen 11|Umeå": [
+    63.6968605,
+    20.3067722
+  ],
+  "Storvägen 40|Vindeln": [
+    64.2063611,
+    19.717501
+  ],
+  "Gästgivarvägen 4|Falun": [
+    60.73852160000001,
+    15.450601
+  ],
+  "Ortopedvägen 4|Huddinge": [
+    59.2226727,
+    17.9434609
+  ],
+  "Ekollongränd 1|Järfälla": [
+    59.40318869999999,
+    17.7928006
+  ],
+  "Järnvägsgatan 20|Orsa": [
+    61.12639410000001,
+    14.622791
+  ],
+  "Mimers väg 2|Staffanstorp": [
+    55.644535,
+    13.21155
+  ],
+  "Vårbergsvägen 63B|Stockholm": [
+    59.27149290000001,
+    17.886229
+  ],
+  "Gundelvägen 8|Västervik": [
+    57.88998969999999,
+    16.4176438
+  ],
+  "Frennarpsvägen 6|Halmstad": [
+    56.67512439999999,
+    12.8934332
+  ],
+  "Herr Arnes Gata 5|Göteborg": [
+    57.74923829999999,
+    11.9855492
+  ],
+  "Vallgatan 1|Jönköping": [
+    57.78161129999999,
+    14.1670365
+  ],
+  "Sjöblads väg 4|Malmö": [
+    55.5903088,
+    13.0406148
+  ],
+  "Skolgatan 1|Åsele": [
+    64.1612615,
+    17.3468257
+  ],
+  "Loviselundsvägen 10-16|Stockholm": [
+    59.3686075,
+    17.8410292
+  ],
+  "Esperedsvägen 30|Halmstad": [
+    56.8013005,
+    12.9804343
+  ],
+  "Södra Storgatan 45|Gislaved": [
+    57.2979007,
+    13.5301666
+  ],
+  "Gärdesgatan 2|Torsby": [
+    60.13907990000001,
+    13.0135229
+  ],
+  "Boställsgatan 44|Hässleholm": [
+    56.29717470000001,
+    13.7034604
+  ],
+  "Norretullsvägen 6B|Kristianstad": [
+    56.0347184,
+    14.1535425
+  ],
+  "Lyckgatan 4|Ängelholm": [
+    56.2571063,
+    12.958344
+  ],
+  "Skolvägen 15-17|Norrtälje": [
+    60.0555349,
+    18.5984204
+  ],
+  "Skolvägen 1|Örnsköldsvik": [
+    63.2037023,
+    18.5006609
+  ],
+  "Mosstorpsvägen 50|Norrköping": [
+    58.58287869999999,
+    15.908205
+  ],
+  "Bergsgatan 31|Mariestad": [
+    58.71704039999999,
+    13.8550611
+  ],
+  "Dalgatan 3|Hylte": [
+    57.00773539999999,
+    13.2340258
+  ],
+  "Nygatan 30|Vetlanda": [
+    57.4289548,
+    15.0867496
+  ],
+  "Augerumsvägen 5|Karlskrona": [
+    56.200045,
+    15.6550545
+  ],
+  "Hyllievångsvägen 6|Malmö": [
+    55.5740835,
+    12.9773739
+  ],
+  "Kyrkoesplanaden 4|Nybro": [
+    56.744608,
+    15.917625
+  ],
+  "Vretavägen 3|Östhammar": [
+    60.17068,
+    18.1671479
+  ],
+  "Folkparksgatan 6|Örnsköldsvik": [
+    63.288715,
+    18.7341142
+  ],
+  "Blomstervägen 4|Upplands-Bro": [
+    59.5163842,
+    17.6443909
+  ],
+  "Palmgatan 7-9|Tierp": [
+    60.345611,
+    17.5065229
+  ],
+  "Särlagatan 1|Borås": [
+    57.72089059999999,
+    12.9257891
+  ],
+  "Vedspelsvägen 9|Hammarö": [
+    59.33874530000001,
+    13.4770599
+  ],
+  "Kaplansgatan 3a|Kungsör": [
+    59.4213769,
+    16.0935124
+  ],
+  "Östra Farmvägen 30|Malmö": [
+    55.593476,
+    13.0291213
+  ],
+  "Parkgatan 4|Mellerud": [
+    58.7026557,
+    12.4536854
+  ],
+  "Skolgatan 21|Avesta": [
+    60.1237726,
+    16.2063092
+  ],
+  "Skolgatan 19|Svenljunga": [
+    57.4923076,
+    13.1204533
+  ],
+  "Anders Perssons väg 7|Tomelilla": [
+    55.5478388,
+    13.9412347
+  ],
+  "Stora vägen 15A|Hudiksvall": [
+    61.64531280000001,
+    17.0783028
+  ],
+  "Korstagatan 1|Kumla": [
+    59.1125036,
+    15.1541977
+  ],
+  "Strövelstorpsvägen 79|Ängelholm": [
+    56.1739541,
+    12.8380503
+  ],
+  "Svartedalsgatan 4B|Göteborg": [
+    57.73140040000001,
+    11.9011284
+  ],
+  "Rektorsgatan 1|Bjurholm": [
+    63.9312357,
+    19.2140884
+  ],
+  "Norregatan 42E|Hörby": [
+    55.8520407,
+    13.6540461
+  ],
+  "Sportvägen 3|Timrå": [
+    62.50642200000001,
+    17.3465157
+  ],
+  "Skolgatan 5|Eksjö": [
+    57.6381089,
+    15.4196776
+  ],
+  "Doktor Heymans Gata 1A|Göteborg": [
+    57.68713450000001,
+    11.9700232
+  ],
+  "Fabriksgatan 29|Haparanda": [
+    65.8329449,
+    24.1295884
+  ],
+  "Ekebergavägen 9|Helsingborg": [
+    56.0310129,
+    12.8133059
+  ],
+  "Gondolgatan 16. 3 tr|Stockholm": [
+    59.26651469999999,
+    18.136335
+  ],
+  "Studievägen 7|Forshaga": [
+    59.6118539,
+    13.4710492
+  ],
+  "Centralvägen 67|Lindesberg": [
+    59.46229,
+    15.3741725
+  ],
+  "Prinsgatan 3-7|Motala": [
+    58.53917920000001,
+    15.0315095
+  ],
+  "None|Örebro": [
+    59.2752626,
+    15.2134105
+  ],
+  "Kungsallén 1|Gotland": [
+    57.5109106,
+    18.4480627
+  ],
+  "Folkparksvägen 2|Ronneby": [
+    56.2023784,
+    15.2901288
+  ],
+  "Krungårdsvägen 1|Mönsterås": [
+    56.9811449,
+    16.339996
+  ],
+  "Älgvägen 35|Örnsköldsvik": [
+    63.3131123,
+    18.6910332
+  ],
+  "Transtensgatan 27|Hallsberg": [
+    59.06205480000001,
+    15.1092685
+  ],
+  "Ringvägen 4|Ljusdal": [
+    61.83222730000001,
+    16.0835619
+  ],
+  "Skolgatan 2|Malå": [
+    65.1833712,
+    18.744241
+  ],
+  "Sandviksvägen 6|Norrtälje": [
+    59.97350429999999,
+    18.8170879
+  ],
+  "Permatsvägen 1|Älvdalen": [
+    61.22730600000001,
+    14.0419871
+  ],
+  "Skolvägen 9|Nordanstig": [
+    61.9826137,
+    17.0558165
+  ],
+  "Letebovägen 4|Mark": [
+    57.36967489999999,
+    12.4166347
+  ],
+  "Gunnarsbysvägen 10|Eda": [
+    59.8812808,
+    12.3130946
+  ],
+  "Åsgatan 24|Grums": [
+    59.35493630000001,
+    13.1075181
+  ],
+  "Aprilgatan 2C|Göteborg": [
+    57.7620973,
+    12.0446343
+  ],
+  "Eriksborgsgatan 13|Västerås": [
+    59.6196357,
+    16.5425742
+  ],
+  "Stora Tvärgränd 1-3|Borås": [
+    57.71173779999999,
+    12.9461671
+  ],
+  "Järnvägsgatan 24|Lilla Edet": [
+    58.13225399999999,
+    12.1240469
+  ],
+  "Gransätervägen 1|Håbo": [
+    59.5829467,
+    17.5100437
+  ],
+  "Gästgivaregatan 7|Mark": [
+    57.4893233,
+    12.638065
+  ],
+  "Östra Skolgatan 3|Ånge": [
+    62.52545199999999,
+    15.6534089
+  ],
+  "Brovägen 4|Älvkarleby": [
+    60.6296973,
+    17.4218336
+  ],
+  "Lagmansbacken 12|Botkyrka": [
+    59.24042249999999,
+    17.8435347
+  ],
+  "Esplanaden 6B|Ronneby": [
+    56.2076031,
+    15.2725814
+  ],
+  "Sjövägen 27|Kristianstad": [
+    56.0428017,
+    14.1803663
+  ],
+  "Storgatan 37|Strömsund": [
+    63.854425,
+    15.567434
+  ],
+  "Regattagatan 39|Västerås": [
+    59.59963949999999,
+    16.5886544
+  ],
+  "Georgshillsvägen 11|Hörby": [
+    55.8508109,
+    13.6599486
+  ],
+  "Järnvägsgatan 51|Markaryd": [
+    56.5437809,
+    13.7312965
+  ],
+  "Ängsvägen 4|Norrtälje": [
+    59.8951685,
+    18.4813315
+  ],
+  "Oderljungavägen 20|Perstorp": [
+    56.1418749,
+    13.3913759
+  ],
+  "Frövivägen 3 B|Högsby": [
+    57.1718365,
+    16.0200456
+  ],
+  "Tivolivägen 1|Ronneby": [
+    56.2450269,
+    15.2824683
+  ],
+  "Pukslagarvägen 20|Gävle": [
+    60.66252369999999,
+    17.2411526
+  ],
+  "Oskarsparken 10|Örebro": [
+    59.269735,
+    15.2195024
+  ],
+  "Glanshammarsgatan 11-15|Stockholm": [
+    59.2642086,
+    18.0175235
+  ],
+  "Larsmässetorg 3|Göteborg": [
+    57.7319881,
+    12.0115385
+  ],
+  "Bollplansgatan 10|Göteborg": [
+    57.7677687,
+    12.026993
+  ],
+  "Skolvägen 2|Mark": [
+    57.5536074,
+    12.7907065
+  ],
+  "Läroverksgatan 39|Bollnäs": [
+    61.35018669999999,
+    16.3850583
+  ],
+  "Östergatan 28|Skövde": [
+    58.38476989999999,
+    13.8649499
+  ],
+  "Skebokvarnsvägen 55|Stockholm": [
+    59.26804509999999,
+    18.043707
+  ],
+  "Älvstrandsvägen 2|Hagfors": [
+    60.037079,
+    13.7008864
+  ],
+  "Sjukhusallén 3|Varberg": [
+    57.09533390000001,
+    12.2738082
+  ],
+  "Höglandsgatan 1|Göteborg": [
+    57.8017285,
+    12.0643198
+  ],
+  "Kyrkvägen 2|Laholm": [
+    56.41988389999999,
+    13.115096
+  ],
+  "Skolgatan 18|Svalöv": [
+    55.9185866,
+    13.1087713
+  ],
+  "Parkgatan 9|Strömsund": [
+    63.8513196,
+    15.5666906
+  ],
+  "Sturegatan 11|Boden": [
+    65.81945809999999,
+    21.6992185
+  ],
+  "Bokgatan 23|Malmö": [
+    55.58737060000001,
+    13.0175195
+  ],
+  "Husåsvägen 15|Sundsvall": [
+    62.70113010000001,
+    16.8020131
+  ],
+  "Skolgatan 4|Hallsberg": [
+    59.0657129,
+    15.3427422
+  ],
+  "Norra Kronans gata 429|Haninge": [
+    59.17225269999999,
+    18.1721338
+  ],
+  "Kyrkogårdsgatan|Ljusnarsberg": [
+    59.883565,
+    15.0100862
+  ],
+  "Tomtebergavägen 4|Östhammar": [
+    59.4611902,
+    18.5800555
+  ],
+  "Södra storgatan 21|Bjuv": [
+    56.0825158,
+    12.9240524
+  ],
+  "Skolvägen 7|Enköping": [
+    59.559712,
+    17.2483668
+  ],
+  "Nikolaigatan 7|Malmö": [
+    55.5910318,
+    13.0028134
+  ],
+  "Törnskatevägen 18|Umeå": [
+    63.8406967,
+    20.3200502
+  ],
+  "Kungsgatan 23|Kramfors": [
+    62.9296875,
+    17.7857284
+  ],
+  "Kyrkogatan 26|Töreboda": [
+    58.7098424,
+    14.1244132
+  ],
+  "Järnvägsgatan 8|Landskrona": [
+    55.8712594,
+    12.8335875
+  ],
+  "Kanngjutargränd 12|Stockholm": [
+    59.36043120000001,
+    17.8651402
+  ],
+  "Skolvägen 5|Västervik": [
+    57.6200558,
+    16.3061559
+  ],
+  "Fridhemsvägen 8|Ronneby": [
+    56.1978521,
+    15.290562
+  ],
+  "Friisgatan 34|Malmö": [
+    55.5945366,
+    13.0109939
+  ],
+  "Björksätra Mitt 1|Sandviken": [
+    60.6057103,
+    16.7483083
+  ],
+  "Ödestuguvägen 13|Vaggeryd": [
+    57.5008689,
+    14.1418516
+  ],
+  "Stångholmsbacken 91-95|Stockholm": [
+    59.2789033,
+    17.894215
+  ],
+  "Pettersbergsgatan 39|Västerås": [
+    59.6123437,
+    16.5155825
+  ],
+  "Krokvägen 6|Sollefteå": [
+    63.177086,
+    17.2785239
+  ],
+  "Parkgatan 17|Sundsvall": [
+    62.3832412,
+    17.3107206
+  ],
+  "Djurgårdsvägen 23|Kristinehamn": [
+    59.3019784,
+    14.0930451
+  ],
+  "Dalviksgatan 75|Norrköping": [
+    58.5742981,
+    16.1414356
+  ],
+  "Solviksvägen 1|Lindesberg": [
+    59.713096,
+    15.127383
+  ],
+  "Skolgatan 5|Sundsvall": [
+    62.29630950000001,
+    17.3812537
+  ],
+  "Torpsvägen 1 B|Oxelösund": [
+    58.6740793,
+    17.078684
+  ],
+  "Lommarvägen 43A|Norrtälje": [
+    59.7621689,
+    18.6715546
+  ],
+  "Fränstavägen 276|Ånge": [
+    62.49854819999999,
+    16.1667683
+  ],
+  "Ishockeygatan 6A|Lindesberg": [
+    59.6016425,
+    15.2032015
+  ],
+  "Loftbodsgatan 1|Örebro": [
+    59.2564214,
+    15.2107121
+  ],
+  "Kråkbärsgatan 1|Göteborg": [
+    57.6547828,
+    11.8914796
+  ],
+  "Sockenvägen 31|Umeå": [
+    63.8319722,
+    20.154469
+  ],
+  "Bergsunds strand 43 A|Stockholm": [
+    59.3158217,
+    18.0319913
+  ],
+  "Järnvägsgatan 7|Höganäs": [
+    56.2013439,
+    12.5576499
+  ],
+  "Mariebergsgatan 1|Motala": [
+    58.540841,
+    14.9971577
+  ],
+  "Kvadrantgatan 86|Göteborg": [
+    57.7583187,
+    12.0592296
+  ],
+  "Ågatan 3|Sjöbo": [
+    55.6370827,
+    13.7017829
+  ],
+  "Bodalsvägen 85-87|Lidingö": [
+    59.3501294,
+    18.1418983
+  ],
+  "Pluggvägen 2|Hässleholm": [
+    56.15681919999999,
+    13.6043715
+  ],
+  "Hammarby Fabriksväg 61|Stockholm": [
+    59.30133229999999,
+    18.102906
+  ],
+  "None|Nyköping": [
+    58.75284389999999,
+    17.0091593
+  ],
+  "Junohällsvägen 1D|Stockholm": [
+    59.3261085,
+    17.9901733
+  ],
+  "Granrisvägen 33|Örebro": [
+    59.2405987,
+    15.2454158
+  ],
+  "Hertig Karls väg 5|Sollentuna": [
+    59.47698899999999,
+    17.9121711
+  ],
+  "Vaniljgatan 23|Göteborg": [
+    57.8155158,
+    12.0415905
+  ],
+  "Skolgatan 14|Gullspång": [
+    58.9809874,
+    14.1104006
+  ],
+  "None|Umeå": [
+    63.8258471,
+    20.2630354
+  ],
+  "Furutorpsgatan 85|Helsingborg": [
+    56.041144,
+    12.7190294
+  ],
+  "Hjortstigen 1|Solna": [
+    59.38324439999999,
+    18.0292164
+  ],
+  "Rymdtorget 6A|Göteborg": [
+    57.7558039,
+    12.0681385
+  ],
+  "Sturegatan 6|Essunga": [
+    58.190375,
+    12.718896
+  ],
+  "Kyrkogatan 10|Östra Göinge": [
+    56.2572722,
+    14.0802581
+  ],
+  "Munkedalsgatan 30|Göteborg": [
+    57.72073009999999,
+    11.9267685
+  ],
+  "Allégatan 2|Bjuv": [
+    55.9971629,
+    12.9719919
+  ],
+  "Örebrovägen 27|Örebro": [
+    59.5781011,
+    15.2314669
+  ],
+  "Johannesfredsvägen 43|Stockholm": [
+    59.34740550000001,
+    17.9725744
+  ],
+  "Odinsvägen 33|Haninge": [
+    59.1346797,
+    18.4087741
+  ],
+  "Stockholmsvägen 49|Sigtuna": [
+    59.6256244,
+    17.8436739
+  ],
+  "Porfyrvägen 11|Gävle": [
+    60.6908425,
+    17.113964
+  ],
+  "Centralgatan 55|Ragunda": [
+    63.1026478,
+    16.3585527
+  ],
+  "Östergatan 2|Hässleholm": [
+    56.1581175,
+    13.7674016
+  ],
+  "Annerovägen 54|Helsingborg": [
+    56.0673442,
+    12.7368517
+  ],
+  "Hammarby Fabriksväg 65|Stockholm": [
+    59.3013436,
+    18.1034574
+  ],
+  "Positivgatan 3|Göteborg": [
+    57.65860989999999,
+    11.913292
+  ],
+  "Angeredsvinkeln 21|Göteborg": [
+    57.8013063,
+    12.0440101
+  ],
+  "Mellansjövägen 20|Täby": [
+    59.4919805,
+    18.0389487
+  ],
+  "Bredfjällsgatan 70|Göteborg": [
+    57.7781498,
+    12.0300172
+  ],
+  "Luffarbacken 5|Österåker": [
+    59.4793154,
+    18.3074497
+  ],
+  "Kuttervägen 1- 3|Täby": [
+    59.43402140000001,
+    18.0879531
+  ],
+  "Östervallagatan 12-24|Gotland": [
+    57.705848,
+    18.799753
+  ],
+  "Hårds väg 5|Malmö": [
+    55.5849826,
+    13.0327916
+  ],
+  "Idungatan 4b|Stockholm": [
+    59.3483777,
+    18.0478189
+  ],
+  "Skolgatan 3|Gotland": [
+    57.5109187,
+    18.4526582
+  ],
+  "Ängkärrsgatan 9|Solna": [
+    59.35012870000001,
+    18.0009275
+  ],
+  "Hemvärnsgatan 15|Solna": [
+    59.3533086,
+    17.9754743
+  ],
+  "Bygatan|Östra Göinge": [
+    56.2647455,
+    14.2026375
+  ],
+  "Norra Vägen 18|Kalmar": [
+    56.66590859999999,
+    16.3546857
+  ],
+  "Norrvidinge skola|Svalöv": [
+    55.8393777,
+    13.100237
+  ],
+  "Hjälmstavägen 8|Vallentuna": [
+    59.5294712,
+    18.0777935
+  ],
+  "Götalandsvägen 218|Stockholm": [
+    59.28088229999999,
+    18.0135943
+  ],
+  "Vintertullstorget 54|Stockholm": [
+    59.3072451,
+    18.0908954
+  ],
+  "Norra Skeppsbron 3 C|Gävle": [
+    60.676365,
+    17.1552932
+  ],
+  "Björngårdsgatan 21|Stockholm": [
+    59.31567149999999,
+    18.0665115
+  ],
+  "Jacob Möllersgatan 3|Malmö": [
+    55.5989358,
+    13.0150779
+  ],
+  "Iggebygatan 6-8|Västerås": [
+    59.6241597,
+    16.5379155
+  ],
+  "Hjälmstavägen 6|Vallentuna": [
+    59.5299463,
+    18.078635
+  ],
+  "Slottsgränd 6|Uppsala": [
+    59.85618729999999,
+    17.6378309
+  ],
+  "Barnarpsgatan 39c|Jönköping": [
+    57.77526039999999,
+    14.1592717
+  ],
+  "Fredrikshovsgatan 6|Stockholm": [
+    59.3330037,
+    18.0944231
+  ],
+  "Rådan skolan 3|Sollentuna": [
+    59.3997384,
+    18.0010001
+  ]
 }
