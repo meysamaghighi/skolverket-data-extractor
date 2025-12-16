@@ -1,12 +1,17 @@
 # Skolverket Data Extractor
 
-A comprehensive tool for extracting school data and statistics from Skolverket (Swedish National Agency for Education).
+A comprehensive tool for processing and visualizing school data from Skolverket (Swedish National Agency for Education).
+
+## 🗺️ Live Interactive Maps
+
+- **[Merit Value Map](https://meysamaghighi.github.io/skolverket-data-extractor/schools_merit_map.html)** - Color-coded by performance
+- **[Ranked Map](https://meysamaghighi.github.io/skolverket-data-extractor/schools_ranked_map.html)** - Shows national rankings
 
 ## Features
 
-- Extracts real school data from Skolverket's official website
-- Gets Grade 6 and Grade 9 statistics for Math, Swedish, and English
-- Retrieves merit values (genomsnittligt meritvärde) for Grade 9
+- Processes pre-extracted school data from Skolverket CSV files
+- Geocodes school addresses and creates interactive maps
+- Visualizes Grade 9 merit values (genomsnittligt meritvärde)
 - **Google Maps geocoding** - Fast and accurate location mapping
 - **Color spectrum visualization** - Merit values mapped from red (low) to blue (high)
 - **Address caching** - Previously extracted addresses are cached to speed up re-runs
@@ -96,8 +101,9 @@ Install with: `pip install -r requirements.txt`
 ## Data Sources
 
 - **Skolverket CSV**: Official grade 9 statistics with merit values
+  - Download fresh data from: [Skolverket Statistics Portal](https://www.skolverket.se/statistik-och-utvarderingar/statistik-om-forskola-och-skola/sok-statistik-om-forskola-skola-och-vuxenutbildning)
 - **Utbildningsguiden**: Individual school pages for address extraction
-- **Nominatim**: OpenStreetMap geocoding for coordinates
+- **Google Maps API**: Geocoding for precise coordinates
 
 ## Performance Features
 
