@@ -256,8 +256,8 @@ def create_map_from_cache():
         </div>''')
     
     legend_html = f'''
-    <div style="position: fixed; 
-                top: 20px; right: 20px; width: 200px; height: 380px; 
+    <div id="legend-panel" style="position: fixed;
+                top: 20px; right: 20px; width: 200px; height: auto;
                 background-color: white; border: 3px solid #333; z-index:9999; 
                 font-size: 14px; padding: 12px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
     <h3 style="margin: 0 0 10px 0; color: #333; font-size: 16px;">Merit Value Scale</h3>
@@ -269,8 +269,25 @@ def create_map_from_cache():
     </div>
     </div>
     '''
+    responsive_css = '''
+    <style>
+    #legend-toggle { display: none; position: fixed; top: 10px; right: 10px; z-index: 10001; background: white; border: 2px solid #333; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; font-weight: bold; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.3); text-align: center; line-height: 34px; color: #333; }
+    @media (max-width: 768px) {
+        #legend-toggle { display: block; }
+        #legend-panel { display: none !important; }
+        #legend-panel.legend-open { display: block !important; width: 170px !important; height: auto !important; max-height: 60vh; overflow-y: auto; top: 50px !important; right: 10px !important; padding: 10px !important; font-size: 11px !important; }
+        #legend-panel.legend-open h3 { font-size: 13px !important; margin-bottom: 6px !important; }
+        #legend-panel.legend-open h4 { font-size: 11px !important; }
+    }
+    </style>
+    <button id="legend-toggle" onclick="toggleLegend()">i</button>
+    <script>
+    function toggleLegend(){var p=document.getElementById('legend-panel'),b=document.getElementById('legend-toggle');if(p.classList.contains('legend-open')){p.classList.remove('legend-open');b.textContent='i';}else{p.classList.add('legend-open');b.innerHTML='&times;';}}
+    </script>
+    '''
+    m.get_root().html.add_child(folium.Element(responsive_css))
     m.get_root().html.add_child(folium.Element(legend_html))
-    
+
     # Save results
     m.save('schools_merit_map.html')
     df_schools.to_csv('schools_with_coordinates.csv', index=False)
@@ -345,8 +362,8 @@ def create_ranked_map(school_data, min_merit, max_merit):
         </div>''')
     
     legend_html = f'''
-    <div style="position: fixed; 
-                top: 20px; right: 20px; width: 250px; height: 450px; 
+    <div id="legend-panel" style="position: fixed;
+                top: 20px; right: 20px; width: 250px; height: auto;
                 background-color: white; border: 3px solid #333; z-index:9999; 
                 font-size: 14px; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
     <h3 style="margin: 0 0 10px 0; color: #333; font-size: 16px;">🏆 School Rankings</h3>
@@ -364,8 +381,25 @@ def create_ranked_map(school_data, min_merit, max_merit):
     </div>
     </div>
     '''
+    responsive_css = '''
+    <style>
+    #legend-toggle { display: none; position: fixed; top: 10px; right: 10px; z-index: 10001; background: white; border: 2px solid #333; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; font-weight: bold; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.3); text-align: center; line-height: 34px; color: #333; }
+    @media (max-width: 768px) {
+        #legend-toggle { display: block; }
+        #legend-panel { display: none !important; }
+        #legend-panel.legend-open { display: block !important; width: 170px !important; height: auto !important; max-height: 60vh; overflow-y: auto; top: 50px !important; right: 10px !important; padding: 10px !important; font-size: 11px !important; }
+        #legend-panel.legend-open h3 { font-size: 13px !important; margin-bottom: 6px !important; }
+        #legend-panel.legend-open h4 { font-size: 11px !important; }
+    }
+    </style>
+    <button id="legend-toggle" onclick="toggleLegend()">i</button>
+    <script>
+    function toggleLegend(){var p=document.getElementById('legend-panel'),b=document.getElementById('legend-toggle');if(p.classList.contains('legend-open')){p.classList.remove('legend-open');b.textContent='i';}else{p.classList.add('legend-open');b.innerHTML='&times;';}}
+    </script>
+    '''
+    m.get_root().html.add_child(folium.Element(responsive_css))
     m.get_root().html.add_child(folium.Element(legend_html))
-    
+
     # Save ranked map
     m.save('schools_ranked_map.html')
     print(f"      Ranked map saved: schools_ranked_map.html")
@@ -523,8 +557,8 @@ def main():
         </div>''')
     
     legend_html = f'''
-    <div style="position: fixed; 
-                top: 20px; right: 20px; width: 200px; height: 380px; 
+    <div id="legend-panel" style="position: fixed;
+                top: 20px; right: 20px; width: 200px; height: auto;
                 background-color: white; border: 3px solid #333; z-index:9999; 
                 font-size: 14px; padding: 12px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
     <h3 style="margin: 0 0 10px 0; color: #333; font-size: 16px;">Merit Value Scale</h3>
@@ -536,8 +570,25 @@ def main():
     </div>
     </div>
     '''
+    responsive_css = '''
+    <style>
+    #legend-toggle { display: none; position: fixed; top: 10px; right: 10px; z-index: 10001; background: white; border: 2px solid #333; border-radius: 50%; width: 36px; height: 36px; font-size: 20px; font-weight: bold; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.3); text-align: center; line-height: 34px; color: #333; }
+    @media (max-width: 768px) {
+        #legend-toggle { display: block; }
+        #legend-panel { display: none !important; }
+        #legend-panel.legend-open { display: block !important; width: 170px !important; height: auto !important; max-height: 60vh; overflow-y: auto; top: 50px !important; right: 10px !important; padding: 10px !important; font-size: 11px !important; }
+        #legend-panel.legend-open h3 { font-size: 13px !important; margin-bottom: 6px !important; }
+        #legend-panel.legend-open h4 { font-size: 11px !important; }
+    }
+    </style>
+    <button id="legend-toggle" onclick="toggleLegend()">i</button>
+    <script>
+    function toggleLegend(){var p=document.getElementById('legend-panel'),b=document.getElementById('legend-toggle');if(p.classList.contains('legend-open')){p.classList.remove('legend-open');b.textContent='i';}else{p.classList.add('legend-open');b.innerHTML='&times;';}}
+    </script>
+    '''
+    m.get_root().html.add_child(folium.Element(responsive_css))
     m.get_root().html.add_child(folium.Element(legend_html))
-    
+
     # Save results
     print(f"\n[6/6] Saving results...")
     m.save('schools_merit_map.html')
